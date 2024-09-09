@@ -1,0 +1,12 @@
+{{ define "main" }}
+<main>
+    <h1>All Solutions</h1>
+    {{ range (where .Site.RegularPages "Section" "solutions").ByDate.Reverse }}
+    <article>
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <time>{{ .Date.Format "2006-01-02" }}</time>
+        <p>{{ .Params.catalog }} > {{ .Params.group }} > {{ .Params.name }} > {{ .Params.version }}</p>
+    </article>
+    {{ end }}
+</main>
+{{ end }}

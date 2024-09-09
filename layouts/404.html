@@ -1,0 +1,9 @@
+{{ define "main" }}
+<h1>Page Not Found</h1>
+<p>The page you're looking for doesn't exist. Here's a list of all pages:</p>
+<ul>
+{{ range .Site.Pages }}
+    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{ end }}
+</ul>
+{{ end }}

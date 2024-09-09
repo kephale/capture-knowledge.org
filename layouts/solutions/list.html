@@ -1,0 +1,29 @@
+{{ define "main" }}
+<main>
+    <h1>{{ .Title }}</h1>
+    {{ $currentPage := . }}
+    <nav>
+        <ul>
+            {{ range .Sections }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Title }}</a>
+                {{ if eq $currentPage . }}
+                <ul>
+                    {{ range .Pages }}
+                    <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </li>
+            {{ end }}
+        </ul>
+    </nav>
+    {{ range .Pages }}
+    <article>
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <time>{{ .Date.Format "2006-01-02" }}</time>
+        <p>{{ .Params.catalog }} > {{ .Params.group }} > {{ .Params.name }} > {{ .Params.version }}</p>
+    </article>
+    {{ end }}
+</main>
+{{ end }}

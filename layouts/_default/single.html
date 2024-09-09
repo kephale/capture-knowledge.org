@@ -1,0 +1,100 @@
+{{ define "main" }}
+<div class="bg-white shadow-md rounded-lg p-6">
+    <h1 id="title" class="text-3xl font-bold mb-4">{{ .Params.title }}</h1>
+    
+    <div class="mb-4 text-gray-600">
+        {{ .Date.Format "2006-01-02" }}
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+        <div>
+            <p><strong>Catalog:</strong> {{ .Params.catalog }}</p>
+            <p><strong>Group:</strong> {{ .Params.group }}</p>
+            <p><strong>Name:</strong> {{ .Params.name }}</p>
+            <p><strong>Version:</strong> {{ .Params.version }}</p>
+            {{ if .Params.authors }}
+                <p><strong>Authors:</strong> {{ delimit .Params.authors ", " }}</p>
+            {{ end }}
+            {{ if .Params.license }}
+                <p><strong>License:</strong> {{ .Params.license }}</p>
+            {{ end }}
+            {{ if .Params.tags }}
+                <p><strong>Tags:</strong> {{ delimit .Params.tags ", " }}</p>
+            {{ end }}
+        </div>
+        <div>
+            {{ $catalogSlug := replace .Params.catalog "." "-" }}
+            {{ $versionSlug := replace .Params.version "." "-" }}
+            {{ $imagePath := printf "/images/solutions/%s/%s/%s/%s-cover.png" $catalogSlug (urlize .Params.group) (urlize .Params.name) $versionSlug }}
+            {{ if (fileExists (printf "static%s" $imagePath)) }}
+                <img src="{{ $imagePath }}" alt="Solution cover image" class="w-full h-auto rounded-lg shadow-md">
+            {{ else }}
+                <div class="bg-gray-200 w-full h-48 flex items-center justify-center rounded-lg">
+                    <span class="text-gray-500">No cover image available</span>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+
+    <div class="prose max-w-none">
+        <h2>Description</h2>
+        {{ .Content }}
+    </div>
+
+    {{ if .Params.args }}
+    <div class="mt-8">
+        <h2 id="arguments" class="text-2xl font-semibold mb-4">Arguments</h2>
+        <table class="w-full">
+            <thead>
+                <tr>
+                    <th class="text-left">Name</th>
+                    <th class="text-left">Type</th>
+                    <th class="text-left">Description</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{ range .Params.args }}
+                <tr>
+                    <td>{{ .name }}</td>
+                    <td>{{ .type }}</td>
+                    <td>{{ .description }}</td>
+                </tr>
+                {{ end }}
+            </tbody>
+        </table>
+    </div>
+    {{ end }}
+
+    {{ if .Params.citation }}
+    <div class="mt-8">
+        <h2 id="citation" class="text-2xl font-semibold mb-4">Citation</h2>
+        {{ range .Params.citation }}
+        <p>
+            {{ .text }}
+            {{ if .url }}
+            <br>
+            <a href="{{ .url }}" class="text-blue-600 hover:underline">{{ .url }}</a>
+            {{ end }}
+        </p>
+        {{ end }}
+    </div>
+    {{ end }}
+
+    {{ $staticPath := printf "static/files/solutions/%s/%s/%s/%s" (urlize .Params.catalog) (urlize .Params.group) (urlize .Params.name) (urlize .Params.version) }}
+    {{ if (fileExists $staticPath) }}
+        {{ $staticFiles := readDir $staticPath }}
+        {{ if $staticFiles }}
+        <div class="mt-8">
+            <h2 id="additional-files" class="text-2xl font-semibold mb-4">Additional Files</h2>
+            <ul>
+                {{ range $staticFiles }}
+                <li>
+                    <a href="/files/solutions/{{ urlize $.Params.catalog }}/{{ urlize $.Params.group }}/{{ urlize $.Params.name }}/{{ urlize $.Params.version }}/{{ .Name }}" class="text-blue-600 hover:underline">{{ .Name }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+        {{ end }}
+    {{ end }}
+</div>
+{{ end }}

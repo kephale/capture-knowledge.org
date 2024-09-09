@@ -1,0 +1,53 @@
+{{ define "main" }}
+<div class="bg-white shadow-md rounded-lg p-6">
+    <h1 id="title" class="text-3xl font-bold mb-4">{{ .Title }}</h1>
+    {{ .Content }}
+
+    <div class="mt-8">
+        <h2 id="meta-catalog-overview" class="text-2xl font-semibold mb-4">Meta Catalog Overview</h2>
+        {{ $catalogs := slice }}
+        {{ $groups := slice }}
+        {{ $solutions := slice }}
+        {{ range (where .Site.RegularPages "Section" "solutions") }}
+            {{ $catalogs = $catalogs | append .Params.catalog }}
+            {{ $groups = $groups | append .Params.group }}
+            {{ $solutions = $solutions | append (printf "%s:%s:%s" .Params.catalog .Params.group .Params.name) }}
+        {{ end }}
+        <ul>
+            <li>Catalogs: {{ len (uniq $catalogs) }}</li>
+            <li>Groups: {{ len (uniq $groups) }}</li>
+            <li>Solutions: {{ len (uniq $solutions) }}</li>
+        </ul>
+    </div>
+
+    <div class="mt-8">
+        <h2 id="solutions-list" class="text-2xl font-semibold mb-4">Solutions List</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {{ $groupedSolutions := dict }}
+            {{ range (where .Site.RegularPages "Section" "solutions") }}
+                {{ $key := printf "%s:%s:%s" .Params.catalog .Params.group .Params.name }}
+                {{ $existing := index $groupedSolutions $key }}
+                {{ if or (not $existing) (gt .Params.version $existing.Params.version) }}
+                    {{ $groupedSolutions = merge $groupedSolutions (dict $key .) }}
+                {{ end }}
+            {{ end }}
+            {{ range $key, $solution := $groupedSolutions }}
+                <div class="bg-gray-100 rounded-lg shadow-md p-4">
+                    <h3 class="text-xl font-semibold mb-2">{{ $solution.Params.title }}</h3>
+                    <p class="text-gray-600 mb-2">{{ $key }}</p>
+                    {{ $imagePath := printf "/images/solutions/%s/%s/%s/%s-cover.png" (replace $solution.Params.catalog "." "-") (urlize $solution.Params.group) (urlize $solution.Params.name) (replace $solution.Params.version "." "-") }}
+                    {{ if (fileExists (printf "static%s" $imagePath)) }}
+                        <img src="{{ $imagePath }}" alt="Solution cover image" class="w-full h-32 object-cover rounded-md mb-2">
+                    {{ else }}
+                        <div class="w-full h-32 bg-gray-300 flex items-center justify-center rounded-md mb-2">
+                            <span class="text-gray-500">No cover image</span>
+                        </div>
+                    {{ end }}
+                    <p class="text-sm mb-2">{{ $solution.Params.description | truncate 100 }}</p>
+                    <a href="{{ $solution.Permalink }}" class="text-blue-600 hover:underline">View Solution</a>
+                </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

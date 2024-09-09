@@ -1,0 +1,15 @@
+{{ define "main" }}
+<div role="main">
+    <h1>{{ .Title }}</h1>
+
+    <ul>
+    {{ range .Pages.ByDate.Reverse }}
+        <li>
+            <a href="{{ .Permalink }}" class="text-blue-600 hover:underline">
+                {{ .Params.catalog }}:{{ .Params.group }}:{{ .Params.name }}:{{ .Params.version }}
+            </a>
+        </li>
+    {{ end }}
+    </ul>
+</div>
+{{ end }}

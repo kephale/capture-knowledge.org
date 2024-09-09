@@ -1,0 +1,69 @@
+baseURL = 'https://capture-knowledge.org/'
+languageCode = 'en-us'
+title = 'Capture knowledge meta catalog'
+
+[taxonomies]
+  catalog = "catalogs"
+  group = "groups"
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Solutions"
+    url = "/solutions/"
+    weight = 2
+
+[params]
+  description = "A metacatalog of album solutions"
+
+[[params.catalogs]]
+  name = "cellcanvas"
+  repo_url = "https://github.com/cellcanvas/album-catalog.git"
+
+[[params.catalogs]]
+  name = "copick"
+  repo_url = "https://github.com/copick/copick-catalog.git"
+
+[[params.catalogs]]
+  name = "solutions.computational.life"
+  repo_url = "https://github.com/kephale/solutions.computational.life.git"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS", "JSON"]
+
+[outputFormats.JSON]
+  mediaType = "application/json"
+  baseName = "index"
+  isPlainText = true
+
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "layouts"
+    target = "layouts"
+  [[module.mounts]]
+    source = "data"
+    target = "data"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+  [[module.mounts]]
+    source = "i18n"
+    target = "i18n"
+  [[module.mounts]]
+    source = "archetypes"
+    target = "archetypes"

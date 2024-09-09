@@ -1,0 +1,7 @@
+catalogs:
+  - name: cellcanvas
+    repo_url: https://github.com/cellcanvas/album-catalog.git
+  - name: copick
+    repo_url: https://github.com/copick/copick-catalog.git
+  - name: solutions.computational.life
+    repo_url: https://github.com/kephale/solutions.computational.life.git
