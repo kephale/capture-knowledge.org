@@ -28,7 +28,7 @@ jobs:
         hugo-version: 'latest'
 
     - name: Generate Meta Catalog
-      run: python generate_meta_catalog.py
+      run: python src/capture_knowledge/generate_meta_catalog.py
 
     - name: Build Hugo site
       run: hugo --minify
