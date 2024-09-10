@@ -27,6 +27,9 @@ jobs:
       with:
         hugo-version: 'latest'
 
+    - name: Create repos directory
+      run: mkdir -p repos
+
     - name: Generate Meta Catalog
       run: python src/capture_knowledge/generate_meta_catalog.py
 

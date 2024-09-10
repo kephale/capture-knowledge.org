@@ -19,12 +19,24 @@ class MetaCatalogGenerator:
             return yaml.safe_load(file)
 
     def clone_or_pull_repo(self, repo_url, local_path):
-        if os.path.exists(local_path):
-            repo = git.Repo(local_path)
-            origin = repo.remotes.origin
-            origin.pull()
-        else:
-            git.Repo.clone_from(repo_url, local_path)
+        try:
+            if os.path.exists(local_path):
+                repo = git.Repo(local_path)
+                origin = repo.remotes.origin
+                origin.pull()
+                print(f"Successfully pulled latest changes for {repo_url}")
+            else:
+                git.Repo.clone_from(repo_url, local_path)
+                print(f"Successfully cloned {repo_url} to {local_path}")
+        except git.exc.GitCommandError as e:
+            print(f"Git operation failed for {repo_url}: {str(e)}")
+        except git.exc.InvalidGitRepositoryError:
+            print(f"Invalid git repository at {local_path}. Attempting to clone...")
+            try:
+                git.Repo.clone_from(repo_url, local_path)
+                print(f"Successfully cloned {repo_url} to {local_path}")
+            except git.exc.GitCommandError as e:
+                print(f"Failed to clone {repo_url}: {str(e)}")
 
     def process_catalog(self, catalog):
         repo_url = catalog['repo_url']
@@ -153,6 +165,13 @@ class MetaCatalogGenerator:
             json.dump(self.meta_catalog, file, indent=2)
 
 if __name__ == "__main__":
+    import os
+
+    # At the beginning of your script
+    if not os.path.exists("repos"):
+        os.makedirs("repos")
+        print("Created 'repos' directory")
+
     generator = MetaCatalogGenerator('config.yaml')
     generator.generate_meta_catalog()
     generator.save_meta_catalog('meta_catalog.json')
