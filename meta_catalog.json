@@ -28594,7 +28594,7 @@
     "version": "0.0.1",
     "title": "Train SwinUNETR Pixel Embedding Network with Copick Dataset",
     "description": "Train the SwinUNETR pixel embedding network using the Copick dataset.",
-    "date": "2024-08-11T10:26:35.584661",
+    "date": "2024-09-13T11:48:27.578350",
     "args": [
       {
         "description": "Pretrained weights path",
@@ -28694,7 +28694,7 @@
     "version": "0.0.2",
     "title": "Train SwinUNETR Pixel Embedding Network with Copick Dataset",
     "description": "Train the SwinUNETR pixel embedding network using the Copick dataset.",
-    "date": "2024-08-11T10:26:35.584661",
+    "date": "2024-09-13T11:48:27.578350",
     "args": [
       {
         "description": "Pretrained weights path",
@@ -34699,7 +34699,7 @@
     "version": "0.0.3",
     "title": "Train SwinUNETR Pixel Embedding Network with Copick Dataset",
     "description": "Train the SwinUNETR pixel embedding network using the Copick dataset.",
-    "date": "2024-08-11T10:26:35.584661",
+    "date": "2024-09-13T11:48:27.578350",
     "args": [
       {
         "description": "Pretrained weights path",
@@ -43170,7 +43170,7 @@
     "version": "0.0.4",
     "title": "Train SwinUNETR Pixel Embedding Network with Copick Dataset",
     "description": "Train the SwinUNETR pixel embedding network using the Copick dataset.",
-    "date": "2024-08-11T10:26:35.584661",
+    "date": "2024-09-13T11:48:27.578350",
     "args": [
       {
         "description": "Pretrained weights path",
@@ -44432,6 +44432,106 @@
       "deep learning",
       "cryoet",
       "tomogram"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 588,
+    "group": "morphospaces",
+    "name": "train_swin_unetr_pixel_embedding_copick",
+    "version": "0.0.5",
+    "title": "Train SwinUNETR Pixel Embedding Network with Copick Dataset",
+    "description": "Train the SwinUNETR pixel embedding network using the Copick dataset.",
+    "date": "2024-09-13T11:48:27.578350",
+    "args": [
+      {
+        "description": "Pretrained weights path",
+        "name": "pretrained_weights_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the Copick configuration file",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Names of the runs in the Copick project for training",
+        "name": "train_run_names",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Names of the runs in the Copick project for validation",
+        "name": "val_run_names",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Tomogram type in the Copick project",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the Copick project",
+        "name": "user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the Copick project",
+        "name": "session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Segmentation type in the Copick project",
+        "name": "segmentation_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing for the Copick project",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "default": 0.0001,
+        "description": "Learning rate for the supervised contrastive learning",
+        "name": "lr",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": "checkpoints",
+        "description": "Output directory name in the current working directory. Default is checkpoints",
+        "name": "logdir",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [
+      {
+        "text": "Morphospaces team.",
+        "url": "https://github.com/morphometrics/morphospaces"
+      }
+    ],
+    "authors": [
+      "Kevin Yamauchi",
+      "Kyle Harrington",
+      "Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "imaging",
+      "segmentation",
+      "cryoet",
+      "Python",
+      "morphospaces"
     ]
   },
   {

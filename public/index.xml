@@ -1,4 +1,99 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Capture Knowledge Meta Catalog on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/</link><description>Recent content in Capture Knowledge Meta Catalog on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 07 Sep 2024 10:52:47 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/index.xml" rel="self" type="application/rss+xml"/><item><title>An environment for interactive napari work</title><link>https://capture-knowledge.org/solutions/solutions-computational-life/environments/interactive-napari/0-0-1/</link><pubDate>Sat, 07 Sep 2024 10:52:47 +0000</pubDate><guid>https://capture-knowledge.org/solutions/solutions-computational-life/environments/interactive-napari/0-0-1/</guid><description>&lt;p>An album solution that provides a generalized environment interactive napari solutions.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Capture Knowledge Meta Catalog on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/</link><description>Recent content in Capture Knowledge Meta Catalog on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 13 Sep 2024 11:48:27 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Train SwinUNETR Pixel Embedding Network with Copick Dataset</title><link>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-1/</link><pubDate>Fri, 13 Sep 2024 11:48:27 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-1/</guid><description>&lt;p>Train the SwinUNETR pixel embedding network using the Copick dataset.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>pretrained_weights_path&lt;/strong> (string): Pretrained weights path&lt;/li>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file&lt;/li>
+&lt;li>&lt;strong>train_run_names&lt;/strong> (string): Names of the runs in the Copick project for training&lt;/li>
+&lt;li>&lt;strong>val_run_names&lt;/strong> (string): Names of the runs in the Copick project for validation&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type in the Copick project&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for the Copick project&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the Copick project&lt;/li>
+&lt;li>&lt;strong>segmentation_type&lt;/strong> (string): Segmentation type in the Copick project&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing for the Copick project&lt;/li>
+&lt;li>&lt;strong>lr&lt;/strong> (float): Learning rate for the supervised contrastive learning&lt;/li>
+&lt;li>&lt;strong>logdir&lt;/strong> (string): Output directory name in the current working directory. Default is checkpoints&lt;/li>
+&lt;/ul>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;ul>
+&lt;li>Morphospaces team.
+URL: &lt;a href="https://github.com/morphometrics/morphospaces">https://github.com/morphometrics/morphospaces&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Train SwinUNETR Pixel Embedding Network with Copick Dataset</title><link>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-2/</link><pubDate>Fri, 13 Sep 2024 11:48:27 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-2/</guid><description>&lt;p>Train the SwinUNETR pixel embedding network using the Copick dataset.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>pretrained_weights_path&lt;/strong> (string): Pretrained weights path&lt;/li>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file&lt;/li>
+&lt;li>&lt;strong>train_run_names&lt;/strong> (string): Names of the runs in the Copick project for training&lt;/li>
+&lt;li>&lt;strong>val_run_names&lt;/strong> (string): Names of the runs in the Copick project for validation&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type in the Copick project&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for the Copick project&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the Copick project&lt;/li>
+&lt;li>&lt;strong>segmentation_type&lt;/strong> (string): Segmentation type in the Copick project&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing for the Copick project&lt;/li>
+&lt;li>&lt;strong>lr&lt;/strong> (float): Learning rate for the supervised contrastive learning&lt;/li>
+&lt;li>&lt;strong>logdir&lt;/strong> (string): Output directory name in the current working directory. Default is checkpoints&lt;/li>
+&lt;/ul>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;ul>
+&lt;li>Morphospaces team.
+URL: &lt;a href="https://github.com/morphometrics/morphospaces">https://github.com/morphometrics/morphospaces&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Train SwinUNETR Pixel Embedding Network with Copick Dataset</title><link>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-3/</link><pubDate>Fri, 13 Sep 2024 11:48:27 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-3/</guid><description>&lt;p>Train the SwinUNETR pixel embedding network using the Copick dataset.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>pretrained_weights_path&lt;/strong> (string): Pretrained weights path&lt;/li>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file&lt;/li>
+&lt;li>&lt;strong>train_run_names&lt;/strong> (string): Names of the runs in the Copick project for training&lt;/li>
+&lt;li>&lt;strong>val_run_names&lt;/strong> (string): Names of the runs in the Copick project for validation&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type in the Copick project&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for the Copick project&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the Copick project&lt;/li>
+&lt;li>&lt;strong>segmentation_type&lt;/strong> (string): Segmentation type in the Copick project&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing for the Copick project&lt;/li>
+&lt;li>&lt;strong>lr&lt;/strong> (float): Learning rate for the supervised contrastive learning&lt;/li>
+&lt;li>&lt;strong>logdir&lt;/strong> (string): Output directory name in the current working directory. Default is checkpoints&lt;/li>
+&lt;/ul>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;ul>
+&lt;li>Morphospaces team.
+URL: &lt;a href="https://github.com/morphometrics/morphospaces">https://github.com/morphometrics/morphospaces&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Train SwinUNETR Pixel Embedding Network with Copick Dataset</title><link>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-4/</link><pubDate>Fri, 13 Sep 2024 11:48:27 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-4/</guid><description>&lt;p>Train the SwinUNETR pixel embedding network using the Copick dataset.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>pretrained_weights_path&lt;/strong> (string): Pretrained weights path&lt;/li>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file&lt;/li>
+&lt;li>&lt;strong>train_run_names&lt;/strong> (string): Names of the runs in the Copick project for training&lt;/li>
+&lt;li>&lt;strong>val_run_names&lt;/strong> (string): Names of the runs in the Copick project for validation&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type in the Copick project&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for the Copick project&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the Copick project&lt;/li>
+&lt;li>&lt;strong>segmentation_type&lt;/strong> (string): Segmentation type in the Copick project&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing for the Copick project&lt;/li>
+&lt;li>&lt;strong>lr&lt;/strong> (float): Learning rate for the supervised contrastive learning&lt;/li>
+&lt;li>&lt;strong>logdir&lt;/strong> (string): Output directory name in the current working directory. Default is checkpoints&lt;/li>
+&lt;/ul>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;ul>
+&lt;li>Morphospaces team.
+URL: &lt;a href="https://github.com/morphometrics/morphospaces">https://github.com/morphometrics/morphospaces&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Train SwinUNETR Pixel Embedding Network with Copick Dataset</title><link>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-5/</link><pubDate>Fri, 13 Sep 2024 11:48:27 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-5/</guid><description>&lt;p>Train the SwinUNETR pixel embedding network using the Copick dataset.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>pretrained_weights_path&lt;/strong> (string): Pretrained weights path&lt;/li>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file&lt;/li>
+&lt;li>&lt;strong>train_run_names&lt;/strong> (string): Names of the runs in the Copick project for training&lt;/li>
+&lt;li>&lt;strong>val_run_names&lt;/strong> (string): Names of the runs in the Copick project for validation&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type in the Copick project&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for the Copick project&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the Copick project&lt;/li>
+&lt;li>&lt;strong>segmentation_type&lt;/strong> (string): Segmentation type in the Copick project&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing for the Copick project&lt;/li>
+&lt;li>&lt;strong>lr&lt;/strong> (float): Learning rate for the supervised contrastive learning&lt;/li>
+&lt;li>&lt;strong>logdir&lt;/strong> (string): Output directory name in the current working directory. Default is checkpoints&lt;/li>
+&lt;/ul>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;ul>
+&lt;li>Morphospaces team.
+URL: &lt;a href="https://github.com/morphometrics/morphospaces">https://github.com/morphometrics/morphospaces&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>An environment for interactive napari work</title><link>https://capture-knowledge.org/solutions/solutions-computational-life/environments/interactive-napari/0-0-1/</link><pubDate>Sat, 07 Sep 2024 10:52:47 +0000</pubDate><guid>https://capture-knowledge.org/solutions/solutions-computational-life/environments/interactive-napari/0-0-1/</guid><description>&lt;p>An album solution that provides a generalized environment interactive napari solutions.&lt;/p>
 &lt;h2 id="citation">Citation&lt;/h2>
 &lt;ul>
 &lt;li>Kyle Harrington
@@ -2151,82 +2246,6 @@ URL: &lt;a href="https://cellcanvas.org/">https://cellcanvas.org/&lt;/a>&lt;/li>
 &lt;ul>
 &lt;li>Pixeltapestry team.
 URL: &lt;a href="https://github.com/kephale/pixeltapestry">https://github.com/kephale/pixeltapestry&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Train SwinUNETR Pixel Embedding Network with Copick Dataset</title><link>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-1/</link><pubDate>Sun, 11 Aug 2024 10:26:35 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-1/</guid><description>&lt;p>Train the SwinUNETR pixel embedding network using the Copick dataset.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>pretrained_weights_path&lt;/strong> (string): Pretrained weights path&lt;/li>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file&lt;/li>
-&lt;li>&lt;strong>train_run_names&lt;/strong> (string): Names of the runs in the Copick project for training&lt;/li>
-&lt;li>&lt;strong>val_run_names&lt;/strong> (string): Names of the runs in the Copick project for validation&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type in the Copick project&lt;/li>
-&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for the Copick project&lt;/li>
-&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the Copick project&lt;/li>
-&lt;li>&lt;strong>segmentation_type&lt;/strong> (string): Segmentation type in the Copick project&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing for the Copick project&lt;/li>
-&lt;li>&lt;strong>lr&lt;/strong> (float): Learning rate for the supervised contrastive learning&lt;/li>
-&lt;li>&lt;strong>logdir&lt;/strong> (string): Output directory name in the current working directory. Default is checkpoints&lt;/li>
-&lt;/ul>
-&lt;h2 id="citation">Citation&lt;/h2>
-&lt;ul>
-&lt;li>Morphospaces team.
-URL: &lt;a href="https://github.com/morphometrics/morphospaces">https://github.com/morphometrics/morphospaces&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Train SwinUNETR Pixel Embedding Network with Copick Dataset</title><link>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-2/</link><pubDate>Sun, 11 Aug 2024 10:26:35 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-2/</guid><description>&lt;p>Train the SwinUNETR pixel embedding network using the Copick dataset.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>pretrained_weights_path&lt;/strong> (string): Pretrained weights path&lt;/li>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file&lt;/li>
-&lt;li>&lt;strong>train_run_names&lt;/strong> (string): Names of the runs in the Copick project for training&lt;/li>
-&lt;li>&lt;strong>val_run_names&lt;/strong> (string): Names of the runs in the Copick project for validation&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type in the Copick project&lt;/li>
-&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for the Copick project&lt;/li>
-&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the Copick project&lt;/li>
-&lt;li>&lt;strong>segmentation_type&lt;/strong> (string): Segmentation type in the Copick project&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing for the Copick project&lt;/li>
-&lt;li>&lt;strong>lr&lt;/strong> (float): Learning rate for the supervised contrastive learning&lt;/li>
-&lt;li>&lt;strong>logdir&lt;/strong> (string): Output directory name in the current working directory. Default is checkpoints&lt;/li>
-&lt;/ul>
-&lt;h2 id="citation">Citation&lt;/h2>
-&lt;ul>
-&lt;li>Morphospaces team.
-URL: &lt;a href="https://github.com/morphometrics/morphospaces">https://github.com/morphometrics/morphospaces&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Train SwinUNETR Pixel Embedding Network with Copick Dataset</title><link>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-3/</link><pubDate>Sun, 11 Aug 2024 10:26:35 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-3/</guid><description>&lt;p>Train the SwinUNETR pixel embedding network using the Copick dataset.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>pretrained_weights_path&lt;/strong> (string): Pretrained weights path&lt;/li>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file&lt;/li>
-&lt;li>&lt;strong>train_run_names&lt;/strong> (string): Names of the runs in the Copick project for training&lt;/li>
-&lt;li>&lt;strong>val_run_names&lt;/strong> (string): Names of the runs in the Copick project for validation&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type in the Copick project&lt;/li>
-&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for the Copick project&lt;/li>
-&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the Copick project&lt;/li>
-&lt;li>&lt;strong>segmentation_type&lt;/strong> (string): Segmentation type in the Copick project&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing for the Copick project&lt;/li>
-&lt;li>&lt;strong>lr&lt;/strong> (float): Learning rate for the supervised contrastive learning&lt;/li>
-&lt;li>&lt;strong>logdir&lt;/strong> (string): Output directory name in the current working directory. Default is checkpoints&lt;/li>
-&lt;/ul>
-&lt;h2 id="citation">Citation&lt;/h2>
-&lt;ul>
-&lt;li>Morphospaces team.
-URL: &lt;a href="https://github.com/morphometrics/morphospaces">https://github.com/morphometrics/morphospaces&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Train SwinUNETR Pixel Embedding Network with Copick Dataset</title><link>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-4/</link><pubDate>Sun, 11 Aug 2024 10:26:35 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/morphospaces/train-swin-unetr-pixel-embedding-copick/0-0-4/</guid><description>&lt;p>Train the SwinUNETR pixel embedding network using the Copick dataset.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>pretrained_weights_path&lt;/strong> (string): Pretrained weights path&lt;/li>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file&lt;/li>
-&lt;li>&lt;strong>train_run_names&lt;/strong> (string): Names of the runs in the Copick project for training&lt;/li>
-&lt;li>&lt;strong>val_run_names&lt;/strong> (string): Names of the runs in the Copick project for validation&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type in the Copick project&lt;/li>
-&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for the Copick project&lt;/li>
-&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the Copick project&lt;/li>
-&lt;li>&lt;strong>segmentation_type&lt;/strong> (string): Segmentation type in the Copick project&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing for the Copick project&lt;/li>
-&lt;li>&lt;strong>lr&lt;/strong> (float): Learning rate for the supervised contrastive learning&lt;/li>
-&lt;li>&lt;strong>logdir&lt;/strong> (string): Output directory name in the current working directory. Default is checkpoints&lt;/li>
-&lt;/ul>
-&lt;h2 id="citation">Citation&lt;/h2>
-&lt;ul>
-&lt;li>Morphospaces team.
-URL: &lt;a href="https://github.com/morphometrics/morphospaces">https://github.com/morphometrics/morphospaces&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Train UNet Model using MONAI with Multiple Runs and MLflow</title><link>https://capture-knowledge.org/solutions/cellcanvas/kephale/train-unet/0-0-1/</link><pubDate>Sun, 11 Aug 2024 10:25:59 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/kephale/train-unet/0-0-1/</guid><description>&lt;p>Train a UNet model to predict segmentation masks using MONAI from multiple runs with MLflow tracking.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
