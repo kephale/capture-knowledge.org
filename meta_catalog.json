@@ -52944,5 +52944,34 @@
       "environment",
       "napari"
     ]
+  },
+  {
+    "catalog_name": "solutions.computational.life",
+    "catalog_url": "https://github.com/kephale/solutions.computational.life.git",
+    "solution_id": 95,
+    "group": "collective-dynamics",
+    "name": "boids-paint",
+    "version": "0.0.2",
+    "title": "3D Boids Paint with Pose Tracking controlling boids",
+    "description": "An Album solution that simulates boids interacting with hand landmarks tracked from webcam and paints boid positions into a 3D image.",
+    "date": "2024-09-14T08:01:05.348699",
+    "args": [],
+    "citation": [
+      {
+        "text": "Reynolds, C.W., 1987. Flocks, herds and schools: A distributed behavioral model. ACM SIGGRAPH Computer Graphics, 21(4), pp.25-34."
+      }
+    ],
+    "authors": [
+      "Kyle Harrington and Iris Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "Boids",
+      "flocking",
+      "pose",
+      "3D",
+      "napari",
+      "webcam"
+    ]
   }
 ]
