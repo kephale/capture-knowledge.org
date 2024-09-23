@@ -1,4 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Solutions on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/solutions/</link><description>Recent content in Solutions on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 14 Sep 2024 08:01:05 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/solutions/index.xml" rel="self" type="application/rss+xml"/><item><title>3D Boids Paint with Pose Tracking controlling boids</title><link>https://capture-knowledge.org/solutions/solutions-computational-life/collective-dynamics/boids-paint/0-0-2/</link><pubDate>Sat, 14 Sep 2024 08:01:05 +0000</pubDate><guid>https://capture-knowledge.org/solutions/solutions-computational-life/collective-dynamics/boids-paint/0-0-2/</guid><description>&lt;p>An Album solution that simulates boids interacting with hand landmarks tracked from webcam and paints boid positions into a 3D image.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Solutions on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/solutions/</link><description>Recent content in Solutions on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 22 Sep 2024 13:05:20 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/solutions/index.xml" rel="self" type="application/rss+xml"/><item><title>Generate Polnet PNS file from PDB</title><link>https://capture-knowledge.org/solutions/copick/polnet/pdb-to-pns/0-1-0/</link><pubDate>Sun, 22 Sep 2024 13:05:20 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/polnet/pdb-to-pns/0-1-0/</guid><description>&lt;p>This solution calls Membrane-Seg to Segment Membranes in Tomograms.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>pdb_id&lt;/strong> (string): PDB ID for the Macromolecule to Model&lt;/li>
+&lt;li>&lt;strong>protein_name&lt;/strong> (string): Name of the Protein for the Associated PDB ID&lt;/li>
+&lt;li>&lt;strong>pdb_write_path&lt;/strong> (string): Folder Path for Where to Save the Downloaded PDB File&lt;/li>
+&lt;li>&lt;strong>mrc_write_path&lt;/strong> (string): Folder Path for Where to Save the Converted PDB file to MRC&lt;/li>
+&lt;li>&lt;strong>polnet_write_path&lt;/strong> (string): Folder Path for Where to Save the Converted MRC file for Polnet&lt;/li>
+&lt;li>&lt;strong>voxel_size&lt;/strong> (float): Voxel size per Ångström, scale of the tomogram resolution&lt;/li>
+&lt;li>&lt;strong>resolution&lt;/strong> (float): Tomogram resolution in Ångströms.&lt;/li>
+&lt;li>&lt;strong>mmer_iso&lt;/strong> (float): Isocontour&lt;/li>
+&lt;li>&lt;strong>pmer_l&lt;/strong> (float): Flag to save segmentation scores.&lt;/li>
+&lt;li>&lt;strong>pmer_occ&lt;/strong> (float): Flag to Save Inverted Segmentation Mask&lt;/li>
+&lt;li>&lt;strong>pmer_over_tol&lt;/strong> (float): Overlappoing Tolerance (Percentage)&lt;/li>
+&lt;li>&lt;strong>is_membrane&lt;/strong> (boolean): Indicate Protein Type&lt;/li>
+&lt;li>&lt;strong>pmer_reverse_normals&lt;/strong> (boolean): Reverse membrane normal (For Membrane-Bound Protein)&lt;/li>
+&lt;/ul>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;ul>
+&lt;li>Polnet team.
+URL: &lt;a href="https://github.com/anmartinezs/polnet/tree/main">https://github.com/anmartinezs/polnet/tree/main&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>3D Boids Paint with Pose Tracking controlling boids</title><link>https://capture-knowledge.org/solutions/solutions-computational-life/collective-dynamics/boids-paint/0-0-2/</link><pubDate>Sat, 14 Sep 2024 08:01:05 +0000</pubDate><guid>https://capture-knowledge.org/solutions/solutions-computational-life/collective-dynamics/boids-paint/0-0-2/</guid><description>&lt;p>An Album solution that simulates boids interacting with hand landmarks tracked from webcam and paints boid positions into a 3D image.&lt;/p>
 &lt;h2 id="citation">Citation&lt;/h2>
 &lt;ul>
 &lt;li>Reynolds, C.W., 1987. Flocks, herds and schools: A distributed behavioral model. ACM SIGGRAPH Computer Graphics, 21(4), pp.25-34.&lt;/li>
