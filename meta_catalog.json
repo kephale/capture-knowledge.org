@@ -52958,7 +52958,7 @@
     "version": "0.0.1",
     "title": "Belousov-Zhabotinsky Reaction Simulation",
     "description": "Simulates the Belousov-Zhabotinsky reaction using the Oregonator model.",
-    "date": "2024-08-18T09:48:08.787974",
+    "date": "2024-09-29T11:48:31.787934",
     "args": [],
     "citation": [
       {
@@ -53088,6 +53088,62 @@
       "3D",
       "napari",
       "webcam"
+    ]
+  },
+  {
+    "catalog_name": "solutions.computational.life",
+    "catalog_url": "https://github.com/kephale/solutions.computational.life.git",
+    "solution_id": 96,
+    "group": "reaction-diffusion",
+    "name": "belousov-zhabotinsky",
+    "version": "0.0.2",
+    "title": "Belousov-Zhabotinsky Reaction Simulation",
+    "description": "Simulates the Belousov-Zhabotinsky reaction using the Oregonator model.",
+    "date": "2024-09-29T11:48:31.787934",
+    "args": [],
+    "citation": [
+      {
+        "text": "Field, R.J., K\u00f6r\u00f6s, E., Noyes, R.M., 1972. Oscillations in chemical systems. I. Detailed mechanism in a system showing temporal oscillations. Journal of the American Chemical Society, 94(25), pp.8649-8664."
+      }
+    ],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "reaction-diffusion",
+      "BZ reaction",
+      "automata",
+      "napari",
+      "simulation"
+    ]
+  },
+  {
+    "catalog_name": "solutions.computational.life",
+    "catalog_url": "https://github.com/kephale/solutions.computational.life.git",
+    "solution_id": 97,
+    "group": "reaction-diffusion",
+    "name": "belousov-zhabotinsky",
+    "version": "0.0.3",
+    "title": "Belousov-Zhabotinsky Reaction Simulation",
+    "description": "Simulates the Belousov-Zhabotinsky reaction using the Oregonator model.",
+    "date": "2024-09-29T11:48:31.787934",
+    "args": [],
+    "citation": [
+      {
+        "text": "Field, R.J., K\u00f6r\u00f6s, E., Noyes, R.M., 1972. Oscillations in chemical systems. I. Detailed mechanism in a system showing temporal oscillations. Journal of the American Chemical Society, 94(25), pp.8649-8664."
+      }
+    ],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "reaction-diffusion",
+      "BZ reaction",
+      "automata",
+      "napari",
+      "simulation"
     ]
   }
 ]
