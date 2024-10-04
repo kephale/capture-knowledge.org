@@ -2846,9 +2846,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.0.1",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -2894,7 +2894,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -2904,9 +2905,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.0.2",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -2952,7 +2953,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -2962,9 +2964,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.0.3",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -3010,7 +3012,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -3020,9 +3023,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.0.4",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -3068,7 +3071,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -3078,9 +3082,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.0.5",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -3126,7 +3130,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -3136,9 +3141,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.0.6",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -3184,7 +3189,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -3194,9 +3200,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.0.7",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -3242,7 +3248,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -3312,9 +3319,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.0.8",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -3360,7 +3367,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -17686,9 +17694,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.1.0",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -17734,7 +17742,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -17744,9 +17753,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.1.1",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -17792,7 +17801,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -17802,9 +17812,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.1.2",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -17850,7 +17860,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -17860,9 +17871,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.1.3",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -17908,7 +17919,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -17918,9 +17930,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.1.4",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -17966,7 +17978,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -17976,9 +17989,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.1.5",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -18024,7 +18037,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -18034,9 +18048,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.1.6",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -18082,7 +18096,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -18092,9 +18107,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.1.7",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -18140,7 +18155,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -18150,9 +18166,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.1.8",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -18198,7 +18214,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -18208,9 +18225,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.1.9",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -18256,7 +18273,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -18266,9 +18284,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.1.10",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -18314,7 +18332,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -18324,9 +18343,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.1.11",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -18372,7 +18391,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -24461,7 +24481,7 @@
     "version": "0.0.1",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-08-11T10:24:17.857535",
+    "date": "2024-10-03T10:23:08.708711",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -24472,6 +24492,12 @@
       {
         "description": "Name of the album solution to run.",
         "name": "album_solution_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the album executable.",
+        "name": "album_path",
         "required": true,
         "type": "string"
       },
@@ -24551,7 +24577,7 @@
     "version": "0.0.2",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-08-11T10:24:17.857535",
+    "date": "2024-10-03T10:23:08.708711",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -24562,6 +24588,12 @@
       {
         "description": "Name of the album solution to run.",
         "name": "album_solution_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the album executable.",
+        "name": "album_path",
         "required": true,
         "type": "string"
       },
@@ -24641,7 +24673,7 @@
     "version": "0.0.3",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-08-11T10:24:17.857535",
+    "date": "2024-10-03T10:23:08.708711",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -24652,6 +24684,12 @@
       {
         "description": "Name of the album solution to run.",
         "name": "album_solution_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the album executable.",
+        "name": "album_path",
         "required": true,
         "type": "string"
       },
@@ -24731,7 +24769,7 @@
     "version": "0.0.4",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-08-11T10:24:17.857535",
+    "date": "2024-10-03T10:23:08.708711",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -24742,6 +24780,12 @@
       {
         "description": "Name of the album solution to run.",
         "name": "album_solution_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the album executable.",
+        "name": "album_path",
         "required": true,
         "type": "string"
       },
@@ -24821,7 +24865,7 @@
     "version": "0.0.5",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-08-11T10:24:17.857535",
+    "date": "2024-10-03T10:23:08.708711",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -24832,6 +24876,12 @@
       {
         "description": "Name of the album solution to run.",
         "name": "album_solution_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the album executable.",
+        "name": "album_path",
         "required": true,
         "type": "string"
       },
@@ -24911,7 +24961,7 @@
     "version": "0.0.6",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-08-11T10:24:17.857535",
+    "date": "2024-10-03T10:23:08.708711",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -24922,6 +24972,12 @@
       {
         "description": "Name of the album solution to run.",
         "name": "album_solution_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the album executable.",
+        "name": "album_path",
         "required": true,
         "type": "string"
       },
@@ -25001,7 +25057,7 @@
     "version": "0.0.8",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-08-11T10:24:17.857535",
+    "date": "2024-10-03T10:23:08.708711",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -25012,6 +25068,12 @@
       {
         "description": "Name of the album solution to run.",
         "name": "album_solution_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the album executable.",
+        "name": "album_path",
         "required": true,
         "type": "string"
       },
@@ -25091,7 +25153,7 @@
     "version": "0.0.9",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-08-11T10:24:17.857535",
+    "date": "2024-10-03T10:23:08.708711",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -25102,6 +25164,12 @@
       {
         "description": "Name of the album solution to run.",
         "name": "album_solution_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the album executable.",
+        "name": "album_path",
         "required": true,
         "type": "string"
       },
@@ -25181,7 +25249,7 @@
     "version": "0.0.10",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-08-11T10:24:17.857535",
+    "date": "2024-10-03T10:23:08.708711",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -25192,6 +25260,12 @@
       {
         "description": "Name of the album solution to run.",
         "name": "album_solution_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the album executable.",
+        "name": "album_path",
         "required": true,
         "type": "string"
       },
@@ -25271,7 +25345,7 @@
     "version": "0.0.11",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-08-11T10:24:17.857535",
+    "date": "2024-10-03T10:23:08.708711",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -25282,6 +25356,12 @@
       {
         "description": "Name of the album solution to run.",
         "name": "album_solution_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the album executable.",
+        "name": "album_path",
         "required": true,
         "type": "string"
       },
@@ -34799,7 +34879,7 @@
     "version": "0.0.12",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-08-11T10:24:17.857535",
+    "date": "2024-10-03T10:23:08.708711",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -34810,6 +34890,12 @@
       {
         "description": "Name of the album solution to run.",
         "name": "album_solution_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the album executable.",
+        "name": "album_path",
         "required": true,
         "type": "string"
       },
@@ -42430,9 +42516,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.1.12",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -42478,7 +42564,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -42688,7 +42775,7 @@
     "version": "0.0.13",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-08-11T10:24:17.857535",
+    "date": "2024-10-03T10:23:08.708711",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -42699,6 +42786,12 @@
       {
         "description": "Name of the album solution to run.",
         "name": "album_solution_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the album executable.",
+        "name": "album_path",
         "required": true,
         "type": "string"
       },
@@ -43814,9 +43907,9 @@
     "group": "copick",
     "name": "project_from_dataportal",
     "version": "0.1.13",
-    "title": "Fetch Zarr and Annotations from Data Portal and Integrate with Copick",
-    "description": "Fetches Zarr files, annotations, and points from cryoet_data_portal and integrates them into the specified Copick project.",
-    "date": "2024-08-12T17:00:28.614975",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
     "args": [
       {
         "description": "Dataset ID to process.",
@@ -43862,7 +43955,8 @@
     "tags": [
       "zarr",
       "deep learning",
-      "tomography"
+      "tomography",
+      "cryoET"
     ]
   },
   {
@@ -44532,6 +44626,769 @@
       "cryoet",
       "Python",
       "morphospaces"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 589,
+    "group": "copick",
+    "name": "submit-album-job-array",
+    "version": "0.0.14",
+    "title": "Submit Album Job Array",
+    "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
+    "date": "2024-10-03T10:23:08.708711",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the album solution to run.",
+        "name": "album_solution_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the album executable.",
+        "name": "album_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Slurm partition to use.",
+        "name": "slurm_partition",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "24:00:00",
+        "description": "Time limit for the Slurm job (e.g., 01:00:00 for 1 hour).",
+        "name": "slurm_time",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "128G",
+        "description": "Memory limit for the Slurm job (e.g., 125G for 125 GB).",
+        "name": "slurm_memory",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": 24,
+        "description": "Number of CPUs per Slurm task.",
+        "name": "slurm_cpus_per_task",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 0,
+        "description": "Number of GPUs per Slurm task.",
+        "name": "slurm_gpus",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "description": "Slurm module commands to load necessary modules (e.g., module load cuda/11.8.0_520.61.05\\nmodule load cudnn/8.8.1.3_cuda11).",
+        "name": "slurm_module_commands",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Additional arguments to pass to the album solution.",
+        "name": "extra_args",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": true,
+        "description": "Whether to submit the job to Slurm or just print the submission command and script.",
+        "name": "submit_job",
+        "required": false,
+        "type": "boolean"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "slurm",
+      "job array",
+      "album",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 590,
+    "group": "copick",
+    "name": "project_from_dataportal",
+    "version": "0.2.0",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
+    "args": [
+      {
+        "description": "Dataset ID to process.",
+        "name": "dataset_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Optional voxel spacing to filter tomograms.",
+        "name": "voxel_spacing",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Path to the overlay root directory.",
+        "name": "overlay_root",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Path to the static root directory.",
+        "name": "static_root",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [
+      {
+        "text": "Cellcanvas and Copick teams",
+        "url": "https://cellcanvas.org"
+      }
+    ],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "zarr",
+      "deep learning",
+      "tomography",
+      "cryoET"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 591,
+    "group": "copick",
+    "name": "project_from_dataportal",
+    "version": "0.2.1",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
+    "args": [
+      {
+        "description": "Dataset ID to process.",
+        "name": "dataset_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Optional voxel spacing to filter tomograms.",
+        "name": "voxel_spacing",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Path to the overlay root directory.",
+        "name": "overlay_root",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Path to the static root directory.",
+        "name": "static_root",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [
+      {
+        "text": "Cellcanvas and Copick teams",
+        "url": "https://cellcanvas.org"
+      }
+    ],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "zarr",
+      "deep learning",
+      "tomography",
+      "cryoET"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 592,
+    "group": "copick",
+    "name": "project_from_dataportal",
+    "version": "0.2.2",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
+    "args": [
+      {
+        "description": "Dataset ID to process.",
+        "name": "dataset_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Optional voxel spacing to filter tomograms.",
+        "name": "voxel_spacing",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Path to the overlay root directory.",
+        "name": "overlay_root",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Path to the static root directory.",
+        "name": "static_root",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [
+      {
+        "text": "Cellcanvas and Copick teams",
+        "url": "https://cellcanvas.org"
+      }
+    ],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "zarr",
+      "deep learning",
+      "tomography",
+      "cryoET"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 593,
+    "group": "copick",
+    "name": "project_from_dataportal",
+    "version": "0.2.3",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
+    "args": [
+      {
+        "description": "Dataset ID to process.",
+        "name": "dataset_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Optional voxel spacing to filter tomograms.",
+        "name": "voxel_spacing",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Path to the overlay root directory.",
+        "name": "overlay_root",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Path to the static root directory.",
+        "name": "static_root",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [
+      {
+        "text": "Cellcanvas and Copick teams",
+        "url": "https://cellcanvas.org"
+      }
+    ],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "zarr",
+      "deep learning",
+      "tomography",
+      "cryoET"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 594,
+    "group": "copick",
+    "name": "project_from_dataportal",
+    "version": "0.2.4",
+    "title": "Fetch Data from CryoET Data Portal and Integrate with Copick",
+    "description": "Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.",
+    "date": "2024-10-03T13:37:17.348380",
+    "args": [
+      {
+        "description": "Dataset ID to process.",
+        "name": "dataset_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Optional voxel spacing to filter tomograms.",
+        "name": "voxel_spacing",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Path to the overlay root directory.",
+        "name": "overlay_root",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Path to the static root directory.",
+        "name": "static_root",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [
+      {
+        "text": "Cellcanvas and Copick teams",
+        "url": "https://cellcanvas.org"
+      }
+    ],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "zarr",
+      "deep learning",
+      "tomography",
+      "cryoET"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 595,
+    "group": "cellcanvas",
+    "name": "mock-annotation",
+    "version": "0.0.1",
+    "title": "Mock Annotation and XGBoost Training on Copick Data",
+    "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
+    "date": "2024-10-03T16:51:38.595652",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the embedding features to use.",
+        "name": "embedding_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the checkpoint file.",
+        "name": "checkpointpath",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the input segmentation.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the input segmentation.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input label segmentation.",
+        "name": "input_label_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of annotation steps to perform.",
+        "name": "num_annotation_steps",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Name of the run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "xgboost",
+      "machine learning",
+      "segmentation",
+      "training",
+      "copick",
+      "mock annotation"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 596,
+    "group": "cellcanvas",
+    "name": "mock-annotation",
+    "version": "0.0.2",
+    "title": "Mock Annotation and XGBoost Training on Copick Data",
+    "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
+    "date": "2024-10-03T16:51:38.595652",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the embedding features to use.",
+        "name": "embedding_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the checkpoint file.",
+        "name": "checkpointpath",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the input segmentation.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the input segmentation.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input label segmentation.",
+        "name": "input_label_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of annotation steps to perform.",
+        "name": "num_annotation_steps",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Name of the run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "xgboost",
+      "machine learning",
+      "segmentation",
+      "training",
+      "copick",
+      "mock annotation"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 597,
+    "group": "cellcanvas",
+    "name": "mock-annotation",
+    "version": "0.0.3",
+    "title": "Mock Annotation and XGBoost Training on Copick Data",
+    "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
+    "date": "2024-10-03T16:51:38.595652",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the embedding features to use.",
+        "name": "embedding_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the checkpoint file.",
+        "name": "checkpointpath",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the input segmentation.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the input segmentation.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input label segmentation.",
+        "name": "input_label_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of annotation steps to perform.",
+        "name": "num_annotation_steps",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Name of the run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "xgboost",
+      "machine learning",
+      "segmentation",
+      "training",
+      "copick",
+      "mock annotation"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 598,
+    "group": "cellcanvas",
+    "name": "mock-annotation",
+    "version": "0.0.4",
+    "title": "Mock Annotation and XGBoost Training on Copick Data",
+    "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
+    "date": "2024-10-03T16:51:38.595652",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the embedding features to use.",
+        "name": "embedding_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the checkpoint file.",
+        "name": "checkpointpath",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the input segmentation.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the input segmentation.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input label segmentation.",
+        "name": "input_label_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of annotation steps to perform.",
+        "name": "num_annotation_steps",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Name of the run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "xgboost",
+      "machine learning",
+      "segmentation",
+      "training",
+      "copick",
+      "mock annotation"
     ]
   },
   {
@@ -49981,8 +50838,370 @@
     "name": "pdb-to-pns",
     "version": "0.1.0",
     "title": "Generate Polnet PNS file from PDB",
-    "description": "This solution calls Membrane-Seg to Segment Membranes in Tomograms.",
-    "date": "2024-09-22T13:05:20.261998",
+    "description": "This solution downloads PDBs and uses Polnet to convert into MRCs, and simulation-compatible textfile.",
+    "date": "2024-10-03T09:50:35.807781",
+    "args": [
+      {
+        "description": "PDB ID for the Macromolecule to Model",
+        "name": "pdb_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the Protein for the Associated PDB ID",
+        "name": "protein_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Folder Path for Where to Save the Downloaded PDB File",
+        "name": "pdb_write_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Folder Path for Where to Save the Converted PDB file to MRC",
+        "name": "mrc_write_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Folder Path for Where to Save the Converted MRC file for Polnet",
+        "name": "polnet_write_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 10,
+        "description": "Voxel size per \u00c5ngstr\u00f6m, scale of the tomogram resolution",
+        "name": "voxel_size",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 30,
+        "description": "Tomogram resolution in \u00c5ngstr\u00f6ms.",
+        "name": "resolution",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0,
+        "description": "Isocontour",
+        "name": "mmer_iso",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 1.1,
+        "description": "Flag to save segmentation scores.",
+        "name": "pmer_l",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0.2,
+        "description": "Flag to Save Inverted Segmentation Mask",
+        "name": "pmer_occ",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0.05,
+        "description": "Overlappoing Tolerance (Percentage)",
+        "name": "pmer_over_tol",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": false,
+        "description": "Indicate Protein Type",
+        "name": "is_membrane",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": false,
+        "description": "Reverse membrane normal (For Membrane-Bound Protein)",
+        "name": "pmer_reverse_normals",
+        "required": false,
+        "type": "boolean"
+      }
+    ],
+    "citation": [
+      {
+        "text": "Polnet team.",
+        "url": "https://github.com/anmartinezs/polnet/tree/main"
+      }
+    ],
+    "authors": [
+      "Jonathan Schwartz"
+    ],
+    "license": "MIT",
+    "tags": [
+      "PDB",
+      "grid",
+      "surface",
+      "structural biology",
+      "pns"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 69,
+    "group": "polnet",
+    "name": "pdb-to-pns",
+    "version": "0.2.0",
+    "title": "Generate Polnet PNS file from PDB",
+    "description": "This solution downloads PDBs and uses Polnet to convert into MRCs, and simulation-compatible textfile.",
+    "date": "2024-10-03T09:50:35.807781",
+    "args": [
+      {
+        "description": "PDB ID for the Macromolecule to Model",
+        "name": "pdb_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the Protein for the Associated PDB ID",
+        "name": "protein_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Folder Path for Where to Save the Downloaded PDB File",
+        "name": "pdb_write_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Folder Path for Where to Save the Converted PDB file to MRC",
+        "name": "mrc_write_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Folder Path for Where to Save the Converted MRC file for Polnet",
+        "name": "polnet_write_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 10,
+        "description": "Voxel size per \u00c5ngstr\u00f6m, scale of the tomogram resolution",
+        "name": "voxel_size",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 30,
+        "description": "Tomogram resolution in \u00c5ngstr\u00f6ms.",
+        "name": "resolution",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0,
+        "description": "Isocontour",
+        "name": "mmer_iso",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 1.1,
+        "description": "Flag to save segmentation scores.",
+        "name": "pmer_l",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0.2,
+        "description": "Flag to Save Inverted Segmentation Mask",
+        "name": "pmer_occ",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0.05,
+        "description": "Overlappoing Tolerance (Percentage)",
+        "name": "pmer_over_tol",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": false,
+        "description": "Indicate Protein Type",
+        "name": "is_membrane",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": false,
+        "description": "Reverse membrane normal (For Membrane-Bound Protein)",
+        "name": "pmer_reverse_normals",
+        "required": false,
+        "type": "boolean"
+      }
+    ],
+    "citation": [
+      {
+        "text": "Polnet team.",
+        "url": "https://github.com/anmartinezs/polnet/tree/main"
+      }
+    ],
+    "authors": [
+      "Jonathan Schwartz"
+    ],
+    "license": "MIT",
+    "tags": [
+      "PDB",
+      "grid",
+      "surface",
+      "structural biology",
+      "pns"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 70,
+    "group": "copick",
+    "name": "binary-to-multilabel-segmentation",
+    "version": "0.0.1",
+    "title": "Create Multilabel Segmentation from Individual Segmentations",
+    "description": "Creates a multilabel segmentation by combining individual segmentations for all pickable objects, including particles, in a Copick project. Can process a single run or all runs in the project.",
+    "date": "2024-10-03T12:07:40.246172",
+    "args": [
+      {
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing to use for the segmentation.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "User ID for input segmentations.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for input segmentations.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the run to process. If not provided, all runs will be processed.",
+        "name": "run_name",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the output multilabel segmentation.",
+        "name": "output_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the new multilabel segmentation.",
+        "name": "multilabel_name",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "copick",
+      "segmentation",
+      "multilabel"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 71,
+    "group": "copick",
+    "name": "binary-to-multilabel-segmentation",
+    "version": "0.0.2",
+    "title": "Create Multilabel Segmentation from Individual Segmentations",
+    "description": "Creates a multilabel segmentation by combining individual segmentations for all pickable objects, including particles, in a Copick project. Can process a single run or all runs in the project.",
+    "date": "2024-10-03T12:07:40.246172",
+    "args": [
+      {
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing to use for the segmentation.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "User ID for input segmentations.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for input segmentations.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the run to process. If not provided, all runs will be processed.",
+        "name": "run_name",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the output multilabel segmentation.",
+        "name": "output_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the new multilabel segmentation.",
+        "name": "multilabel_name",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "copick",
+      "segmentation",
+      "multilabel"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 72,
+    "group": "polnet",
+    "name": "pdb-to-pns",
+    "version": "0.3.0",
+    "title": "Generate Polnet PNS file from PDB",
+    "description": "This solution downloads PDBs and uses Polnet to convert into MRCs, and simulation-compatible textfile.",
+    "date": "2024-10-03T09:50:35.807781",
     "args": [
       {
         "description": "PDB ID for the Macromolecule to Model",
