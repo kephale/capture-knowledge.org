@@ -1,58 +1,86 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Solutions on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/solutions/</link><description>Recent content in Solutions on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 03 Oct 2024 16:51:38 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/solutions/index.xml" rel="self" type="application/rss+xml"/><item><title>Mock Annotation and XGBoost Training on Copick Data</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-1/</link><pubDate>Thu, 03 Oct 2024 16:51:38 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-1/</guid><description>&lt;p>A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Solutions on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/solutions/</link><description>Recent content in Solutions on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 04 Oct 2024 14:37:07 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/solutions/index.xml" rel="self" type="application/rss+xml"/><item><title>Mock Annotation and XGBoost Training on Copick Data</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-1/</link><pubDate>Fri, 04 Oct 2024 14:37:07 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-1/</guid><description>&lt;p>A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
 &lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
 &lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type to use for each tomogram.&lt;/li>
 &lt;li>&lt;strong>embedding_name&lt;/strong> (string): Name of the embedding features to use.&lt;/li>
-&lt;li>&lt;strong>checkpointpath&lt;/strong> (string): Path to the checkpoint file.&lt;/li>
 &lt;li>&lt;strong>input_session_id&lt;/strong> (string): Session ID for the input segmentation.&lt;/li>
 &lt;li>&lt;strong>input_user_id&lt;/strong> (string): User ID for the input segmentation.&lt;/li>
 &lt;li>&lt;strong>input_label_name&lt;/strong> (string): Name of the input label segmentation.&lt;/li>
 &lt;li>&lt;strong>num_annotation_steps&lt;/strong> (integer): Number of annotation steps to perform.&lt;/li>
 &lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the run to process.&lt;/li>
+&lt;li>&lt;strong>output_dir&lt;/strong> (string): Directory to save trained models.&lt;/li>
 &lt;li>&lt;strong>random_seed&lt;/strong> (integer): Random seed for reproducibility.&lt;/li>
-&lt;/ul></description></item><item><title>Mock Annotation and XGBoost Training on Copick Data</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-2/</link><pubDate>Thu, 03 Oct 2024 16:51:38 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-2/</guid><description>&lt;p>A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.&lt;/p>
+&lt;/ul></description></item><item><title>Mock Annotation and XGBoost Training on Copick Data</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-2/</link><pubDate>Fri, 04 Oct 2024 14:37:07 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-2/</guid><description>&lt;p>A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
 &lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
 &lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type to use for each tomogram.&lt;/li>
 &lt;li>&lt;strong>embedding_name&lt;/strong> (string): Name of the embedding features to use.&lt;/li>
-&lt;li>&lt;strong>checkpointpath&lt;/strong> (string): Path to the checkpoint file.&lt;/li>
 &lt;li>&lt;strong>input_session_id&lt;/strong> (string): Session ID for the input segmentation.&lt;/li>
 &lt;li>&lt;strong>input_user_id&lt;/strong> (string): User ID for the input segmentation.&lt;/li>
 &lt;li>&lt;strong>input_label_name&lt;/strong> (string): Name of the input label segmentation.&lt;/li>
 &lt;li>&lt;strong>num_annotation_steps&lt;/strong> (integer): Number of annotation steps to perform.&lt;/li>
 &lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the run to process.&lt;/li>
+&lt;li>&lt;strong>output_dir&lt;/strong> (string): Directory to save trained models.&lt;/li>
 &lt;li>&lt;strong>random_seed&lt;/strong> (integer): Random seed for reproducibility.&lt;/li>
-&lt;/ul></description></item><item><title>Mock Annotation and XGBoost Training on Copick Data</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-3/</link><pubDate>Thu, 03 Oct 2024 16:51:38 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-3/</guid><description>&lt;p>A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.&lt;/p>
+&lt;/ul></description></item><item><title>Mock Annotation and XGBoost Training on Copick Data</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-3/</link><pubDate>Fri, 04 Oct 2024 14:37:07 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-3/</guid><description>&lt;p>A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
 &lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
 &lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type to use for each tomogram.&lt;/li>
 &lt;li>&lt;strong>embedding_name&lt;/strong> (string): Name of the embedding features to use.&lt;/li>
-&lt;li>&lt;strong>checkpointpath&lt;/strong> (string): Path to the checkpoint file.&lt;/li>
 &lt;li>&lt;strong>input_session_id&lt;/strong> (string): Session ID for the input segmentation.&lt;/li>
 &lt;li>&lt;strong>input_user_id&lt;/strong> (string): User ID for the input segmentation.&lt;/li>
 &lt;li>&lt;strong>input_label_name&lt;/strong> (string): Name of the input label segmentation.&lt;/li>
 &lt;li>&lt;strong>num_annotation_steps&lt;/strong> (integer): Number of annotation steps to perform.&lt;/li>
 &lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the run to process.&lt;/li>
+&lt;li>&lt;strong>output_dir&lt;/strong> (string): Directory to save trained models.&lt;/li>
 &lt;li>&lt;strong>random_seed&lt;/strong> (integer): Random seed for reproducibility.&lt;/li>
-&lt;/ul></description></item><item><title>Mock Annotation and XGBoost Training on Copick Data</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-4/</link><pubDate>Thu, 03 Oct 2024 16:51:38 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-4/</guid><description>&lt;p>A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.&lt;/p>
+&lt;/ul></description></item><item><title>Mock Annotation and XGBoost Training on Copick Data</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-4/</link><pubDate>Fri, 04 Oct 2024 14:37:07 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-4/</guid><description>&lt;p>A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
 &lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
 &lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type to use for each tomogram.&lt;/li>
 &lt;li>&lt;strong>embedding_name&lt;/strong> (string): Name of the embedding features to use.&lt;/li>
-&lt;li>&lt;strong>checkpointpath&lt;/strong> (string): Path to the checkpoint file.&lt;/li>
 &lt;li>&lt;strong>input_session_id&lt;/strong> (string): Session ID for the input segmentation.&lt;/li>
 &lt;li>&lt;strong>input_user_id&lt;/strong> (string): User ID for the input segmentation.&lt;/li>
 &lt;li>&lt;strong>input_label_name&lt;/strong> (string): Name of the input label segmentation.&lt;/li>
 &lt;li>&lt;strong>num_annotation_steps&lt;/strong> (integer): Number of annotation steps to perform.&lt;/li>
 &lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the run to process.&lt;/li>
+&lt;li>&lt;strong>output_dir&lt;/strong> (string): Directory to save trained models.&lt;/li>
+&lt;li>&lt;strong>random_seed&lt;/strong> (integer): Random seed for reproducibility.&lt;/li>
+&lt;/ul></description></item><item><title>Mock Annotation and XGBoost Training on Copick Data</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-5/</link><pubDate>Fri, 04 Oct 2024 14:37:07 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-5/</guid><description>&lt;p>A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type to use for each tomogram.&lt;/li>
+&lt;li>&lt;strong>embedding_name&lt;/strong> (string): Name of the embedding features to use.&lt;/li>
+&lt;li>&lt;strong>input_session_id&lt;/strong> (string): Session ID for the input segmentation.&lt;/li>
+&lt;li>&lt;strong>input_user_id&lt;/strong> (string): User ID for the input segmentation.&lt;/li>
+&lt;li>&lt;strong>input_label_name&lt;/strong> (string): Name of the input label segmentation.&lt;/li>
+&lt;li>&lt;strong>num_annotation_steps&lt;/strong> (integer): Number of annotation steps to perform.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the run to process.&lt;/li>
+&lt;li>&lt;strong>output_dir&lt;/strong> (string): Directory to save trained models.&lt;/li>
+&lt;li>&lt;strong>random_seed&lt;/strong> (integer): Random seed for reproducibility.&lt;/li>
+&lt;/ul></description></item><item><title>Mock Annotation and XGBoost Training on Copick Data</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-6/</link><pubDate>Fri, 04 Oct 2024 14:37:07 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation/0-0-6/</guid><description>&lt;p>A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type to use for each tomogram.&lt;/li>
+&lt;li>&lt;strong>embedding_name&lt;/strong> (string): Name of the embedding features to use.&lt;/li>
+&lt;li>&lt;strong>input_session_id&lt;/strong> (string): Session ID for the input segmentation.&lt;/li>
+&lt;li>&lt;strong>input_user_id&lt;/strong> (string): User ID for the input segmentation.&lt;/li>
+&lt;li>&lt;strong>input_label_name&lt;/strong> (string): Name of the input label segmentation.&lt;/li>
+&lt;li>&lt;strong>num_annotation_steps&lt;/strong> (integer): Number of annotation steps to perform.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the run to process.&lt;/li>
+&lt;li>&lt;strong>output_dir&lt;/strong> (string): Directory to save trained models.&lt;/li>
 &lt;li>&lt;strong>random_seed&lt;/strong> (integer): Random seed for reproducibility.&lt;/li>
 &lt;/ul></description></item><item><title>Fetch Data from CryoET Data Portal and Integrate with Copick</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/project-from-dataportal/0-0-1/</link><pubDate>Thu, 03 Oct 2024 13:37:17 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/project-from-dataportal/0-0-1/</guid><description>&lt;p>Fetches tomograms, tilt series, annotations, segmentations, and metadata from cryoet_data_portal and integrates them into the specified Copick project.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>

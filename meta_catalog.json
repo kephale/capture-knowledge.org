@@ -45028,7 +45028,7 @@
     "version": "0.0.1",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-03T16:51:38.595652",
+    "date": "2024-10-04T14:37:07.881532",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45051,12 +45051,6 @@
       {
         "description": "Name of the embedding features to use.",
         "name": "embedding_name",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "description": "Path to the checkpoint file.",
-        "name": "checkpointpath",
         "required": true,
         "type": "string"
       },
@@ -45087,6 +45081,12 @@
       {
         "description": "Name of the run to process.",
         "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Directory to save trained models.",
+        "name": "output_dir",
         "required": true,
         "type": "string"
       },
@@ -45121,7 +45121,7 @@
     "version": "0.0.2",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-03T16:51:38.595652",
+    "date": "2024-10-04T14:37:07.881532",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45144,12 +45144,6 @@
       {
         "description": "Name of the embedding features to use.",
         "name": "embedding_name",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "description": "Path to the checkpoint file.",
-        "name": "checkpointpath",
         "required": true,
         "type": "string"
       },
@@ -45180,6 +45174,12 @@
       {
         "description": "Name of the run to process.",
         "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Directory to save trained models.",
+        "name": "output_dir",
         "required": true,
         "type": "string"
       },
@@ -45214,7 +45214,7 @@
     "version": "0.0.3",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-03T16:51:38.595652",
+    "date": "2024-10-04T14:37:07.881532",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45237,12 +45237,6 @@
       {
         "description": "Name of the embedding features to use.",
         "name": "embedding_name",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "description": "Path to the checkpoint file.",
-        "name": "checkpointpath",
         "required": true,
         "type": "string"
       },
@@ -45273,6 +45267,12 @@
       {
         "description": "Name of the run to process.",
         "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Directory to save trained models.",
+        "name": "output_dir",
         "required": true,
         "type": "string"
       },
@@ -45307,7 +45307,7 @@
     "version": "0.0.4",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-03T16:51:38.595652",
+    "date": "2024-10-04T14:37:07.881532",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45330,12 +45330,6 @@
       {
         "description": "Name of the embedding features to use.",
         "name": "embedding_name",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "description": "Path to the checkpoint file.",
-        "name": "checkpointpath",
         "required": true,
         "type": "string"
       },
@@ -45366,6 +45360,198 @@
       {
         "description": "Name of the run to process.",
         "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Directory to save trained models.",
+        "name": "output_dir",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "xgboost",
+      "machine learning",
+      "segmentation",
+      "training",
+      "copick",
+      "mock annotation"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 599,
+    "group": "cellcanvas",
+    "name": "mock-annotation",
+    "version": "0.0.5",
+    "title": "Mock Annotation and XGBoost Training on Copick Data",
+    "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
+    "date": "2024-10-04T14:37:07.881532",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the embedding features to use.",
+        "name": "embedding_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the input segmentation.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the input segmentation.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input label segmentation.",
+        "name": "input_label_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of annotation steps to perform.",
+        "name": "num_annotation_steps",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Name of the run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Directory to save trained models.",
+        "name": "output_dir",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "xgboost",
+      "machine learning",
+      "segmentation",
+      "training",
+      "copick",
+      "mock annotation"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 600,
+    "group": "cellcanvas",
+    "name": "mock-annotation",
+    "version": "0.0.6",
+    "title": "Mock Annotation and XGBoost Training on Copick Data",
+    "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
+    "date": "2024-10-04T14:37:07.881532",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the embedding features to use.",
+        "name": "embedding_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the input segmentation.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the input segmentation.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input label segmentation.",
+        "name": "input_label_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of annotation steps to perform.",
+        "name": "num_annotation_steps",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Name of the run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Directory to save trained models.",
+        "name": "output_dir",
         "required": true,
         "type": "string"
       },
