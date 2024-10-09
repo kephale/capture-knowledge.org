@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Solutions on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/solutions/</link><description>Recent content in Solutions on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 04 Oct 2024 22:57:58 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/solutions/index.xml" rel="self" type="application/rss+xml"/><item><title>Generate a Copick Project with polnet</title><link>https://capture-knowledge.org/solutions/copick/polnet/generate-copick-project/0-1-0/</link><pubDate>Fri, 04 Oct 2024 22:57:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/polnet/generate-copick-project/0-1-0/</guid><description>&lt;p>Generate a Copick Project Composed with polnet simulations.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Solutions on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/solutions/</link><description>Recent content in Solutions on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 08 Oct 2024 10:22:50 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/solutions/index.xml" rel="self" type="application/rss+xml"/><item><title>Model Evaluation on Copick Data</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation-evaluation/0-0-1/</link><pubDate>Tue, 08 Oct 2024 10:22:50 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation-evaluation/0-0-1/</guid><description>&lt;p>Evaluates segmentation models from the mock-annotation solution on Copick data, generating metrics like IoU and F1, and saves the predicted segmentation into the Copick project.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type to use for each tomogram.&lt;/li>
+&lt;li>&lt;strong>embedding_name&lt;/strong> (string): Name of the embedding features to use.&lt;/li>
+&lt;li>&lt;strong>input_user_id&lt;/strong> (string): User ID for the input segmentation.&lt;/li>
+&lt;li>&lt;strong>input_label_name&lt;/strong> (string): Name of the input label segmentation.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the run to process.&lt;/li>
+&lt;li>&lt;strong>model_dir&lt;/strong> (string): Directory of trained model files.&lt;/li>
+&lt;li>&lt;strong>output_dir&lt;/strong> (string): Directory to save evaluation results.&lt;/li>
+&lt;li>&lt;strong>output_user_id&lt;/strong> (string): User ID for the output predicted segmentation.&lt;/li>
+&lt;li>&lt;strong>output_label_name&lt;/strong> (string): Name of the output predicted segmentation.&lt;/li>
+&lt;/ul></description></item><item><title>Model Evaluation on Copick Data</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation-evaluation/0-0-2/</link><pubDate>Tue, 08 Oct 2024 10:22:50 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation-evaluation/0-0-2/</guid><description>&lt;p>Evaluates segmentation models from the mock-annotation solution on Copick data, generating metrics like IoU and F1, and saves the predicted segmentation into the Copick project.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type to use for each tomogram.&lt;/li>
+&lt;li>&lt;strong>embedding_name&lt;/strong> (string): Name of the embedding features to use.&lt;/li>
+&lt;li>&lt;strong>input_user_id&lt;/strong> (string): User ID for the input segmentation.&lt;/li>
+&lt;li>&lt;strong>input_label_name&lt;/strong> (string): Name of the input label segmentation.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the run to process.&lt;/li>
+&lt;li>&lt;strong>model_dir&lt;/strong> (string): Directory of trained model files.&lt;/li>
+&lt;li>&lt;strong>output_dir&lt;/strong> (string): Directory to save evaluation results.&lt;/li>
+&lt;li>&lt;strong>output_user_id&lt;/strong> (string): User ID for the output predicted segmentation.&lt;/li>
+&lt;li>&lt;strong>output_label_name&lt;/strong> (string): Name of the output predicted segmentation.&lt;/li>
+&lt;/ul></description></item><item><title>Model Evaluation on Copick Data</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation-evaluation/0-0-3/</link><pubDate>Tue, 08 Oct 2024 10:22:50 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation-evaluation/0-0-3/</guid><description>&lt;p>Evaluates segmentation models from the mock-annotation solution on Copick data, generating metrics like IoU and F1, and saves the predicted segmentation into the Copick project.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type to use for each tomogram.&lt;/li>
+&lt;li>&lt;strong>embedding_name&lt;/strong> (string): Name of the embedding features to use.&lt;/li>
+&lt;li>&lt;strong>input_user_id&lt;/strong> (string): User ID for the input segmentation.&lt;/li>
+&lt;li>&lt;strong>input_label_name&lt;/strong> (string): Name of the input label segmentation.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the run to process.&lt;/li>
+&lt;li>&lt;strong>model_dir&lt;/strong> (string): Directory of trained model files.&lt;/li>
+&lt;li>&lt;strong>output_dir&lt;/strong> (string): Directory to save evaluation results.&lt;/li>
+&lt;li>&lt;strong>output_user_id&lt;/strong> (string): User ID for the output predicted segmentation.&lt;/li>
+&lt;li>&lt;strong>output_label_name&lt;/strong> (string): Name of the output predicted segmentation.&lt;/li>
+&lt;/ul></description></item><item><title>Generate a Copick Project with polnet</title><link>https://capture-knowledge.org/solutions/copick/polnet/generate-copick-project/0-1-0/</link><pubDate>Fri, 04 Oct 2024 22:57:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/polnet/generate-copick-project/0-1-0/</guid><description>&lt;p>Generate a Copick Project Composed with polnet simulations.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file&lt;/li>
