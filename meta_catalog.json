@@ -5328,7 +5328,7 @@
     "version": "0.0.3",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -5665,7 +5665,7 @@
     "version": "0.1.0",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -5744,7 +5744,7 @@
     "version": "0.1.1",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -5823,7 +5823,7 @@
     "version": "0.1.2",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -5902,7 +5902,7 @@
     "version": "0.1.3",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -6067,7 +6067,7 @@
     "version": "0.1.4",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -6146,7 +6146,7 @@
     "version": "0.1.5",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -6225,7 +6225,7 @@
     "version": "0.1.6",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -6648,7 +6648,7 @@
     "version": "0.1.7",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -7466,7 +7466,7 @@
     "version": "0.1.8",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -7545,7 +7545,7 @@
     "version": "0.1.9",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -7796,7 +7796,7 @@
     "version": "0.0.1",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -10891,7 +10891,7 @@
     "version": "0.1.10",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -18404,7 +18404,7 @@
     "version": "0.1.0",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -18493,7 +18493,7 @@
     "version": "0.1.1",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -18582,7 +18582,7 @@
     "version": "0.1.2",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -18671,7 +18671,7 @@
     "version": "0.1.3",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -18760,7 +18760,7 @@
     "version": "0.1.4",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -18849,7 +18849,7 @@
     "version": "0.1.5",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -18938,7 +18938,7 @@
     "version": "0.1.6",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -19027,7 +19027,7 @@
     "version": "0.1.8",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -19116,7 +19116,7 @@
     "version": "0.1.9",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -19205,7 +19205,7 @@
     "version": "0.1.10",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -19294,7 +19294,7 @@
     "version": "0.1.12",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -19383,7 +19383,7 @@
     "version": "0.1.13",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -19472,7 +19472,7 @@
     "version": "0.1.11",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -19551,7 +19551,7 @@
     "version": "0.1.12",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -24125,7 +24125,7 @@
     "version": "0.2.0",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -24204,7 +24204,7 @@
     "version": "0.2.1",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -24481,7 +24481,7 @@
     "version": "0.0.1",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-10-03T10:23:08.708711",
+    "date": "2024-10-09T10:24:22.867277",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -24577,7 +24577,7 @@
     "version": "0.0.2",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-10-03T10:23:08.708711",
+    "date": "2024-10-09T10:24:22.867277",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -24673,7 +24673,7 @@
     "version": "0.0.3",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-10-03T10:23:08.708711",
+    "date": "2024-10-09T10:24:22.867277",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -24769,7 +24769,7 @@
     "version": "0.0.4",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-10-03T10:23:08.708711",
+    "date": "2024-10-09T10:24:22.867277",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -24865,7 +24865,7 @@
     "version": "0.0.5",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-10-03T10:23:08.708711",
+    "date": "2024-10-09T10:24:22.867277",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -24961,7 +24961,7 @@
     "version": "0.0.6",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-10-03T10:23:08.708711",
+    "date": "2024-10-09T10:24:22.867277",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -25057,7 +25057,7 @@
     "version": "0.0.8",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-10-03T10:23:08.708711",
+    "date": "2024-10-09T10:24:22.867277",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -25153,7 +25153,7 @@
     "version": "0.0.9",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-10-03T10:23:08.708711",
+    "date": "2024-10-09T10:24:22.867277",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -25249,7 +25249,7 @@
     "version": "0.0.10",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-10-03T10:23:08.708711",
+    "date": "2024-10-09T10:24:22.867277",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -25345,7 +25345,7 @@
     "version": "0.0.11",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-10-03T10:23:08.708711",
+    "date": "2024-10-09T10:24:22.867277",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -25441,7 +25441,7 @@
     "version": "0.1.14",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -25530,7 +25530,7 @@
     "version": "0.1.15",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -25619,7 +25619,7 @@
     "version": "0.1.16",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -25708,7 +25708,7 @@
     "version": "0.1.17",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -34879,7 +34879,7 @@
     "version": "0.0.12",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-10-03T10:23:08.708711",
+    "date": "2024-10-09T10:24:22.867277",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -35911,7 +35911,7 @@
     "version": "0.2.2",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -41881,7 +41881,7 @@
     "version": "0.1.18",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-11T10:20:56.314627",
+    "date": "2024-10-08T21:55:57.859440",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -42259,7 +42259,7 @@
     "version": "0.2.3",
     "title": "Paint Copick Picks into a Segmentation Layer",
     "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
-    "date": "2024-08-11T10:22:33.317725",
+    "date": "2024-10-09T13:13:53.969008",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -42775,7 +42775,7 @@
     "version": "0.0.13",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-10-03T10:23:08.708711",
+    "date": "2024-10-09T10:24:22.867277",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -44637,7 +44637,7 @@
     "version": "0.0.14",
     "title": "Submit Album Job Array",
     "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
-    "date": "2024-10-03T10:23:08.708711",
+    "date": "2024-10-09T10:24:22.867277",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45028,7 +45028,7 @@
     "version": "0.0.1",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-04T14:37:07.881532",
+    "date": "2024-10-09T05:52:28.170995",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45121,7 +45121,7 @@
     "version": "0.0.2",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-04T14:37:07.881532",
+    "date": "2024-10-09T05:52:28.170995",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45214,7 +45214,7 @@
     "version": "0.0.3",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-04T14:37:07.881532",
+    "date": "2024-10-09T05:52:28.170995",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45307,7 +45307,7 @@
     "version": "0.0.4",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-04T14:37:07.881532",
+    "date": "2024-10-09T05:52:28.170995",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45400,7 +45400,7 @@
     "version": "0.0.5",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-04T14:37:07.881532",
+    "date": "2024-10-09T05:52:28.170995",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45493,7 +45493,7 @@
     "version": "0.0.6",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-04T14:37:07.881532",
+    "date": "2024-10-09T05:52:28.170995",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45847,6 +45847,600 @@
       "machine learning",
       "segmentation",
       "evaluation",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 604,
+    "group": "copick",
+    "name": "generate-skimage-features",
+    "version": "0.1.19",
+    "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
+    "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
+    "date": "2024-10-08T21:55:57.859440",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing to be used.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram to process.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the feature type to be saved.",
+        "name": "feature_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": true,
+        "description": "Include intensity features",
+        "name": "intensity",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": true,
+        "description": "Include edge features",
+        "name": "edges",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": true,
+        "description": "Include texture features",
+        "name": "texture",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": 0.5,
+        "description": "Minimum sigma for Gaussian blurring",
+        "name": "sigma_min",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 16.0,
+        "description": "Maximum sigma for Gaussian blurring",
+        "name": "sigma_max",
+        "required": false,
+        "type": "float"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "feature extraction",
+      "image processing",
+      "cryoet",
+      "tomogram"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 605,
+    "group": "cellcanvas",
+    "name": "mock-annotation",
+    "version": "0.0.7",
+    "title": "Mock Annotation and XGBoost Training on Copick Data",
+    "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
+    "date": "2024-10-09T05:52:28.170995",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the embedding features to use.",
+        "name": "embedding_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the input segmentation.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the input segmentation.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input label segmentation.",
+        "name": "input_label_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of annotation steps to perform.",
+        "name": "num_annotation_steps",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Name of the run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Directory to save trained models.",
+        "name": "output_dir",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "xgboost",
+      "machine learning",
+      "segmentation",
+      "training",
+      "copick",
+      "mock annotation"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 606,
+    "group": "copick",
+    "name": "paint-from-picks",
+    "version": "0.2.4",
+    "title": "Paint Copick Picks into a Segmentation Layer",
+    "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
+    "date": "2024-10-09T13:13:53.969008",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the painting segmentation.",
+        "name": "painting_segmentation_name",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the segmentation.",
+        "name": "session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for segmentation creation.",
+        "name": "user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Factor to scale the particle radius for the ball radius.",
+        "name": "ball_radius_factor",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of user IDs to include in the painting.",
+        "name": "allowlist_user_ids",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Type of tomogram to use (e.g., denoised).",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "data analysis",
+      "zarr",
+      "segmentation",
+      "painting",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 607,
+    "group": "copick",
+    "name": "paint-from-picks",
+    "version": "0.2.5",
+    "title": "Paint Copick Picks into a Segmentation Layer",
+    "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
+    "date": "2024-10-09T13:13:53.969008",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the painting segmentation.",
+        "name": "painting_segmentation_name",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the segmentation.",
+        "name": "session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for segmentation creation.",
+        "name": "user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Factor to scale the particle radius for the ball radius.",
+        "name": "ball_radius_factor",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of user IDs to include in the painting.",
+        "name": "allowlist_user_ids",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Type of tomogram to use (e.g., denoised).",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "data analysis",
+      "zarr",
+      "segmentation",
+      "painting",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 608,
+    "group": "copick",
+    "name": "submit-album-job-array",
+    "version": "0.0.15",
+    "title": "Submit Album Job Array",
+    "description": "Submit another album solution to Slurm as a job array by using the runs in a Copick project.",
+    "date": "2024-10-09T10:24:22.867277",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the album solution to run.",
+        "name": "album_solution_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the album executable.",
+        "name": "album_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Slurm partition to use.",
+        "name": "slurm_partition",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "24:00:00",
+        "description": "Time limit for the Slurm job (e.g., 01:00:00 for 1 hour).",
+        "name": "slurm_time",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "128G",
+        "description": "Memory limit for the Slurm job (e.g., 125G for 125 GB).",
+        "name": "slurm_memory",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": 24,
+        "description": "Number of CPUs per Slurm task.",
+        "name": "slurm_cpus_per_task",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 0,
+        "description": "Number of GPUs per Slurm task.",
+        "name": "slurm_gpus",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "description": "Slurm module commands to load necessary modules (e.g., module load cuda/11.8.0_520.61.05\\nmodule load cudnn/8.8.1.3_cuda11).",
+        "name": "slurm_module_commands",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Additional arguments to pass to the album solution.",
+        "name": "extra_args",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": true,
+        "description": "Whether to submit the job to Slurm or just print the submission command and script.",
+        "name": "submit_job",
+        "required": false,
+        "type": "boolean"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "slurm",
+      "job array",
+      "album",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 609,
+    "group": "copick",
+    "name": "paint-from-picks",
+    "version": "0.2.6",
+    "title": "Paint Copick Picks into a Segmentation Layer",
+    "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
+    "date": "2024-10-09T13:13:53.969008",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the painting segmentation.",
+        "name": "painting_segmentation_name",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the segmentation.",
+        "name": "session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for segmentation creation.",
+        "name": "user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Factor to scale the particle radius for the ball radius.",
+        "name": "ball_radius_factor",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of user IDs to include in the painting.",
+        "name": "allowlist_user_ids",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Type of tomogram to use (e.g., denoised).",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "data analysis",
+      "zarr",
+      "segmentation",
+      "painting",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 610,
+    "group": "copick",
+    "name": "paint-from-picks",
+    "version": "0.2.7",
+    "title": "Paint Copick Picks into a Segmentation Layer",
+    "description": "A solution that paints picks from a Copick project into a segmentation layer in Zarr.",
+    "date": "2024-10-09T13:13:53.969008",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the painting segmentation.",
+        "name": "painting_segmentation_name",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the segmentation.",
+        "name": "session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for segmentation creation.",
+        "name": "user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Factor to scale the particle radius for the ball radius.",
+        "name": "ball_radius_factor",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of user IDs to include in the painting.",
+        "name": "allowlist_user_ids",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Type of tomogram to use (e.g., denoised).",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "data analysis",
+      "zarr",
+      "segmentation",
+      "painting",
       "copick"
     ]
   },
@@ -51298,7 +51892,7 @@
     "version": "0.1.0",
     "title": "Generate Polnet PNS file from PDB",
     "description": "This solution downloads PDBs and uses Polnet to convert into MRCs, and simulation-compatible textfile.",
-    "date": "2024-10-03T09:50:35.807781",
+    "date": "2024-10-08T22:11:27.342160",
     "args": [
       {
         "description": "PDB ID for the Macromolecule to Model",
@@ -51414,7 +52008,7 @@
     "version": "0.2.0",
     "title": "Generate Polnet PNS file from PDB",
     "description": "This solution downloads PDBs and uses Polnet to convert into MRCs, and simulation-compatible textfile.",
-    "date": "2024-10-03T09:50:35.807781",
+    "date": "2024-10-08T22:11:27.342160",
     "args": [
       {
         "description": "PDB ID for the Macromolecule to Model",
@@ -51654,13 +52248,13 @@
   {
     "catalog_name": "copick",
     "catalog_url": "https://github.com/copick/copick-catalog.git",
-    "solution_id": 72,
+    "solution_id": 74,
     "group": "polnet",
     "name": "pdb-to-pns",
     "version": "0.3.0",
     "title": "Generate Polnet PNS file from PDB",
     "description": "This solution downloads PDBs and uses Polnet to convert into MRCs, and simulation-compatible textfile.",
-    "date": "2024-10-03T09:50:35.807781",
+    "date": "2024-10-08T22:11:27.342160",
     "args": [
       {
         "description": "PDB ID for the Macromolecule to Model",
@@ -51770,13 +52364,13 @@
   {
     "catalog_name": "copick",
     "catalog_url": "https://github.com/copick/copick-catalog.git",
-    "solution_id": 73,
+    "solution_id": 75,
     "group": "polnet",
     "name": "generate-copick-project",
     "version": "0.1.0",
     "title": "Generate a Copick Project with polnet",
     "description": "Generate a Copick Project Composed with polnet simulations.",
-    "date": "2024-10-04T22:57:58.281763",
+    "date": "2024-10-09T00:45:00.963428",
     "args": [
       {
         "description": "Path to the Copick configuration file",
@@ -51855,6 +52449,1612 @@
       "deep learning",
       "cryoet",
       "tomogram"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 76,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.1",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 77,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.2",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 78,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.3",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 79,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.4",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 80,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.5",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 81,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.6",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 82,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.7",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 83,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.8",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 84,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.9",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 85,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.10",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 86,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.11",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 87,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.12",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 88,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.13",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 89,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.14",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 91,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.16",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 92,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.17",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 93,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.18",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 94,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.19",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 95,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.20",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 96,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.15",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 97,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.21",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 98,
+    "group": "model-search",
+    "name": "unet-model-search",
+    "version": "0.0.22",
+    "title": "UNet with Optuna optimization",
+    "description": "Optimization of UNet using Optuna with Copick data.",
+    "date": "2024-10-09T17:42:04.481458",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of training epochs.",
+        "name": "epochs",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of classes for segmentation, excluding the background class.",
+        "name": "num_classes",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Number of trials for Optuna optimization.",
+        "name": "num_trials",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Batch size for the DataLoader.",
+        "name": "batch_size",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington and Zhuowen Zhao"
+    ],
+    "license": "MIT",
+    "tags": [
+      "unet",
+      "copick",
+      "optuna",
+      "segmentation"
     ]
   },
   {
