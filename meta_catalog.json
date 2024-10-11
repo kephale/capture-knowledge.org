@@ -8,7 +8,7 @@
     "version": "0.0.5",
     "title": "First portable CellCanvas demo.",
     "description": "First portable CellCanvas demo",
-    "date": "2024-02-15T10:29:54.359355",
+    "date": "2024-10-10T16:49:49.182846",
     "args": [
       {
         "description": "Path for the Zarr file",
@@ -45028,7 +45028,7 @@
     "version": "0.0.1",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-09T05:52:28.170995",
+    "date": "2024-10-10T15:18:37.142871",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45096,6 +45096,13 @@
         "name": "random_seed",
         "required": false,
         "type": "integer"
+      },
+      {
+        "default": "cpu",
+        "description": "Device to use for XGBoost training (cpu or cuda).",
+        "name": "device",
+        "required": false,
+        "type": "string"
       }
     ],
     "citation": [],
@@ -45121,7 +45128,7 @@
     "version": "0.0.2",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-09T05:52:28.170995",
+    "date": "2024-10-10T15:18:37.142871",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45189,6 +45196,13 @@
         "name": "random_seed",
         "required": false,
         "type": "integer"
+      },
+      {
+        "default": "cpu",
+        "description": "Device to use for XGBoost training (cpu or cuda).",
+        "name": "device",
+        "required": false,
+        "type": "string"
       }
     ],
     "citation": [],
@@ -45214,7 +45228,7 @@
     "version": "0.0.3",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-09T05:52:28.170995",
+    "date": "2024-10-10T15:18:37.142871",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45282,6 +45296,13 @@
         "name": "random_seed",
         "required": false,
         "type": "integer"
+      },
+      {
+        "default": "cpu",
+        "description": "Device to use for XGBoost training (cpu or cuda).",
+        "name": "device",
+        "required": false,
+        "type": "string"
       }
     ],
     "citation": [],
@@ -45307,7 +45328,7 @@
     "version": "0.0.4",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-09T05:52:28.170995",
+    "date": "2024-10-10T15:18:37.142871",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45375,6 +45396,13 @@
         "name": "random_seed",
         "required": false,
         "type": "integer"
+      },
+      {
+        "default": "cpu",
+        "description": "Device to use for XGBoost training (cpu or cuda).",
+        "name": "device",
+        "required": false,
+        "type": "string"
       }
     ],
     "citation": [],
@@ -45400,7 +45428,7 @@
     "version": "0.0.5",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-09T05:52:28.170995",
+    "date": "2024-10-10T15:18:37.142871",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45468,6 +45496,13 @@
         "name": "random_seed",
         "required": false,
         "type": "integer"
+      },
+      {
+        "default": "cpu",
+        "description": "Device to use for XGBoost training (cpu or cuda).",
+        "name": "device",
+        "required": false,
+        "type": "string"
       }
     ],
     "citation": [],
@@ -45493,7 +45528,7 @@
     "version": "0.0.6",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-09T05:52:28.170995",
+    "date": "2024-10-10T15:18:37.142871",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45561,6 +45596,13 @@
         "name": "random_seed",
         "required": false,
         "type": "integer"
+      },
+      {
+        "default": "cpu",
+        "description": "Device to use for XGBoost training (cpu or cuda).",
+        "name": "device",
+        "required": false,
+        "type": "string"
       }
     ],
     "citation": [],
@@ -45948,7 +45990,7 @@
     "version": "0.0.7",
     "title": "Mock Annotation and XGBoost Training on Copick Data",
     "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
-    "date": "2024-10-09T05:52:28.170995",
+    "date": "2024-10-10T15:18:37.142871",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -46016,6 +46058,13 @@
         "name": "random_seed",
         "required": false,
         "type": "integer"
+      },
+      {
+        "default": "cpu",
+        "description": "Device to use for XGBoost training (cpu or cuda).",
+        "name": "device",
+        "required": false,
+        "type": "string"
       }
     ],
     "citation": [],
@@ -46442,6 +46491,821 @@
       "segmentation",
       "painting",
       "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 611,
+    "group": "cellcanvas",
+    "name": "mock-annotation",
+    "version": "0.0.8",
+    "title": "Mock Annotation and XGBoost Training on Copick Data",
+    "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
+    "date": "2024-10-10T15:18:37.142871",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the embedding features to use.",
+        "name": "embedding_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the input segmentation.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the input segmentation.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input label segmentation.",
+        "name": "input_label_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of annotation steps to perform.",
+        "name": "num_annotation_steps",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Name of the run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Directory to save trained models.",
+        "name": "output_dir",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": "cpu",
+        "description": "Device to use for XGBoost training (cpu or cuda).",
+        "name": "device",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "xgboost",
+      "machine learning",
+      "segmentation",
+      "training",
+      "copick",
+      "mock annotation"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 612,
+    "group": "cellcanvas",
+    "name": "mock-annotation",
+    "version": "0.0.9",
+    "title": "Mock Annotation and XGBoost Training on Copick Data",
+    "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
+    "date": "2024-10-10T15:18:37.142871",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the embedding features to use.",
+        "name": "embedding_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the input segmentation.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the input segmentation.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input label segmentation.",
+        "name": "input_label_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of annotation steps to perform.",
+        "name": "num_annotation_steps",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Name of the run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Directory to save trained models.",
+        "name": "output_dir",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": "cpu",
+        "description": "Device to use for XGBoost training (cpu or cuda).",
+        "name": "device",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "xgboost",
+      "machine learning",
+      "segmentation",
+      "training",
+      "copick",
+      "mock annotation"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 613,
+    "group": "cellcanvas",
+    "name": "mock-annotation",
+    "version": "0.0.10",
+    "title": "Mock Annotation and XGBoost Training on Copick Data",
+    "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
+    "date": "2024-10-10T15:18:37.142871",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the embedding features to use.",
+        "name": "embedding_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the input segmentation.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the input segmentation.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input label segmentation.",
+        "name": "input_label_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of annotation steps to perform.",
+        "name": "num_annotation_steps",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Name of the run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Directory to save trained models.",
+        "name": "output_dir",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": "cpu",
+        "description": "Device to use for XGBoost training (cpu or cuda).",
+        "name": "device",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "xgboost",
+      "machine learning",
+      "segmentation",
+      "training",
+      "copick",
+      "mock annotation"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 614,
+    "group": "cellcanvas",
+    "name": "mock-annotation",
+    "version": "0.0.11",
+    "title": "Mock Annotation and XGBoost Training on Copick Data",
+    "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
+    "date": "2024-10-10T15:18:37.142871",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the embedding features to use.",
+        "name": "embedding_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the input segmentation.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the input segmentation.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input label segmentation.",
+        "name": "input_label_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of annotation steps to perform.",
+        "name": "num_annotation_steps",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Name of the run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Directory to save trained models.",
+        "name": "output_dir",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": "cpu",
+        "description": "Device to use for XGBoost training (cpu or cuda).",
+        "name": "device",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "xgboost",
+      "machine learning",
+      "segmentation",
+      "training",
+      "copick",
+      "mock annotation"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 615,
+    "group": "cellcanvas",
+    "name": "mock-annotation-torch",
+    "version": "0.0.1",
+    "title": "Mock Annotation and PyTorch Training on Copick Data",
+    "description": "A solution that creates mock annotations based on multilabel segmentation, trains a PyTorch segmentation model in steps, and generates predictions.",
+    "date": "2024-10-10T13:35:57.682998",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the embedding features to use.",
+        "name": "embedding_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the input segmentation.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the input segmentation.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input label segmentation.",
+        "name": "input_label_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of annotation steps to perform.",
+        "name": "num_annotation_steps",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Name of the run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Directory to save trained models.",
+        "name": "output_dir",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "pytorch",
+      "machine learning",
+      "segmentation",
+      "training",
+      "copick",
+      "mock annotation"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 616,
+    "group": "cellcanvas",
+    "name": "mock-annotation-torch",
+    "version": "0.0.2",
+    "title": "Mock Annotation and PyTorch Training on Copick Data",
+    "description": "A solution that creates mock annotations based on multilabel segmentation, trains a PyTorch segmentation model in steps, and generates predictions.",
+    "date": "2024-10-10T13:35:57.682998",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the embedding features to use.",
+        "name": "embedding_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the input segmentation.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the input segmentation.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input label segmentation.",
+        "name": "input_label_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of annotation steps to perform.",
+        "name": "num_annotation_steps",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Name of the run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Directory to save trained models.",
+        "name": "output_dir",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "pytorch",
+      "machine learning",
+      "segmentation",
+      "training",
+      "copick",
+      "mock annotation"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 617,
+    "group": "cellcanvas",
+    "name": "mock-annotation-torch",
+    "version": "0.0.3",
+    "title": "Mock Annotation and PyTorch Training on Copick Data",
+    "description": "A solution that creates mock annotations based on multilabel segmentation, trains a PyTorch segmentation model in steps, and generates predictions.",
+    "date": "2024-10-10T13:35:57.682998",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the embedding features to use.",
+        "name": "embedding_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the input segmentation.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the input segmentation.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input label segmentation.",
+        "name": "input_label_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of annotation steps to perform.",
+        "name": "num_annotation_steps",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Name of the run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Directory to save trained models.",
+        "name": "output_dir",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "pytorch",
+      "machine learning",
+      "segmentation",
+      "training",
+      "copick",
+      "mock annotation"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 618,
+    "group": "cellcanvas",
+    "name": "mock-annotation",
+    "version": "0.0.12",
+    "title": "Mock Annotation and XGBoost Training on Copick Data",
+    "description": "A solution that creates mock annotations based on multilabel segmentation, trains XGBoost models in steps, and generates predictions.",
+    "date": "2024-10-10T15:18:37.142871",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the embedding features to use.",
+        "name": "embedding_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the input segmentation.",
+        "name": "input_session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for the input segmentation.",
+        "name": "input_user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input label segmentation.",
+        "name": "input_label_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Number of annotation steps to perform.",
+        "name": "num_annotation_steps",
+        "required": true,
+        "type": "integer"
+      },
+      {
+        "description": "Name of the run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Directory to save trained models.",
+        "name": "output_dir",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 17171,
+        "description": "Random seed for reproducibility.",
+        "name": "random_seed",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": "cpu",
+        "description": "Device to use for XGBoost training (cpu or cuda).",
+        "name": "device",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "xgboost",
+      "machine learning",
+      "segmentation",
+      "training",
+      "copick",
+      "mock annotation"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 619,
+    "group": "cellcanvas",
+    "name": "demo_v1",
+    "version": "0.0.6",
+    "title": "First portable CellCanvas demo.",
+    "description": "First portable CellCanvas demo",
+    "date": "2024-10-10T16:49:49.182846",
+    "args": [
+      {
+        "description": "Path for the Zarr file",
+        "name": "zarr_path",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [
+      {
+        "text": "Kyle Harrington.",
+        "url": "https://cellcanvas.org"
+      }
+    ],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "imaging",
+      "cryoet",
+      "Python",
+      "napari",
+      "cellcanvas"
     ]
   },
   {
@@ -52364,96 +53228,6 @@
   {
     "catalog_name": "copick",
     "catalog_url": "https://github.com/copick/copick-catalog.git",
-    "solution_id": 75,
-    "group": "polnet",
-    "name": "generate-copick-project",
-    "version": "0.1.0",
-    "title": "Generate a Copick Project with polnet",
-    "description": "Generate a Copick Project Composed with polnet simulations.",
-    "date": "2024-10-09T00:45:00.963428",
-    "args": [
-      {
-        "description": "Path to the Copick configuration file",
-        "name": "copick_config_path",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "default": 1,
-        "description": "Number of Tomograms to Produce Per Specified SNR",
-        "name": "num_tomos_per_snr",
-        "required": false,
-        "type": "integer"
-      },
-      {
-        "default": "0.5",
-        "description": "Comma-separated list of SNRs to Apply to Tomograms",
-        "name": "snr",
-        "required": false,
-        "type": "string"
-      },
-      {
-        "default": "-60,60,3",
-        "description": "Comma-separated List of Min,Max and Increment for the Tilt Range",
-        "name": "tilt_range",
-        "required": false,
-        "type": "string"
-      },
-      {
-        "default": "630,630,200",
-        "description": "Comma-separated List of Tomogram Dimensions (in Pixels)",
-        "name": "tomo_shape",
-        "required": false,
-        "type": "string"
-      },
-      {
-        "default": 10,
-        "description": "Voxel Size for Simulated Tomograms",
-        "name": "voxel_size",
-        "required": false,
-        "type": "float"
-      },
-      {
-        "description": "Comma-separated list of protein file paths",
-        "name": "proteins_list",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "default": "",
-        "description": "Comma-separated list of membrane protein file paths",
-        "name": "mb_proteins_list",
-        "required": false,
-        "type": "string"
-      },
-      {
-        "default": "",
-        "description": "Comma-separated list of membrane file paths",
-        "name": "membranes_list",
-        "required": false,
-        "type": "string"
-      }
-    ],
-    "citation": [
-      {
-        "text": "Martinez-Sanchez A.*, Jasnin M., Phelippeau H. and Lamm L. Simulating the cellular context in synthetic datasets for cryo-electron tomography, bioRxiv.",
-        "url": "https://github.com/anmartinezs/polnet"
-      }
-    ],
-    "authors": [
-      "Jonathan Schwartz and Kyle Harrington"
-    ],
-    "license": "MIT",
-    "tags": [
-      "synthetic data",
-      "deep learning",
-      "cryoet",
-      "tomogram"
-    ]
-  },
-  {
-    "catalog_name": "copick",
-    "catalog_url": "https://github.com/copick/copick-catalog.git",
     "solution_id": 76,
     "group": "model-search",
     "name": "unet-model-search",
@@ -54055,6 +54829,96 @@
       "copick",
       "optuna",
       "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 99,
+    "group": "polnet",
+    "name": "generate-copick-project",
+    "version": "0.1.0",
+    "title": "Generate a Copick Project with polnet",
+    "description": "Generate a Copick Project Composed with polnet simulations.",
+    "date": "2024-10-09T20:24:44.664237",
+    "args": [
+      {
+        "description": "Path to the Copick configuration file",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 1,
+        "description": "Number of Tomograms to Produce Per Specified SNR",
+        "name": "num_tomos_per_snr",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": "0.5",
+        "description": "Comma-separated list of SNRs to Apply to Tomograms",
+        "name": "snr",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "-60,60,3",
+        "description": "Comma-separated List of Min,Max and Increment for the Tilt Range",
+        "name": "tilt_range",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "630,630,200",
+        "description": "Comma-separated List of Tomogram Dimensions (in Pixels)",
+        "name": "tomo_shape",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": 10,
+        "description": "Voxel Size for Simulated Tomograms",
+        "name": "voxel_size",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "description": "Comma-separated list of protein file paths",
+        "name": "proteins_list",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Comma-separated list of membrane protein file paths",
+        "name": "mb_proteins_list",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Comma-separated list of membrane file paths",
+        "name": "membranes_list",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [
+      {
+        "text": "Martinez-Sanchez A.*, Jasnin M., Phelippeau H. and Lamm L. Simulating the cellular context in synthetic datasets for cryo-electron tomography, bioRxiv.",
+        "url": "https://github.com/anmartinezs/polnet"
+      }
+    ],
+    "authors": [
+      "Jonathan Schwartz and Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "synthetic data",
+      "deep learning",
+      "cryoet",
+      "tomogram"
     ]
   },
   {
