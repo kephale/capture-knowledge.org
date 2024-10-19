@@ -7796,7 +7796,7 @@
     "version": "0.0.1",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -14240,7 +14240,7 @@
     "version": "0.0.1",
     "title": "Predict a Multilabel Segmentation Using a Model",
     "description": "A solution that predicts segmentation using a model for a Copick project and saves it as 'predictionsegmentation'.",
-    "date": "2024-08-11T10:14:21.537779",
+    "date": "2024-10-18T14:54:46.161031",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -14264,7 +14264,7 @@
         "description": "Voxel spacing used to scale pick locations.",
         "name": "voxel_spacing",
         "required": true,
-        "type": "integer"
+        "type": "float"
       },
       {
         "description": "Name of the Copick run to process.",
@@ -14319,7 +14319,7 @@
     "version": "0.0.2",
     "title": "Predict a Multilabel Segmentation Using a Model",
     "description": "A solution that predicts segmentation using a model for a Copick project and saves it as 'predictionsegmentation'.",
-    "date": "2024-08-11T10:14:21.537779",
+    "date": "2024-10-18T14:54:46.161031",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -14343,7 +14343,7 @@
         "description": "Voxel spacing used to scale pick locations.",
         "name": "voxel_spacing",
         "required": true,
-        "type": "integer"
+        "type": "float"
       },
       {
         "description": "Name of the Copick run to process.",
@@ -18404,7 +18404,7 @@
     "version": "0.1.0",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -18493,7 +18493,7 @@
     "version": "0.1.1",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -18582,7 +18582,7 @@
     "version": "0.1.2",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -18671,7 +18671,7 @@
     "version": "0.1.3",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -18760,7 +18760,7 @@
     "version": "0.1.4",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -18849,7 +18849,7 @@
     "version": "0.1.5",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -18938,7 +18938,7 @@
     "version": "0.1.6",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -19027,7 +19027,7 @@
     "version": "0.1.8",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -19116,7 +19116,7 @@
     "version": "0.1.9",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -19205,7 +19205,7 @@
     "version": "0.1.10",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -19294,7 +19294,7 @@
     "version": "0.1.12",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -19383,7 +19383,7 @@
     "version": "0.1.13",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -25441,7 +25441,7 @@
     "version": "0.1.14",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -25530,7 +25530,7 @@
     "version": "0.1.15",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -25619,7 +25619,7 @@
     "version": "0.1.16",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -25708,7 +25708,7 @@
     "version": "0.1.17",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -40537,7 +40537,7 @@
     "version": "0.0.3",
     "title": "Predict a Multilabel Segmentation Using a Model",
     "description": "A solution that predicts segmentation using a model for a Copick project and saves it as 'predictionsegmentation'.",
-    "date": "2024-08-11T10:14:21.537779",
+    "date": "2024-10-18T14:54:46.161031",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -40561,7 +40561,7 @@
         "description": "Voxel spacing used to scale pick locations.",
         "name": "voxel_spacing",
         "required": true,
-        "type": "integer"
+        "type": "float"
       },
       {
         "description": "Name of the Copick run to process.",
@@ -41881,7 +41881,7 @@
     "version": "0.1.18",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -44240,7 +44240,7 @@
     "version": "0.0.1",
     "title": "Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-08-13T15:39:28.095763",
+    "date": "2024-10-18T13:44:52.193107",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -45901,7 +45901,7 @@
     "version": "0.1.19",
     "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-08T21:55:57.859440",
+    "date": "2024-10-18T13:03:28.433983",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -47306,6 +47306,431 @@
       "Python",
       "napari",
       "cellcanvas"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 620,
+    "group": "copick",
+    "name": "generate-skimage-features",
+    "version": "0.1.20",
+    "title": "Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)",
+    "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
+    "date": "2024-10-18T13:03:28.433983",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing to be used.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram to process.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the feature type to be saved.",
+        "name": "feature_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": true,
+        "description": "Include intensity features",
+        "name": "intensity",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": true,
+        "description": "Include edge features",
+        "name": "edges",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": true,
+        "description": "Include texture features",
+        "name": "texture",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": 0.5,
+        "description": "Minimum sigma for Gaussian blurring",
+        "name": "sigma_min",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 16.0,
+        "description": "Maximum sigma for Gaussian blurring",
+        "name": "sigma_max",
+        "required": false,
+        "type": "float"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "feature extraction",
+      "image processing",
+      "cryoet",
+      "tomogram"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 621,
+    "group": "copick",
+    "name": "generate-torch-basic-features",
+    "version": "0.0.2",
+    "title": "Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)",
+    "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
+    "date": "2024-10-18T13:44:52.193107",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing to be used.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram to process.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the feature type to be saved.",
+        "name": "feature_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": true,
+        "description": "Include intensity features",
+        "name": "intensity",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": true,
+        "description": "Include edge features",
+        "name": "edges",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": true,
+        "description": "Include texture features",
+        "name": "texture",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": 0.5,
+        "description": "Minimum sigma for Gaussian blurring",
+        "name": "sigma_min",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 16.0,
+        "description": "Maximum sigma for Gaussian blurring",
+        "name": "sigma_max",
+        "required": false,
+        "type": "float"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "feature extraction",
+      "image processing",
+      "cryoet",
+      "tomogram"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 622,
+    "group": "copick",
+    "name": "generate-torch-basic-features",
+    "version": "0.0.3",
+    "title": "Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)",
+    "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
+    "date": "2024-10-18T13:44:52.193107",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing to be used.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram to process.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the feature type to be saved.",
+        "name": "feature_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": true,
+        "description": "Include intensity features",
+        "name": "intensity",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": true,
+        "description": "Include edge features",
+        "name": "edges",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": true,
+        "description": "Include texture features",
+        "name": "texture",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": 0.5,
+        "description": "Minimum sigma for Gaussian blurring",
+        "name": "sigma_min",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 16.0,
+        "description": "Maximum sigma for Gaussian blurring",
+        "name": "sigma_max",
+        "required": false,
+        "type": "float"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "feature extraction",
+      "image processing",
+      "cryoet",
+      "tomogram"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 623,
+    "group": "cellcanvas",
+    "name": "segment-tomogram-xgboost",
+    "version": "0.0.4",
+    "title": "Predict a Multilabel Segmentation Using a Model",
+    "description": "A solution that predicts segmentation using a model for a Copick project and saves it as 'predictionsegmentation'.",
+    "date": "2024-10-18T14:54:46.161031",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the segmentation.",
+        "name": "session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for segmentation creation.",
+        "name": "user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the trained model file.",
+        "name": "model_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Type of tomogram to use, e.g., denoised.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.",
+        "name": "feature_names",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the output segmentation.",
+        "name": "segmentation_name",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "data analysis",
+      "zarr",
+      "segmentation",
+      "prediction",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 624,
+    "group": "cellcanvas",
+    "name": "segment-tomogram-xgboost",
+    "version": "0.0.5",
+    "title": "Predict a Multilabel Segmentation Using a Model",
+    "description": "A solution that predicts segmentation using a model for a Copick project and saves it as 'predictionsegmentation'.",
+    "date": "2024-10-18T14:54:46.161031",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the segmentation.",
+        "name": "session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for segmentation creation.",
+        "name": "user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the trained model file.",
+        "name": "model_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Type of tomogram to use, e.g., denoised.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.",
+        "name": "feature_names",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the output segmentation.",
+        "name": "segmentation_name",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "data analysis",
+      "zarr",
+      "segmentation",
+      "prediction",
+      "copick"
     ]
   },
   {

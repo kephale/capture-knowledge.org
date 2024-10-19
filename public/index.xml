@@ -1,4 +1,363 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Capture Knowledge Meta Catalog on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/</link><description>Recent content in Capture Knowledge Meta Catalog on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Thu, 10 Oct 2024 16:49:49 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/index.xml" rel="self" type="application/rss+xml"/><item><title>First portable CellCanvas demo.</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/demo-v1/0-0-5/</link><pubDate>Thu, 10 Oct 2024 16:49:49 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/demo-v1/0-0-5/</guid><description>&lt;p>First portable CellCanvas demo&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Capture Knowledge Meta Catalog on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/</link><description>Recent content in Capture Knowledge Meta Catalog on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 18 Oct 2024 14:54:46 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-1/</link><pubDate>Fri, 18 Oct 2024 14:54:46 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-1/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
+&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
+&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
+&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-2/</link><pubDate>Fri, 18 Oct 2024 14:54:46 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-2/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
+&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
+&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
+&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-3/</link><pubDate>Fri, 18 Oct 2024 14:54:46 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-3/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
+&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
+&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
+&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-4/</link><pubDate>Fri, 18 Oct 2024 14:54:46 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-4/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
+&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
+&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
+&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-5/</link><pubDate>Fri, 18 Oct 2024 14:54:46 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-5/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
+&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
+&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-1/</link><pubDate>Fri, 18 Oct 2024 13:44:52 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-1/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-2/</link><pubDate>Fri, 18 Oct 2024 13:44:52 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-2/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-3/</link><pubDate>Fri, 18 Oct 2024 13:44:52 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-3/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-0-1/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-0-1/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-0/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-0/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-1/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-1/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-10/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-10/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-12/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-12/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-13/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-13/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-14/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-14/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-15/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-15/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-16/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-16/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-17/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-17/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-18/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-18/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-19/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-19/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-2/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-2/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-20/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-20/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-3/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-3/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-4/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-4/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-5/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-5/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-6/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-6/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-8/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-8/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-9/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-9/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;/ul></description></item><item><title>First portable CellCanvas demo.</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/demo-v1/0-0-5/</link><pubDate>Thu, 10 Oct 2024 16:49:49 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/demo-v1/0-0-5/</guid><description>&lt;p>First portable CellCanvas demo&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>zarr_path&lt;/strong> (string): Path for the Zarr file&lt;/li>
@@ -1020,253 +1379,6 @@ URL: &lt;a href="https://github.com/anmartinezs/polnet/tree/main">https://github
 &lt;ul>
 &lt;li>Polnet team.
 URL: &lt;a href="https://github.com/anmartinezs/polnet/tree/main">https://github.com/anmartinezs/polnet/tree/main&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-0-1/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-0-1/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-0/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-0/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-1/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-1/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-10/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-10/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-12/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-12/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-13/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-13/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-14/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-14/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-15/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-15/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-16/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-16/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-17/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-17/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-18/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-18/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-19/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-19/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-2/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-2/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-3/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-3/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-4/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-4/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-5/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-5/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-6/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-6/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-8/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-8/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-9/</link><pubDate>Tue, 08 Oct 2024 21:55:57 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-1-9/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
 &lt;/ul></description></item><item><title>Model Evaluation on Copick Data</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation-evaluation/0-0-1/</link><pubDate>Tue, 08 Oct 2024 10:22:50 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/mock-annotation-evaluation/0-0-1/</guid><description>&lt;p>Evaluates segmentation models from the mock-annotation solution on Copick data, generating metrics like IoU and F1, and saves the predicted segmentation into the Copick project.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
@@ -1893,19 +2005,6 @@ URL: &lt;a href="https://kyleharrington.com">https://kyleharrington.com&lt;/a>&l
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
 &lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-1/</link><pubDate>Tue, 13 Aug 2024 15:39:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-1/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
-&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
-&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
-&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
-&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
-&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
-&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
 &lt;/ul></description></item><item><title>Predict Tomogram Embeddings with SwinUNETR using Copick API</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/generate-pixel-embedding/0-0-1/</link><pubDate>Tue, 13 Aug 2024 15:10:07 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/generate-pixel-embedding/0-0-1/</guid><description>&lt;p>Apply a SwinUNETR model to a tomogram fetched using the Copick API to produce embeddings, and save them in a Zarr.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
@@ -7044,42 +7143,6 @@ URL: &lt;a href="https://cellcanvas.org">https://cellcanvas.org&lt;/a>&lt;/li>
 &lt;li>&lt;strong>reg_alpha&lt;/strong> (float): L1 regularization term on weights.&lt;/li>
 &lt;li>&lt;strong>max_bin&lt;/strong> (integer): Maximum number of discrete bins to bucket continuous features.&lt;/li>
 &lt;li>&lt;strong>class_weights&lt;/strong> (string): Class weights for the XGBoost model as a comma-separated list.&lt;/li>
-&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-1/</link><pubDate>Sun, 11 Aug 2024 10:14:21 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-1/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
-&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (integer): Voxel spacing used to scale pick locations.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
-&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
-&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
-&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-2/</link><pubDate>Sun, 11 Aug 2024 10:14:21 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-2/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
-&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (integer): Voxel spacing used to scale pick locations.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
-&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
-&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
-&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-3/</link><pubDate>Sun, 11 Aug 2024 10:14:21 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-3/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
-&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (integer): Voxel spacing used to scale pick locations.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
-&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
-&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
 &lt;/ul></description></item><item><title>Fetch Copick Config and Write to File</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/fetch-config/0-0-1/</link><pubDate>Sun, 11 Aug 2024 09:22:44 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/fetch-config/0-0-1/</guid><description>&lt;p>Fetches a Copick config from a FastAPI server and writes it to a file.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
