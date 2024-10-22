@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Capture Knowledge Meta Catalog on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/</link><description>Recent content in Capture Knowledge Meta Catalog on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 18 Oct 2024 14:54:46 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/index.xml" rel="self" type="application/rss+xml"/><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-1/</link><pubDate>Fri, 18 Oct 2024 14:54:46 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-1/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Capture Knowledge Meta Catalog on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/</link><description>Recent content in Capture Knowledge Meta Catalog on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 21 Oct 2024 17:06:10 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/index.xml" rel="self" type="application/rss+xml"/><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-1/</link><pubDate>Mon, 21 Oct 2024 17:06:10 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-1/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-2/</link><pubDate>Mon, 21 Oct 2024 17:06:10 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-2/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-3/</link><pubDate>Mon, 21 Oct 2024 17:06:10 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-3/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-4/</link><pubDate>Mon, 21 Oct 2024 17:06:10 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-4/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-5/</link><pubDate>Mon, 21 Oct 2024 17:06:10 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-5/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-6/</link><pubDate>Mon, 21 Oct 2024 17:06:10 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-6/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-7/</link><pubDate>Mon, 21 Oct 2024 17:06:10 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-7/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-1/</link><pubDate>Fri, 18 Oct 2024 14:54:46 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-1/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>

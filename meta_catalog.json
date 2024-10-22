@@ -47734,6 +47734,265 @@
     ]
   },
   {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 625,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.1",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-21T17:06:10.782354",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 626,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.2",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-21T17:06:10.782354",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 627,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.3",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-21T17:06:10.782354",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 628,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.4",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-21T17:06:10.782354",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 629,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.5",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-21T17:06:10.782354",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 630,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.6",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-21T17:06:10.782354",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 631,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.7",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-21T17:06:10.782354",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
     "catalog_name": "copick",
     "catalog_url": "https://github.com/copick/copick-catalog.git",
     "solution_id": 1,
