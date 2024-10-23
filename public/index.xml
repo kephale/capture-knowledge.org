@@ -1,99 +1,218 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Capture Knowledge Meta Catalog on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/</link><description>Recent content in Capture Knowledge Meta Catalog on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 21 Oct 2024 17:06:10 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/index.xml" rel="self" type="application/rss+xml"/><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-1/</link><pubDate>Mon, 21 Oct 2024 17:06:10 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-1/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Capture Knowledge Meta Catalog on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/</link><description>Recent content in Capture Knowledge Meta Catalog on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 22 Oct 2024 15:16:56 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/index.xml" rel="self" type="application/rss+xml"/><item><title>napari-CellCanvas</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-1/</link><pubDate>Tue, 22 Oct 2024 15:16:56 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-1/</guid><description>&lt;p>A solution that launches napari-cellcanvas with optional config fetching.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;/ul></description></item><item><title>napari-CellCanvas</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-2/</link><pubDate>Tue, 22 Oct 2024 15:16:56 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-2/</guid><description>&lt;p>A solution that launches napari-cellcanvas with optional config fetching.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;/ul></description></item><item><title>napari-CellCanvas</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-3/</link><pubDate>Tue, 22 Oct 2024 15:16:56 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-3/</guid><description>&lt;p>A solution that launches napari-cellcanvas with optional config fetching.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;/ul></description></item><item><title>napari-CellCanvas</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-4/</link><pubDate>Tue, 22 Oct 2024 15:16:56 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-4/</guid><description>&lt;p>A solution that launches napari-cellcanvas with optional config fetching.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;/ul></description></item><item><title>napari-CellCanvas</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-5/</link><pubDate>Tue, 22 Oct 2024 15:16:56 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-5/</guid><description>&lt;p>A solution that launches napari-cellcanvas with optional config fetching.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;/ul></description></item><item><title>napari-CellCanvas</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-6/</link><pubDate>Tue, 22 Oct 2024 15:16:56 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-6/</guid><description>&lt;p>A solution that launches napari-cellcanvas with optional config fetching.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;/ul></description></item><item><title>napari-CellCanvas</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-7/</link><pubDate>Tue, 22 Oct 2024 15:16:56 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-7/</guid><description>&lt;p>A solution that launches napari-cellcanvas with optional config fetching.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;/ul></description></item><item><title>napari-CellCanvas</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-8/</link><pubDate>Tue, 22 Oct 2024 15:16:56 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-8/</guid><description>&lt;p>A solution that launches napari-cellcanvas with optional config fetching.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-1/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-1/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
 &lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
-&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-2/</link><pubDate>Mon, 21 Oct 2024 17:06:10 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-2/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-10/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-10/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
 &lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
-&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-3/</link><pubDate>Mon, 21 Oct 2024 17:06:10 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-3/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-11/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-11/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
 &lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
-&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-4/</link><pubDate>Mon, 21 Oct 2024 17:06:10 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-4/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-12/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-12/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
 &lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
-&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-5/</link><pubDate>Mon, 21 Oct 2024 17:06:10 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-5/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-13/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-13/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
 &lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
-&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-6/</link><pubDate>Mon, 21 Oct 2024 17:06:10 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-6/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-14/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-14/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
 &lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
-&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-7/</link><pubDate>Mon, 21 Oct 2024 17:06:10 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-7/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-15/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-15/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
 &lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
-&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-1/</link><pubDate>Fri, 18 Oct 2024 14:54:46 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-1/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-16/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-16/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-17/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-17/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-18/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-18/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-2/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-2/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-3/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-3/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-4/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-4/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-5/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-5/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-6/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-6/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-7/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-7/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-8/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-8/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>FastAPI CellCanvas Server</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-9/</link><pubDate>Tue, 22 Oct 2024 14:29:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/experimental-server/0-0-9/</guid><description>&lt;p>Backend for CellCanvas with Copick Config Support.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
+&lt;li>&lt;strong>models_json_path&lt;/strong> (string): Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.&lt;/li>
+&lt;/ul></description></item><item><title>Train XGBoost on Copick Data with Cross-Validation</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/train-model-xgboost-copick/0-0-1/</link><pubDate>Tue, 22 Oct 2024 13:11:22 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/train-model-xgboost-copick/0-0-1/</guid><description>&lt;p>A solution that processes Copick runs, filters runs with only one label, and trains an XGBoost model with 10-fold cross-validation.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>painting_segmentation_names&lt;/strong> (string): Comma-separated list of names for the painting segmentations. Rightmost segmentation has highest precedence.&lt;/li>
 &lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
 &lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
 &lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
-&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
-&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
-&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-2/</link><pubDate>Fri, 18 Oct 2024 14:54:46 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-2/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type to use for each tomogram, e.g. denoised.&lt;/li>
+&lt;li>&lt;strong>feature_types&lt;/strong> (string): Comma-separated list of feature types to use for each tomogram, e.g. cellcanvas01,cellcanvas02.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names to process. If not provided, all runs will be processed.&lt;/li>
+&lt;li>&lt;strong>eta&lt;/strong> (float): Step size shrinkage used in update to prevents overfitting.&lt;/li>
+&lt;li>&lt;strong>gamma&lt;/strong> (float): Minimum loss reduction required to make a further partition on a leaf node of the tree.&lt;/li>
+&lt;li>&lt;strong>max_depth&lt;/strong> (integer): The maximum depth of the trees.&lt;/li>
+&lt;li>&lt;strong>min_child_weight&lt;/strong> (float): Minimum sum of instance weight needed in a child.&lt;/li>
+&lt;li>&lt;strong>max_delta_step&lt;/strong> (float): Maximum delta step we allow each leaf output to be.&lt;/li>
+&lt;li>&lt;strong>subsample&lt;/strong> (float): Subsample ratio of the training instances.&lt;/li>
+&lt;li>&lt;strong>colsample_bytree&lt;/strong> (float): Subsample ratio of columns when constructing each tree.&lt;/li>
+&lt;li>&lt;strong>reg_lambda&lt;/strong> (float): L2 regularization term on weights.&lt;/li>
+&lt;li>&lt;strong>reg_alpha&lt;/strong> (float): L1 regularization term on wights.&lt;/li>
+&lt;li>&lt;strong>max_bin&lt;/strong> (integer): Maximum number of discrete bins to bucket continuous features.&lt;/li>
+&lt;li>&lt;strong>class_weights&lt;/strong> (string): Class weights for the XGBoost model as a comma-separated list.&lt;/li>
+&lt;li>&lt;strong>output_model_path&lt;/strong> (string): Path for the output joblib file containing the trained XGBoost model.&lt;/li>
+&lt;/ul></description></item><item><title>Train XGBoost on Copick Data with Cross-Validation</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/train-model-xgboost-copick/0-0-2/</link><pubDate>Tue, 22 Oct 2024 13:11:22 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/train-model-xgboost-copick/0-0-2/</guid><description>&lt;p>A solution that processes Copick runs, filters runs with only one label, and trains an XGBoost model with 10-fold cross-validation.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>painting_segmentation_names&lt;/strong> (string): Comma-separated list of names for the painting segmentations. Rightmost segmentation has highest precedence.&lt;/li>
 &lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
 &lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
 &lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
-&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
-&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
-&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-3/</link><pubDate>Fri, 18 Oct 2024 14:54:46 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-3/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type to use for each tomogram, e.g. denoised.&lt;/li>
+&lt;li>&lt;strong>feature_types&lt;/strong> (string): Comma-separated list of feature types to use for each tomogram, e.g. cellcanvas01,cellcanvas02.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names to process. If not provided, all runs will be processed.&lt;/li>
+&lt;li>&lt;strong>eta&lt;/strong> (float): Step size shrinkage used in update to prevents overfitting.&lt;/li>
+&lt;li>&lt;strong>gamma&lt;/strong> (float): Minimum loss reduction required to make a further partition on a leaf node of the tree.&lt;/li>
+&lt;li>&lt;strong>max_depth&lt;/strong> (integer): The maximum depth of the trees.&lt;/li>
+&lt;li>&lt;strong>min_child_weight&lt;/strong> (float): Minimum sum of instance weight needed in a child.&lt;/li>
+&lt;li>&lt;strong>max_delta_step&lt;/strong> (float): Maximum delta step we allow each leaf output to be.&lt;/li>
+&lt;li>&lt;strong>subsample&lt;/strong> (float): Subsample ratio of the training instances.&lt;/li>
+&lt;li>&lt;strong>colsample_bytree&lt;/strong> (float): Subsample ratio of columns when constructing each tree.&lt;/li>
+&lt;li>&lt;strong>reg_lambda&lt;/strong> (float): L2 regularization term on weights.&lt;/li>
+&lt;li>&lt;strong>reg_alpha&lt;/strong> (float): L1 regularization term on wights.&lt;/li>
+&lt;li>&lt;strong>max_bin&lt;/strong> (integer): Maximum number of discrete bins to bucket continuous features.&lt;/li>
+&lt;li>&lt;strong>class_weights&lt;/strong> (string): Class weights for the XGBoost model as a comma-separated list.&lt;/li>
+&lt;li>&lt;strong>output_model_path&lt;/strong> (string): Path for the output joblib file containing the trained XGBoost model.&lt;/li>
+&lt;/ul></description></item><item><title>Train XGBoost on Copick Data with Cross-Validation</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/train-model-xgboost-copick/0-0-3/</link><pubDate>Tue, 22 Oct 2024 13:11:22 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/train-model-xgboost-copick/0-0-3/</guid><description>&lt;p>A solution that processes Copick runs, filters runs with only one label, and trains an XGBoost model with 10-fold cross-validation.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>painting_segmentation_names&lt;/strong> (string): Comma-separated list of names for the painting segmentations. Rightmost segmentation has highest precedence.&lt;/li>
 &lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
 &lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
 &lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
-&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
-&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
-&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-4/</link><pubDate>Fri, 18 Oct 2024 14:54:46 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-4/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type to use for each tomogram, e.g. denoised.&lt;/li>
+&lt;li>&lt;strong>feature_types&lt;/strong> (string): Comma-separated list of feature types to use for each tomogram, e.g. cellcanvas01,cellcanvas02.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names to process. If not provided, all runs will be processed.&lt;/li>
+&lt;li>&lt;strong>eta&lt;/strong> (float): Step size shrinkage used in update to prevents overfitting.&lt;/li>
+&lt;li>&lt;strong>gamma&lt;/strong> (float): Minimum loss reduction required to make a further partition on a leaf node of the tree.&lt;/li>
+&lt;li>&lt;strong>max_depth&lt;/strong> (integer): The maximum depth of the trees.&lt;/li>
+&lt;li>&lt;strong>min_child_weight&lt;/strong> (float): Minimum sum of instance weight needed in a child.&lt;/li>
+&lt;li>&lt;strong>max_delta_step&lt;/strong> (float): Maximum delta step we allow each leaf output to be.&lt;/li>
+&lt;li>&lt;strong>subsample&lt;/strong> (float): Subsample ratio of the training instances.&lt;/li>
+&lt;li>&lt;strong>colsample_bytree&lt;/strong> (float): Subsample ratio of columns when constructing each tree.&lt;/li>
+&lt;li>&lt;strong>reg_lambda&lt;/strong> (float): L2 regularization term on weights.&lt;/li>
+&lt;li>&lt;strong>reg_alpha&lt;/strong> (float): L1 regularization term on wights.&lt;/li>
+&lt;li>&lt;strong>max_bin&lt;/strong> (integer): Maximum number of discrete bins to bucket continuous features.&lt;/li>
+&lt;li>&lt;strong>class_weights&lt;/strong> (string): Class weights for the XGBoost model as a comma-separated list.&lt;/li>
+&lt;li>&lt;strong>output_model_path&lt;/strong> (string): Path for the output joblib file containing the trained XGBoost model.&lt;/li>
+&lt;/ul></description></item><item><title>Train XGBoost on Copick Data with Cross-Validation</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/train-model-xgboost-copick/0-0-4/</link><pubDate>Tue, 22 Oct 2024 13:11:22 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/train-model-xgboost-copick/0-0-4/</guid><description>&lt;p>A solution that processes Copick runs, filters runs with only one label, and trains an XGBoost model with 10-fold cross-validation.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>painting_segmentation_names&lt;/strong> (string): Comma-separated list of names for the painting segmentations. Rightmost segmentation has highest precedence.&lt;/li>
 &lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
 &lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
 &lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
-&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
-&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
-&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-5/</link><pubDate>Fri, 18 Oct 2024 14:54:46 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-5/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
-&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
-&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
-&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
-&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
-&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-1/</link><pubDate>Fri, 18 Oct 2024 13:44:52 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-1/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type to use for each tomogram, e.g. denoised.&lt;/li>
+&lt;li>&lt;strong>feature_types&lt;/strong> (string): Comma-separated list of feature types to use for each tomogram, e.g. cellcanvas01,cellcanvas02.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names to process. If not provided, all runs will be processed.&lt;/li>
+&lt;li>&lt;strong>eta&lt;/strong> (float): Step size shrinkage used in update to prevents overfitting.&lt;/li>
+&lt;li>&lt;strong>gamma&lt;/strong> (float): Minimum loss reduction required to make a further partition on a leaf node of the tree.&lt;/li>
+&lt;li>&lt;strong>max_depth&lt;/strong> (integer): The maximum depth of the trees.&lt;/li>
+&lt;li>&lt;strong>min_child_weight&lt;/strong> (float): Minimum sum of instance weight needed in a child.&lt;/li>
+&lt;li>&lt;strong>max_delta_step&lt;/strong> (float): Maximum delta step we allow each leaf output to be.&lt;/li>
+&lt;li>&lt;strong>subsample&lt;/strong> (float): Subsample ratio of the training instances.&lt;/li>
+&lt;li>&lt;strong>colsample_bytree&lt;/strong> (float): Subsample ratio of columns when constructing each tree.&lt;/li>
+&lt;li>&lt;strong>reg_lambda&lt;/strong> (float): L2 regularization term on weights.&lt;/li>
+&lt;li>&lt;strong>reg_alpha&lt;/strong> (float): L1 regularization term on wights.&lt;/li>
+&lt;li>&lt;strong>max_bin&lt;/strong> (integer): Maximum number of discrete bins to bucket continuous features.&lt;/li>
+&lt;li>&lt;strong>class_weights&lt;/strong> (string): Class weights for the XGBoost model as a comma-separated list.&lt;/li>
+&lt;li>&lt;strong>output_model_path&lt;/strong> (string): Path for the output joblib file containing the trained XGBoost model.&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-1/</link><pubDate>Tue, 22 Oct 2024 11:45:06 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-1/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
@@ -106,7 +225,8 @@
 &lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
 &lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
 &lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-2/</link><pubDate>Fri, 18 Oct 2024 13:44:52 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-2/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;li>&lt;strong>num_sigma&lt;/strong> (integer): Number of sigma values between sigma_min and sigma_max for texture features.&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-2/</link><pubDate>Tue, 22 Oct 2024 11:45:06 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-2/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
@@ -119,7 +239,8 @@
 &lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
 &lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
 &lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
-&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-3/</link><pubDate>Fri, 18 Oct 2024 13:44:52 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-3/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;li>&lt;strong>num_sigma&lt;/strong> (integer): Number of sigma values between sigma_min and sigma_max for texture features.&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-3/</link><pubDate>Tue, 22 Oct 2024 11:45:06 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-3/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
@@ -132,6 +253,154 @@
 &lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
 &lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
 &lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>num_sigma&lt;/strong> (integer): Number of sigma values between sigma_min and sigma_max for texture features.&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-4/</link><pubDate>Tue, 22 Oct 2024 11:45:06 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-4/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>num_sigma&lt;/strong> (integer): Number of sigma values between sigma_min and sigma_max for texture features.&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-5/</link><pubDate>Tue, 22 Oct 2024 11:45:06 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-5/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>num_sigma&lt;/strong> (integer): Number of sigma values between sigma_min and sigma_max for texture features.&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-6/</link><pubDate>Tue, 22 Oct 2024 11:45:06 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-6/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>num_sigma&lt;/strong> (integer): Number of sigma values between sigma_min and sigma_max for texture features.&lt;/li>
+&lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-7/</link><pubDate>Tue, 22 Oct 2024 11:45:06 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-torch-basic-features/0-0-7/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;li>&lt;strong>intensity&lt;/strong> (boolean): Include intensity features&lt;/li>
+&lt;li>&lt;strong>edges&lt;/strong> (boolean): Include edge features&lt;/li>
+&lt;li>&lt;strong>texture&lt;/strong> (boolean): Include texture features&lt;/li>
+&lt;li>&lt;strong>sigma_min&lt;/strong> (float): Minimum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>sigma_max&lt;/strong> (float): Maximum sigma for Gaussian blurring&lt;/li>
+&lt;li>&lt;strong>num_sigma&lt;/strong> (integer): Number of sigma values between sigma_min and sigma_max for texture features.&lt;/li>
+&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-1/</link><pubDate>Tue, 22 Oct 2024 10:17:52 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-1/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
+&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
+&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
+&lt;li>&lt;strong>write_mode&lt;/strong> (string): Write mode: deferred writes all chunks at once, immediate writes each chunk as it is computed.&lt;/li>
+&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-2/</link><pubDate>Tue, 22 Oct 2024 10:17:52 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-2/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
+&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
+&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
+&lt;li>&lt;strong>write_mode&lt;/strong> (string): Write mode: deferred writes all chunks at once, immediate writes each chunk as it is computed.&lt;/li>
+&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-3/</link><pubDate>Tue, 22 Oct 2024 10:17:52 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-3/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
+&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
+&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
+&lt;li>&lt;strong>write_mode&lt;/strong> (string): Write mode: deferred writes all chunks at once, immediate writes each chunk as it is computed.&lt;/li>
+&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-4/</link><pubDate>Tue, 22 Oct 2024 10:17:52 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-4/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
+&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
+&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
+&lt;li>&lt;strong>write_mode&lt;/strong> (string): Write mode: deferred writes all chunks at once, immediate writes each chunk as it is computed.&lt;/li>
+&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-5/</link><pubDate>Tue, 22 Oct 2024 10:17:52 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-5/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
+&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
+&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
+&lt;li>&lt;strong>write_mode&lt;/strong> (string): Write mode: deferred writes all chunks at once, immediate writes each chunk as it is computed.&lt;/li>
+&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-6/</link><pubDate>Tue, 22 Oct 2024 10:17:52 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-6/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
+&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
+&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
+&lt;li>&lt;strong>write_mode&lt;/strong> (string): Write mode: deferred writes all chunks at once, immediate writes each chunk as it is computed.&lt;/li>
+&lt;/ul></description></item><item><title>Predict a Multilabel Segmentation Using a Model</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-7/</link><pubDate>Tue, 22 Oct 2024 10:17:52 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/segment-tomogram-xgboost/0-0-7/</guid><description>&lt;p>A solution that predicts segmentation using a model for a Copick project and saves it as &amp;lsquo;predictionsegmentation&amp;rsquo;.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
+&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>model_path&lt;/strong> (string): Path to the trained model file.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to use, e.g., denoised.&lt;/li>
+&lt;li>&lt;strong>feature_names&lt;/strong> (string): Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.&lt;/li>
+&lt;li>&lt;strong>segmentation_name&lt;/strong> (string): Name of the output segmentation.&lt;/li>
+&lt;li>&lt;strong>write_mode&lt;/strong> (string): Write mode: deferred writes all chunks at once, immediate writes each chunk as it is computed.&lt;/li>
 &lt;/ul></description></item><item><title>Generate Multiscale Basic Features with Scikit-Image using Copick API (Chunked, Corrected)</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-0-1/</link><pubDate>Fri, 18 Oct 2024 13:03:28 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/generate-skimage-features/0-0-1/</guid><description>&lt;p>Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick&amp;rsquo;s API.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
@@ -2328,84 +2597,6 @@ URL: &lt;a href="https://kyleharrington.com">https://kyleharrington.com&lt;/a>&l
 &lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
 &lt;li>&lt;strong>checkpointpath&lt;/strong> (string): Path to the checkpoint file of the trained SwinUNETR model&lt;/li>
 &lt;li>&lt;strong>embedding_name&lt;/strong> (string): Name of the embedding to use as the feature name in Copick&lt;/li>
-&lt;/ul></description></item><item><title>Train XGBoost on Copick Data with Cross-Validation</title><link>https://capture-knowledge.org/solutions/cellcanvas/copick/train-model-xgboost-copick/0-0-1/</link><pubDate>Tue, 13 Aug 2024 14:45:18 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/copick/train-model-xgboost-copick/0-0-1/</guid><description>&lt;p>A solution that processes Copick runs, filters runs with only one label, and trains an XGBoost model with 10-fold cross-validation.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>painting_segmentation_names&lt;/strong> (string): Comma-separated list of names for the painting segmentations. Rightmost segmentation has highest precedence.&lt;/li>
-&lt;li>&lt;strong>session_id&lt;/strong> (string): Session ID for the segmentation.&lt;/li>
-&lt;li>&lt;strong>user_id&lt;/strong> (string): User ID for segmentation creation.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing used to scale pick locations.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Tomogram type to use for each tomogram, e.g. denoised.&lt;/li>
-&lt;li>&lt;strong>feature_types&lt;/strong> (string): Comma-separated list of feature types to use for each tomogram, e.g. cellcanvas01,cellcanvas02.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names to process. If not provided, all runs will be processed.&lt;/li>
-&lt;li>&lt;strong>eta&lt;/strong> (float): Step size shrinkage used in update to prevents overfitting.&lt;/li>
-&lt;li>&lt;strong>gamma&lt;/strong> (float): Minimum loss reduction required to make a further partition on a leaf node of the tree.&lt;/li>
-&lt;li>&lt;strong>max_depth&lt;/strong> (integer): The maximum depth of the trees.&lt;/li>
-&lt;li>&lt;strong>min_child_weight&lt;/strong> (float): Minimum sum of instance weight needed in a child.&lt;/li>
-&lt;li>&lt;strong>max_delta_step&lt;/strong> (float): Maximum delta step we allow each leaf output to be.&lt;/li>
-&lt;li>&lt;strong>subsample&lt;/strong> (float): Subsample ratio of the training instances.&lt;/li>
-&lt;li>&lt;strong>colsample_bytree&lt;/strong> (float): Subsample ratio of columns when constructing each tree.&lt;/li>
-&lt;li>&lt;strong>reg_lambda&lt;/strong> (float): L2 regularization term on weights.&lt;/li>
-&lt;li>&lt;strong>reg_alpha&lt;/strong> (float): L1 regularization term on weights.&lt;/li>
-&lt;li>&lt;strong>max_bin&lt;/strong> (integer): Maximum number of discrete bins to bucket continuous features.&lt;/li>
-&lt;li>&lt;strong>class_weights&lt;/strong> (string): Class weights for the XGBoost model as a comma-separated list.&lt;/li>
-&lt;li>&lt;strong>output_model_path&lt;/strong> (string): Path for the output joblib file containing the trained XGBoost model.&lt;/li>
-&lt;/ul></description></item><item><title>napari-CellCanvas</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-1/</link><pubDate>Tue, 13 Aug 2024 11:22:16 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-1/</guid><description>&lt;p>A solution that launches napari-cellcanvas with optional config fetching.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
-&lt;li>&lt;strong>hostname&lt;/strong> (string): Hostname for the server.&lt;/li>
-&lt;li>&lt;strong>port&lt;/strong> (integer): Port number for the server.&lt;/li>
-&lt;li>&lt;strong>fetch_config&lt;/strong> (boolean): Whether to fetch the config from the server.&lt;/li>
-&lt;li>&lt;strong>overlay_remote&lt;/strong> (boolean): Set to true if the overlay path should be remote (SSH).&lt;/li>
-&lt;li>&lt;strong>static_remote&lt;/strong> (boolean): Set to true if the static path should be remote (SSH).&lt;/li>
-&lt;li>&lt;strong>overlay_path&lt;/strong> (string): The local path for the overlay root if not remote.&lt;/li>
-&lt;li>&lt;strong>static_path&lt;/strong> (string): The local path for the static root if not remote.&lt;/li>
-&lt;/ul></description></item><item><title>napari-CellCanvas</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-2/</link><pubDate>Tue, 13 Aug 2024 11:22:16 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-2/</guid><description>&lt;p>A solution that launches napari-cellcanvas with optional config fetching.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
-&lt;li>&lt;strong>hostname&lt;/strong> (string): Hostname for the server.&lt;/li>
-&lt;li>&lt;strong>port&lt;/strong> (integer): Port number for the server.&lt;/li>
-&lt;li>&lt;strong>fetch_config&lt;/strong> (boolean): Whether to fetch the config from the server.&lt;/li>
-&lt;li>&lt;strong>overlay_remote&lt;/strong> (boolean): Set to true if the overlay path should be remote (SSH).&lt;/li>
-&lt;li>&lt;strong>static_remote&lt;/strong> (boolean): Set to true if the static path should be remote (SSH).&lt;/li>
-&lt;li>&lt;strong>overlay_path&lt;/strong> (string): The local path for the overlay root if not remote.&lt;/li>
-&lt;li>&lt;strong>static_path&lt;/strong> (string): The local path for the static root if not remote.&lt;/li>
-&lt;/ul></description></item><item><title>napari-CellCanvas</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-3/</link><pubDate>Tue, 13 Aug 2024 11:22:16 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-3/</guid><description>&lt;p>A solution that launches napari-cellcanvas with optional config fetching.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
-&lt;li>&lt;strong>hostname&lt;/strong> (string): Hostname for the server.&lt;/li>
-&lt;li>&lt;strong>port&lt;/strong> (integer): Port number for the server.&lt;/li>
-&lt;li>&lt;strong>fetch_config&lt;/strong> (boolean): Whether to fetch the config from the server.&lt;/li>
-&lt;li>&lt;strong>overlay_remote&lt;/strong> (boolean): Set to true if the overlay path should be remote (SSH).&lt;/li>
-&lt;li>&lt;strong>static_remote&lt;/strong> (boolean): Set to true if the static path should be remote (SSH).&lt;/li>
-&lt;li>&lt;strong>overlay_path&lt;/strong> (string): The local path for the overlay root if not remote.&lt;/li>
-&lt;li>&lt;strong>static_path&lt;/strong> (string): The local path for the static root if not remote.&lt;/li>
-&lt;/ul></description></item><item><title>napari-CellCanvas</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-4/</link><pubDate>Tue, 13 Aug 2024 11:22:16 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-4/</guid><description>&lt;p>A solution that launches napari-cellcanvas with optional config fetching.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
-&lt;li>&lt;strong>hostname&lt;/strong> (string): Hostname for the server.&lt;/li>
-&lt;li>&lt;strong>port&lt;/strong> (integer): Port number for the server.&lt;/li>
-&lt;li>&lt;strong>fetch_config&lt;/strong> (boolean): Whether to fetch the config from the server.&lt;/li>
-&lt;li>&lt;strong>overlay_remote&lt;/strong> (boolean): Set to true if the overlay path should be remote (SSH).&lt;/li>
-&lt;li>&lt;strong>static_remote&lt;/strong> (boolean): Set to true if the static path should be remote (SSH).&lt;/li>
-&lt;li>&lt;strong>overlay_path&lt;/strong> (string): The local path for the overlay root if not remote.&lt;/li>
-&lt;li>&lt;strong>static_path&lt;/strong> (string): The local path for the static root if not remote.&lt;/li>
-&lt;/ul></description></item><item><title>napari-CellCanvas</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-5/</link><pubDate>Tue, 13 Aug 2024 11:22:16 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-5/</guid><description>&lt;p>A solution that launches napari-cellcanvas with optional config fetching.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>
-&lt;li>&lt;strong>hostname&lt;/strong> (string): Hostname for the server.&lt;/li>
-&lt;li>&lt;strong>port&lt;/strong> (integer): Port number for the server.&lt;/li>
-&lt;li>&lt;strong>fetch_config&lt;/strong> (boolean): Whether to fetch the config from the server.&lt;/li>
-&lt;li>&lt;strong>overlay_remote&lt;/strong> (boolean): Set to true if the overlay path should be remote (SSH).&lt;/li>
-&lt;li>&lt;strong>static_remote&lt;/strong> (boolean): Set to true if the static path should be remote (SSH).&lt;/li>
-&lt;li>&lt;strong>overlay_path&lt;/strong> (string): The local path for the overlay root if not remote.&lt;/li>
-&lt;li>&lt;strong>static_path&lt;/strong> (string): The local path for the static root if not remote.&lt;/li>
 &lt;/ul></description></item><item><title>Set up a copick project.</title><link>https://capture-knowledge.org/solutions/copick/copick/setup-local-project/0-1-0/</link><pubDate>Mon, 12 Aug 2024 11:25:55 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/setup-local-project/0-1-0/</guid><description>&lt;p>Create a copick project. Optionally import tomograms.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>

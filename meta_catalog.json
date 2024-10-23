@@ -14240,7 +14240,7 @@
     "version": "0.0.1",
     "title": "Predict a Multilabel Segmentation Using a Model",
     "description": "A solution that predicts segmentation using a model for a Copick project and saves it as 'predictionsegmentation'.",
-    "date": "2024-10-18T14:54:46.161031",
+    "date": "2024-10-22T10:17:52.606326",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -14294,6 +14294,13 @@
         "description": "Name of the output segmentation.",
         "name": "segmentation_name",
         "required": true,
+        "type": "string"
+      },
+      {
+        "default": "deferred",
+        "description": "Write mode: deferred writes all chunks at once, immediate writes each chunk as it is computed.",
+        "name": "write_mode",
+        "required": false,
         "type": "string"
       }
     ],
@@ -14319,7 +14326,7 @@
     "version": "0.0.2",
     "title": "Predict a Multilabel Segmentation Using a Model",
     "description": "A solution that predicts segmentation using a model for a Copick project and saves it as 'predictionsegmentation'.",
-    "date": "2024-10-18T14:54:46.161031",
+    "date": "2024-10-22T10:17:52.606326",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -14373,6 +14380,13 @@
         "description": "Name of the output segmentation.",
         "name": "segmentation_name",
         "required": true,
+        "type": "string"
+      },
+      {
+        "default": "deferred",
+        "description": "Write mode: deferred writes all chunks at once, immediate writes each chunk as it is computed.",
+        "name": "write_mode",
+        "required": false,
         "type": "string"
       }
     ],
@@ -40085,60 +40099,13 @@
     "version": "0.0.1",
     "title": "napari-CellCanvas",
     "description": "A solution that launches napari-cellcanvas with optional config fetching.",
-    "date": "2024-08-13T11:22:16.420429",
+    "date": "2024-10-22T15:16:56.978320",
     "args": [
       {
         "default": "/Users/kharrington/Data/copick/cellcanvas_server/local_sshOverlay_localStatic.json",
         "description": "Path to the Copick configuration file.",
         "name": "copick_config_path",
         "required": true,
-        "type": "string"
-      },
-      {
-        "default": "localhost",
-        "description": "Hostname for the server.",
-        "name": "hostname",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "default": 8080,
-        "description": "Port number for the server.",
-        "name": "port",
-        "required": true,
-        "type": "integer"
-      },
-      {
-        "default": false,
-        "description": "Whether to fetch the config from the server.",
-        "name": "fetch_config",
-        "required": false,
-        "type": "boolean"
-      },
-      {
-        "default": false,
-        "description": "Set to true if the overlay path should be remote (SSH).",
-        "name": "overlay_remote",
-        "required": false,
-        "type": "boolean"
-      },
-      {
-        "default": false,
-        "description": "Set to true if the static path should be remote (SSH).",
-        "name": "static_remote",
-        "required": false,
-        "type": "boolean"
-      },
-      {
-        "description": "The local path for the overlay root if not remote.",
-        "name": "overlay_path",
-        "required": false,
-        "type": "string"
-      },
-      {
-        "description": "The local path for the static root if not remote.",
-        "name": "static_path",
-        "required": false,
         "type": "string"
       }
     ],
@@ -40303,60 +40270,13 @@
     "version": "0.0.2",
     "title": "napari-CellCanvas",
     "description": "A solution that launches napari-cellcanvas with optional config fetching.",
-    "date": "2024-08-13T11:22:16.420429",
+    "date": "2024-10-22T15:16:56.978320",
     "args": [
       {
         "default": "/Users/kharrington/Data/copick/cellcanvas_server/local_sshOverlay_localStatic.json",
         "description": "Path to the Copick configuration file.",
         "name": "copick_config_path",
         "required": true,
-        "type": "string"
-      },
-      {
-        "default": "localhost",
-        "description": "Hostname for the server.",
-        "name": "hostname",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "default": 8080,
-        "description": "Port number for the server.",
-        "name": "port",
-        "required": true,
-        "type": "integer"
-      },
-      {
-        "default": false,
-        "description": "Whether to fetch the config from the server.",
-        "name": "fetch_config",
-        "required": false,
-        "type": "boolean"
-      },
-      {
-        "default": false,
-        "description": "Set to true if the overlay path should be remote (SSH).",
-        "name": "overlay_remote",
-        "required": false,
-        "type": "boolean"
-      },
-      {
-        "default": false,
-        "description": "Set to true if the static path should be remote (SSH).",
-        "name": "static_remote",
-        "required": false,
-        "type": "boolean"
-      },
-      {
-        "description": "The local path for the overlay root if not remote.",
-        "name": "overlay_path",
-        "required": false,
-        "type": "string"
-      },
-      {
-        "description": "The local path for the static root if not remote.",
-        "name": "static_path",
-        "required": false,
         "type": "string"
       }
     ],
@@ -40381,60 +40301,13 @@
     "version": "0.0.3",
     "title": "napari-CellCanvas",
     "description": "A solution that launches napari-cellcanvas with optional config fetching.",
-    "date": "2024-08-13T11:22:16.420429",
+    "date": "2024-10-22T15:16:56.978320",
     "args": [
       {
         "default": "/Users/kharrington/Data/copick/cellcanvas_server/local_sshOverlay_localStatic.json",
         "description": "Path to the Copick configuration file.",
         "name": "copick_config_path",
         "required": true,
-        "type": "string"
-      },
-      {
-        "default": "localhost",
-        "description": "Hostname for the server.",
-        "name": "hostname",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "default": 8080,
-        "description": "Port number for the server.",
-        "name": "port",
-        "required": true,
-        "type": "integer"
-      },
-      {
-        "default": false,
-        "description": "Whether to fetch the config from the server.",
-        "name": "fetch_config",
-        "required": false,
-        "type": "boolean"
-      },
-      {
-        "default": false,
-        "description": "Set to true if the overlay path should be remote (SSH).",
-        "name": "overlay_remote",
-        "required": false,
-        "type": "boolean"
-      },
-      {
-        "default": false,
-        "description": "Set to true if the static path should be remote (SSH).",
-        "name": "static_remote",
-        "required": false,
-        "type": "boolean"
-      },
-      {
-        "description": "The local path for the overlay root if not remote.",
-        "name": "overlay_path",
-        "required": false,
-        "type": "string"
-      },
-      {
-        "description": "The local path for the static root if not remote.",
-        "name": "static_path",
-        "required": false,
         "type": "string"
       }
     ],
@@ -40459,60 +40332,13 @@
     "version": "0.0.4",
     "title": "napari-CellCanvas",
     "description": "A solution that launches napari-cellcanvas with optional config fetching.",
-    "date": "2024-08-13T11:22:16.420429",
+    "date": "2024-10-22T15:16:56.978320",
     "args": [
       {
         "default": "/Users/kharrington/Data/copick/cellcanvas_server/local_sshOverlay_localStatic.json",
         "description": "Path to the Copick configuration file.",
         "name": "copick_config_path",
         "required": true,
-        "type": "string"
-      },
-      {
-        "default": "localhost",
-        "description": "Hostname for the server.",
-        "name": "hostname",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "default": 8080,
-        "description": "Port number for the server.",
-        "name": "port",
-        "required": true,
-        "type": "integer"
-      },
-      {
-        "default": false,
-        "description": "Whether to fetch the config from the server.",
-        "name": "fetch_config",
-        "required": false,
-        "type": "boolean"
-      },
-      {
-        "default": false,
-        "description": "Set to true if the overlay path should be remote (SSH).",
-        "name": "overlay_remote",
-        "required": false,
-        "type": "boolean"
-      },
-      {
-        "default": false,
-        "description": "Set to true if the static path should be remote (SSH).",
-        "name": "static_remote",
-        "required": false,
-        "type": "boolean"
-      },
-      {
-        "description": "The local path for the overlay root if not remote.",
-        "name": "overlay_path",
-        "required": false,
-        "type": "string"
-      },
-      {
-        "description": "The local path for the static root if not remote.",
-        "name": "static_path",
-        "required": false,
         "type": "string"
       }
     ],
@@ -40537,7 +40363,7 @@
     "version": "0.0.3",
     "title": "Predict a Multilabel Segmentation Using a Model",
     "description": "A solution that predicts segmentation using a model for a Copick project and saves it as 'predictionsegmentation'.",
-    "date": "2024-10-18T14:54:46.161031",
+    "date": "2024-10-22T10:17:52.606326",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -40591,6 +40417,13 @@
         "description": "Name of the output segmentation.",
         "name": "segmentation_name",
         "required": true,
+        "type": "string"
+      },
+      {
+        "default": "deferred",
+        "description": "Write mode: deferred writes all chunks at once, immediate writes each chunk as it is computed.",
+        "name": "write_mode",
+        "required": false,
         "type": "string"
       }
     ],
@@ -43968,60 +43801,13 @@
     "version": "0.0.5",
     "title": "napari-CellCanvas",
     "description": "A solution that launches napari-cellcanvas with optional config fetching.",
-    "date": "2024-08-13T11:22:16.420429",
+    "date": "2024-10-22T15:16:56.978320",
     "args": [
       {
         "default": "/Users/kharrington/Data/copick/cellcanvas_server/local_sshOverlay_localStatic.json",
         "description": "Path to the Copick configuration file.",
         "name": "copick_config_path",
         "required": true,
-        "type": "string"
-      },
-      {
-        "default": "localhost",
-        "description": "Hostname for the server.",
-        "name": "hostname",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "default": 8080,
-        "description": "Port number for the server.",
-        "name": "port",
-        "required": true,
-        "type": "integer"
-      },
-      {
-        "default": false,
-        "description": "Whether to fetch the config from the server.",
-        "name": "fetch_config",
-        "required": false,
-        "type": "boolean"
-      },
-      {
-        "default": false,
-        "description": "Set to true if the overlay path should be remote (SSH).",
-        "name": "overlay_remote",
-        "required": false,
-        "type": "boolean"
-      },
-      {
-        "default": false,
-        "description": "Set to true if the static path should be remote (SSH).",
-        "name": "static_remote",
-        "required": false,
-        "type": "boolean"
-      },
-      {
-        "description": "The local path for the overlay root if not remote.",
-        "name": "overlay_path",
-        "required": false,
-        "type": "string"
-      },
-      {
-        "description": "The local path for the static root if not remote.",
-        "name": "static_path",
-        "required": false,
         "type": "string"
       }
     ],
@@ -44035,163 +43821,6 @@
       "cellcanvas",
       "plugin",
       "visualization"
-    ]
-  },
-  {
-    "catalog_name": "cellcanvas",
-    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
-    "solution_id": 580,
-    "group": "copick",
-    "name": "train-model-xgboost-copick",
-    "version": "0.0.1",
-    "title": "Train XGBoost on Copick Data with Cross-Validation",
-    "description": "A solution that processes Copick runs, filters runs with only one label, and trains an XGBoost model with 10-fold cross-validation.",
-    "date": "2024-08-13T14:45:18.893752",
-    "args": [
-      {
-        "description": "Path to the Copick configuration JSON file.",
-        "name": "copick_config_path",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "description": "Comma-separated list of names for the painting segmentations. Rightmost segmentation has highest precedence.",
-        "name": "painting_segmentation_names",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "description": "Session ID for the segmentation.",
-        "name": "session_id",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "description": "User ID for segmentation creation.",
-        "name": "user_id",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "description": "Voxel spacing used to scale pick locations.",
-        "name": "voxel_spacing",
-        "required": true,
-        "type": "float"
-      },
-      {
-        "description": "Tomogram type to use for each tomogram, e.g. denoised.",
-        "name": "tomo_type",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "description": "Comma-separated list of feature types to use for each tomogram, e.g. cellcanvas01,cellcanvas02.",
-        "name": "feature_types",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "description": "Comma-separated list of run names to process. If not provided, all runs will be processed.",
-        "name": "run_names",
-        "required": false,
-        "type": "string"
-      },
-      {
-        "default": 0.3,
-        "description": "Step size shrinkage used in update to prevents overfitting.",
-        "name": "eta",
-        "required": false,
-        "type": "float"
-      },
-      {
-        "default": 0.0,
-        "description": "Minimum loss reduction required to make a further partition on a leaf node of the tree.",
-        "name": "gamma",
-        "required": false,
-        "type": "float"
-      },
-      {
-        "default": 6,
-        "description": "The maximum depth of the trees.",
-        "name": "max_depth",
-        "required": false,
-        "type": "integer"
-      },
-      {
-        "default": 1.0,
-        "description": "Minimum sum of instance weight needed in a child.",
-        "name": "min_child_weight",
-        "required": false,
-        "type": "float"
-      },
-      {
-        "default": 0.0,
-        "description": "Maximum delta step we allow each leaf output to be.",
-        "name": "max_delta_step",
-        "required": false,
-        "type": "float"
-      },
-      {
-        "default": 1.0,
-        "description": "Subsample ratio of the training instances.",
-        "name": "subsample",
-        "required": false,
-        "type": "float"
-      },
-      {
-        "default": 1.0,
-        "description": "Subsample ratio of columns when constructing each tree.",
-        "name": "colsample_bytree",
-        "required": false,
-        "type": "float"
-      },
-      {
-        "default": 1.0,
-        "description": "L2 regularization term on weights.",
-        "name": "reg_lambda",
-        "required": false,
-        "type": "float"
-      },
-      {
-        "default": 0.0,
-        "description": "L1 regularization term on weights.",
-        "name": "reg_alpha",
-        "required": false,
-        "type": "float"
-      },
-      {
-        "default": 256,
-        "description": "Maximum number of discrete bins to bucket continuous features.",
-        "name": "max_bin",
-        "required": false,
-        "type": "integer"
-      },
-      {
-        "default": "",
-        "description": "Class weights for the XGBoost model as a comma-separated list.",
-        "name": "class_weights",
-        "required": false,
-        "type": "string"
-      },
-      {
-        "description": "Path for the output joblib file containing the trained XGBoost model.",
-        "name": "output_model_path",
-        "required": true,
-        "type": "string"
-      }
-    ],
-    "citation": [],
-    "authors": [
-      "Kyle Harrington"
-    ],
-    "license": "MIT",
-    "tags": [
-      "xgboost",
-      "machine learning",
-      "segmentation",
-      "training",
-      "cross-validation",
-      "copick"
     ]
   },
   {
@@ -44240,7 +43869,7 @@
     "version": "0.0.1",
     "title": "Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-18T13:44:52.193107",
+    "date": "2024-10-22T11:45:06.794711",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -44306,6 +43935,13 @@
         "name": "sigma_max",
         "required": false,
         "type": "float"
+      },
+      {
+        "default": 5,
+        "description": "Number of sigma values between sigma_min and sigma_max for texture features.",
+        "name": "num_sigma",
+        "required": false,
+        "type": "integer"
       }
     ],
     "citation": [],
@@ -47406,7 +47042,7 @@
     "version": "0.0.2",
     "title": "Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-18T13:44:52.193107",
+    "date": "2024-10-22T11:45:06.794711",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -47472,6 +47108,13 @@
         "name": "sigma_max",
         "required": false,
         "type": "float"
+      },
+      {
+        "default": 5,
+        "description": "Number of sigma values between sigma_min and sigma_max for texture features.",
+        "name": "num_sigma",
+        "required": false,
+        "type": "integer"
       }
     ],
     "citation": [],
@@ -47495,7 +47138,7 @@
     "version": "0.0.3",
     "title": "Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)",
     "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
-    "date": "2024-10-18T13:44:52.193107",
+    "date": "2024-10-22T11:45:06.794711",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -47561,6 +47204,13 @@
         "name": "sigma_max",
         "required": false,
         "type": "float"
+      },
+      {
+        "default": 5,
+        "description": "Number of sigma values between sigma_min and sigma_max for texture features.",
+        "name": "num_sigma",
+        "required": false,
+        "type": "integer"
       }
     ],
     "citation": [],
@@ -47584,7 +47234,7 @@
     "version": "0.0.4",
     "title": "Predict a Multilabel Segmentation Using a Model",
     "description": "A solution that predicts segmentation using a model for a Copick project and saves it as 'predictionsegmentation'.",
-    "date": "2024-10-18T14:54:46.161031",
+    "date": "2024-10-22T10:17:52.606326",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -47639,84 +47289,12 @@
         "name": "segmentation_name",
         "required": true,
         "type": "string"
-      }
-    ],
-    "citation": [],
-    "authors": [
-      "Kyle Harrington"
-    ],
-    "license": "MIT",
-    "tags": [
-      "data analysis",
-      "zarr",
-      "segmentation",
-      "prediction",
-      "copick"
-    ]
-  },
-  {
-    "catalog_name": "cellcanvas",
-    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
-    "solution_id": 624,
-    "group": "cellcanvas",
-    "name": "segment-tomogram-xgboost",
-    "version": "0.0.5",
-    "title": "Predict a Multilabel Segmentation Using a Model",
-    "description": "A solution that predicts segmentation using a model for a Copick project and saves it as 'predictionsegmentation'.",
-    "date": "2024-10-18T14:54:46.161031",
-    "args": [
-      {
-        "description": "Path to the Copick configuration JSON file.",
-        "name": "copick_config_path",
-        "required": true,
-        "type": "string"
       },
       {
-        "description": "Session ID for the segmentation.",
-        "name": "session_id",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "description": "User ID for segmentation creation.",
-        "name": "user_id",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "description": "Voxel spacing used to scale pick locations.",
-        "name": "voxel_spacing",
-        "required": true,
-        "type": "float"
-      },
-      {
-        "description": "Name of the Copick run to process.",
-        "name": "run_name",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "description": "Path to the trained model file.",
-        "name": "model_path",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "description": "Type of tomogram to use, e.g., denoised.",
-        "name": "tomo_type",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "description": "Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.",
-        "name": "feature_names",
-        "required": true,
-        "type": "string"
-      },
-      {
-        "description": "Name of the output segmentation.",
-        "name": "segmentation_name",
-        "required": true,
+        "default": "deferred",
+        "description": "Write mode: deferred writes all chunks at once, immediate writes each chunk as it is computed.",
+        "name": "write_mode",
+        "required": false,
         "type": "string"
       }
     ],
@@ -47742,7 +47320,7 @@
     "version": "0.0.1",
     "title": "FastAPI CellCanvas Server",
     "description": "Backend for CellCanvas with Copick Config Support.",
-    "date": "2024-10-21T17:06:10.782354",
+    "date": "2024-10-22T14:29:58.953857",
     "args": [
       {
         "default": "/path/to/copick/config.json",
@@ -47779,7 +47357,7 @@
     "version": "0.0.2",
     "title": "FastAPI CellCanvas Server",
     "description": "Backend for CellCanvas with Copick Config Support.",
-    "date": "2024-10-21T17:06:10.782354",
+    "date": "2024-10-22T14:29:58.953857",
     "args": [
       {
         "default": "/path/to/copick/config.json",
@@ -47816,7 +47394,7 @@
     "version": "0.0.3",
     "title": "FastAPI CellCanvas Server",
     "description": "Backend for CellCanvas with Copick Config Support.",
-    "date": "2024-10-21T17:06:10.782354",
+    "date": "2024-10-22T14:29:58.953857",
     "args": [
       {
         "default": "/path/to/copick/config.json",
@@ -47853,7 +47431,7 @@
     "version": "0.0.4",
     "title": "FastAPI CellCanvas Server",
     "description": "Backend for CellCanvas with Copick Config Support.",
-    "date": "2024-10-21T17:06:10.782354",
+    "date": "2024-10-22T14:29:58.953857",
     "args": [
       {
         "default": "/path/to/copick/config.json",
@@ -47890,7 +47468,7 @@
     "version": "0.0.5",
     "title": "FastAPI CellCanvas Server",
     "description": "Backend for CellCanvas with Copick Config Support.",
-    "date": "2024-10-21T17:06:10.782354",
+    "date": "2024-10-22T14:29:58.953857",
     "args": [
       {
         "default": "/path/to/copick/config.json",
@@ -47927,7 +47505,7 @@
     "version": "0.0.6",
     "title": "FastAPI CellCanvas Server",
     "description": "Backend for CellCanvas with Copick Config Support.",
-    "date": "2024-10-21T17:06:10.782354",
+    "date": "2024-10-22T14:29:58.953857",
     "args": [
       {
         "default": "/path/to/copick/config.json",
@@ -47964,7 +47542,7 @@
     "version": "0.0.7",
     "title": "FastAPI CellCanvas Server",
     "description": "Backend for CellCanvas with Copick Config Support.",
-    "date": "2024-10-21T17:06:10.782354",
+    "date": "2024-10-22T14:29:58.953857",
     "args": [
       {
         "default": "/path/to/copick/config.json",
@@ -47990,6 +47568,1776 @@
       "album",
       "server",
       "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 632,
+    "group": "cellcanvas",
+    "name": "segment-tomogram-xgboost",
+    "version": "0.0.5",
+    "title": "Predict a Multilabel Segmentation Using a Model",
+    "description": "A solution that predicts segmentation using a model for a Copick project and saves it as 'predictionsegmentation'.",
+    "date": "2024-10-22T10:17:52.606326",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the segmentation.",
+        "name": "session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for segmentation creation.",
+        "name": "user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the trained model file.",
+        "name": "model_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Type of tomogram to use, e.g., denoised.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.",
+        "name": "feature_names",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the output segmentation.",
+        "name": "segmentation_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": "deferred",
+        "description": "Write mode: deferred writes all chunks at once, immediate writes each chunk as it is computed.",
+        "name": "write_mode",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "data analysis",
+      "zarr",
+      "segmentation",
+      "prediction",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 633,
+    "group": "copick",
+    "name": "train-model-xgboost-copick",
+    "version": "0.0.1",
+    "title": "Train XGBoost on Copick Data with Cross-Validation",
+    "description": "A solution that processes Copick runs, filters runs with only one label, and trains an XGBoost model with 10-fold cross-validation.",
+    "date": "2024-10-22T13:11:22.178780",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of names for the painting segmentations. Rightmost segmentation has highest precedence.",
+        "name": "painting_segmentation_names",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the segmentation.",
+        "name": "session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for segmentation creation.",
+        "name": "user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram, e.g. denoised.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of feature types to use for each tomogram, e.g. cellcanvas01,cellcanvas02.",
+        "name": "feature_types",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of run names to process. If not provided, all runs will be processed.",
+        "name": "run_names",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": 0.3,
+        "description": "Step size shrinkage used in update to prevents overfitting.",
+        "name": "eta",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0.0,
+        "description": "Minimum loss reduction required to make a further partition on a leaf node of the tree.",
+        "name": "gamma",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 6,
+        "description": "The maximum depth of the trees.",
+        "name": "max_depth",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1.0,
+        "description": "Minimum sum of instance weight needed in a child.",
+        "name": "min_child_weight",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0.0,
+        "description": "Maximum delta step we allow each leaf output to be.",
+        "name": "max_delta_step",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 1.0,
+        "description": "Subsample ratio of the training instances.",
+        "name": "subsample",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 1.0,
+        "description": "Subsample ratio of columns when constructing each tree.",
+        "name": "colsample_bytree",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 1.0,
+        "description": "L2 regularization term on weights.",
+        "name": "reg_lambda",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0.0,
+        "description": "L1 regularization term on wights.",
+        "name": "reg_alpha",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 256,
+        "description": "Maximum number of discrete bins to bucket continuous features.",
+        "name": "max_bin",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": "",
+        "description": "Class weights for the XGBoost model as a comma-separated list.",
+        "name": "class_weights",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Path for the output joblib file containing the trained XGBoost model.",
+        "name": "output_model_path",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "xgboost",
+      "machine learning",
+      "segmentation",
+      "training",
+      "cross-validation",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 634,
+    "group": "copick",
+    "name": "train-model-xgboost-copick",
+    "version": "0.0.2",
+    "title": "Train XGBoost on Copick Data with Cross-Validation",
+    "description": "A solution that processes Copick runs, filters runs with only one label, and trains an XGBoost model with 10-fold cross-validation.",
+    "date": "2024-10-22T13:11:22.178780",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of names for the painting segmentations. Rightmost segmentation has highest precedence.",
+        "name": "painting_segmentation_names",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the segmentation.",
+        "name": "session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for segmentation creation.",
+        "name": "user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram, e.g. denoised.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of feature types to use for each tomogram, e.g. cellcanvas01,cellcanvas02.",
+        "name": "feature_types",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of run names to process. If not provided, all runs will be processed.",
+        "name": "run_names",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": 0.3,
+        "description": "Step size shrinkage used in update to prevents overfitting.",
+        "name": "eta",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0.0,
+        "description": "Minimum loss reduction required to make a further partition on a leaf node of the tree.",
+        "name": "gamma",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 6,
+        "description": "The maximum depth of the trees.",
+        "name": "max_depth",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1.0,
+        "description": "Minimum sum of instance weight needed in a child.",
+        "name": "min_child_weight",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0.0,
+        "description": "Maximum delta step we allow each leaf output to be.",
+        "name": "max_delta_step",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 1.0,
+        "description": "Subsample ratio of the training instances.",
+        "name": "subsample",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 1.0,
+        "description": "Subsample ratio of columns when constructing each tree.",
+        "name": "colsample_bytree",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 1.0,
+        "description": "L2 regularization term on weights.",
+        "name": "reg_lambda",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0.0,
+        "description": "L1 regularization term on wights.",
+        "name": "reg_alpha",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 256,
+        "description": "Maximum number of discrete bins to bucket continuous features.",
+        "name": "max_bin",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": "",
+        "description": "Class weights for the XGBoost model as a comma-separated list.",
+        "name": "class_weights",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Path for the output joblib file containing the trained XGBoost model.",
+        "name": "output_model_path",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "xgboost",
+      "machine learning",
+      "segmentation",
+      "training",
+      "cross-validation",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 635,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.8",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-22T14:29:58.953857",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 636,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.9",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-22T14:29:58.953857",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 637,
+    "group": "cellcanvas",
+    "name": "segment-tomogram-xgboost",
+    "version": "0.0.6",
+    "title": "Predict a Multilabel Segmentation Using a Model",
+    "description": "A solution that predicts segmentation using a model for a Copick project and saves it as 'predictionsegmentation'.",
+    "date": "2024-10-22T10:17:52.606326",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the segmentation.",
+        "name": "session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for segmentation creation.",
+        "name": "user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the trained model file.",
+        "name": "model_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Type of tomogram to use, e.g., denoised.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.",
+        "name": "feature_names",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the output segmentation.",
+        "name": "segmentation_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": "deferred",
+        "description": "Write mode: deferred writes all chunks at once, immediate writes each chunk as it is computed.",
+        "name": "write_mode",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "data analysis",
+      "zarr",
+      "segmentation",
+      "prediction",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 638,
+    "group": "cellcanvas",
+    "name": "segment-tomogram-xgboost",
+    "version": "0.0.7",
+    "title": "Predict a Multilabel Segmentation Using a Model",
+    "description": "A solution that predicts segmentation using a model for a Copick project and saves it as 'predictionsegmentation'.",
+    "date": "2024-10-22T10:17:52.606326",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the segmentation.",
+        "name": "session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for segmentation creation.",
+        "name": "user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Path to the trained model file.",
+        "name": "model_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Type of tomogram to use, e.g., denoised.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of feature names to use, e.g., cellcanvas01,cellcanvas02.",
+        "name": "feature_names",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the output segmentation.",
+        "name": "segmentation_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": "deferred",
+        "description": "Write mode: deferred writes all chunks at once, immediate writes each chunk as it is computed.",
+        "name": "write_mode",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "data analysis",
+      "zarr",
+      "segmentation",
+      "prediction",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 639,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.10",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-22T14:29:58.953857",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 640,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.11",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-22T14:29:58.953857",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 641,
+    "group": "copick",
+    "name": "generate-torch-basic-features",
+    "version": "0.0.4",
+    "title": "Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)",
+    "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
+    "date": "2024-10-22T11:45:06.794711",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing to be used.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram to process.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the feature type to be saved.",
+        "name": "feature_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": true,
+        "description": "Include intensity features",
+        "name": "intensity",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": true,
+        "description": "Include edge features",
+        "name": "edges",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": true,
+        "description": "Include texture features",
+        "name": "texture",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": 0.5,
+        "description": "Minimum sigma for Gaussian blurring",
+        "name": "sigma_min",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 16.0,
+        "description": "Maximum sigma for Gaussian blurring",
+        "name": "sigma_max",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 5,
+        "description": "Number of sigma values between sigma_min and sigma_max for texture features.",
+        "name": "num_sigma",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "feature extraction",
+      "image processing",
+      "cryoet",
+      "tomogram"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 642,
+    "group": "copick",
+    "name": "generate-torch-basic-features",
+    "version": "0.0.5",
+    "title": "Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)",
+    "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
+    "date": "2024-10-22T11:45:06.794711",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing to be used.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram to process.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the feature type to be saved.",
+        "name": "feature_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": true,
+        "description": "Include intensity features",
+        "name": "intensity",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": true,
+        "description": "Include edge features",
+        "name": "edges",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": true,
+        "description": "Include texture features",
+        "name": "texture",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": 0.5,
+        "description": "Minimum sigma for Gaussian blurring",
+        "name": "sigma_min",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 16.0,
+        "description": "Maximum sigma for Gaussian blurring",
+        "name": "sigma_max",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 5,
+        "description": "Number of sigma values between sigma_min and sigma_max for texture features.",
+        "name": "num_sigma",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "feature extraction",
+      "image processing",
+      "cryoet",
+      "tomogram"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 643,
+    "group": "copick",
+    "name": "generate-torch-basic-features",
+    "version": "0.0.6",
+    "title": "Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)",
+    "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
+    "date": "2024-10-22T11:45:06.794711",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing to be used.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram to process.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the feature type to be saved.",
+        "name": "feature_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": true,
+        "description": "Include intensity features",
+        "name": "intensity",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": true,
+        "description": "Include edge features",
+        "name": "edges",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": true,
+        "description": "Include texture features",
+        "name": "texture",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": 0.5,
+        "description": "Minimum sigma for Gaussian blurring",
+        "name": "sigma_min",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 16.0,
+        "description": "Maximum sigma for Gaussian blurring",
+        "name": "sigma_max",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 5,
+        "description": "Number of sigma values between sigma_min and sigma_max for texture features.",
+        "name": "num_sigma",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "feature extraction",
+      "image processing",
+      "cryoet",
+      "tomogram"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 644,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.12",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-22T14:29:58.953857",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 645,
+    "group": "copick",
+    "name": "generate-torch-basic-features",
+    "version": "0.0.7",
+    "title": "Generate Multiscale Basic Features with Torch using Copick API (Chunked, Corrected)",
+    "description": "Compute multiscale basic features of a tomogram from a Copick run in chunks and save them using Copick's API.",
+    "date": "2024-10-22T11:45:06.794711",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing to be used.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram to process.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the feature type to be saved.",
+        "name": "feature_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": true,
+        "description": "Include intensity features",
+        "name": "intensity",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": true,
+        "description": "Include edge features",
+        "name": "edges",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": true,
+        "description": "Include texture features",
+        "name": "texture",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": 0.5,
+        "description": "Minimum sigma for Gaussian blurring",
+        "name": "sigma_min",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 16.0,
+        "description": "Maximum sigma for Gaussian blurring",
+        "name": "sigma_max",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 5,
+        "description": "Number of sigma values between sigma_min and sigma_max for texture features.",
+        "name": "num_sigma",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "feature extraction",
+      "image processing",
+      "cryoet",
+      "tomogram"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 646,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.13",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-22T14:29:58.953857",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 647,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.14",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-22T14:29:58.953857",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 648,
+    "group": "copick",
+    "name": "train-model-xgboost-copick",
+    "version": "0.0.3",
+    "title": "Train XGBoost on Copick Data with Cross-Validation",
+    "description": "A solution that processes Copick runs, filters runs with only one label, and trains an XGBoost model with 10-fold cross-validation.",
+    "date": "2024-10-22T13:11:22.178780",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of names for the painting segmentations. Rightmost segmentation has highest precedence.",
+        "name": "painting_segmentation_names",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the segmentation.",
+        "name": "session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for segmentation creation.",
+        "name": "user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram, e.g. denoised.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of feature types to use for each tomogram, e.g. cellcanvas01,cellcanvas02.",
+        "name": "feature_types",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of run names to process. If not provided, all runs will be processed.",
+        "name": "run_names",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": 0.3,
+        "description": "Step size shrinkage used in update to prevents overfitting.",
+        "name": "eta",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0.0,
+        "description": "Minimum loss reduction required to make a further partition on a leaf node of the tree.",
+        "name": "gamma",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 6,
+        "description": "The maximum depth of the trees.",
+        "name": "max_depth",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1.0,
+        "description": "Minimum sum of instance weight needed in a child.",
+        "name": "min_child_weight",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0.0,
+        "description": "Maximum delta step we allow each leaf output to be.",
+        "name": "max_delta_step",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 1.0,
+        "description": "Subsample ratio of the training instances.",
+        "name": "subsample",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 1.0,
+        "description": "Subsample ratio of columns when constructing each tree.",
+        "name": "colsample_bytree",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 1.0,
+        "description": "L2 regularization term on weights.",
+        "name": "reg_lambda",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0.0,
+        "description": "L1 regularization term on wights.",
+        "name": "reg_alpha",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 256,
+        "description": "Maximum number of discrete bins to bucket continuous features.",
+        "name": "max_bin",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": "",
+        "description": "Class weights for the XGBoost model as a comma-separated list.",
+        "name": "class_weights",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Path for the output joblib file containing the trained XGBoost model.",
+        "name": "output_model_path",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "xgboost",
+      "machine learning",
+      "segmentation",
+      "training",
+      "cross-validation",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 649,
+    "group": "copick",
+    "name": "train-model-xgboost-copick",
+    "version": "0.0.4",
+    "title": "Train XGBoost on Copick Data with Cross-Validation",
+    "description": "A solution that processes Copick runs, filters runs with only one label, and trains an XGBoost model with 10-fold cross-validation.",
+    "date": "2024-10-22T13:11:22.178780",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of names for the painting segmentations. Rightmost segmentation has highest precedence.",
+        "name": "painting_segmentation_names",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Session ID for the segmentation.",
+        "name": "session_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User ID for segmentation creation.",
+        "name": "user_id",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing used to scale pick locations.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Tomogram type to use for each tomogram, e.g. denoised.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of feature types to use for each tomogram, e.g. cellcanvas01,cellcanvas02.",
+        "name": "feature_types",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Comma-separated list of run names to process. If not provided, all runs will be processed.",
+        "name": "run_names",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": 0.3,
+        "description": "Step size shrinkage used in update to prevents overfitting.",
+        "name": "eta",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0.0,
+        "description": "Minimum loss reduction required to make a further partition on a leaf node of the tree.",
+        "name": "gamma",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 6,
+        "description": "The maximum depth of the trees.",
+        "name": "max_depth",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1.0,
+        "description": "Minimum sum of instance weight needed in a child.",
+        "name": "min_child_weight",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0.0,
+        "description": "Maximum delta step we allow each leaf output to be.",
+        "name": "max_delta_step",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 1.0,
+        "description": "Subsample ratio of the training instances.",
+        "name": "subsample",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 1.0,
+        "description": "Subsample ratio of columns when constructing each tree.",
+        "name": "colsample_bytree",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 1.0,
+        "description": "L2 regularization term on weights.",
+        "name": "reg_lambda",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0.0,
+        "description": "L1 regularization term on wights.",
+        "name": "reg_alpha",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 256,
+        "description": "Maximum number of discrete bins to bucket continuous features.",
+        "name": "max_bin",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": "",
+        "description": "Class weights for the XGBoost model as a comma-separated list.",
+        "name": "class_weights",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Path for the output joblib file containing the trained XGBoost model.",
+        "name": "output_model_path",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "xgboost",
+      "machine learning",
+      "segmentation",
+      "training",
+      "cross-validation",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 650,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.15",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-22T14:29:58.953857",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 651,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.16",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-22T14:29:58.953857",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 652,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.17",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-22T14:29:58.953857",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 653,
+    "group": "cellcanvas",
+    "name": "experimental-server",
+    "version": "0.0.18",
+    "title": "FastAPI CellCanvas Server",
+    "description": "Backend for CellCanvas with Copick Config Support.",
+    "date": "2024-10-22T14:29:58.953857",
+    "args": [
+      {
+        "default": "/path/to/copick/config.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Path to the JSON file for storing model listings. If not provided, model listings will not be persisted.",
+        "name": "models_json_path",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "fastapi",
+      "album",
+      "server",
+      "copick"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 654,
+    "group": "cellcanvas",
+    "name": "napari-cellcanvas",
+    "version": "0.0.6",
+    "title": "napari-CellCanvas",
+    "description": "A solution that launches napari-cellcanvas with optional config fetching.",
+    "date": "2024-10-22T15:16:56.978320",
+    "args": [
+      {
+        "default": "/Users/kharrington/Data/copick/cellcanvas_server/local_sshOverlay_localStatic.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "napari",
+      "cellcanvas",
+      "plugin",
+      "visualization"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 655,
+    "group": "cellcanvas",
+    "name": "napari-cellcanvas",
+    "version": "0.0.7",
+    "title": "napari-CellCanvas",
+    "description": "A solution that launches napari-cellcanvas with optional config fetching.",
+    "date": "2024-10-22T15:16:56.978320",
+    "args": [
+      {
+        "default": "/Users/kharrington/Data/copick/cellcanvas_server/local_sshOverlay_localStatic.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "napari",
+      "cellcanvas",
+      "plugin",
+      "visualization"
+    ]
+  },
+  {
+    "catalog_name": "cellcanvas",
+    "catalog_url": "https://github.com/cellcanvas/album-catalog.git",
+    "solution_id": 656,
+    "group": "cellcanvas",
+    "name": "napari-cellcanvas",
+    "version": "0.0.8",
+    "title": "napari-CellCanvas",
+    "description": "A solution that launches napari-cellcanvas with optional config fetching.",
+    "date": "2024-10-22T15:16:56.978320",
+    "args": [
+      {
+        "default": "/Users/kharrington/Data/copick/cellcanvas_server/local_sshOverlay_localStatic.json",
+        "description": "Path to the Copick configuration file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "napari",
+      "cellcanvas",
+      "plugin",
+      "visualization"
     ]
   },
   {
