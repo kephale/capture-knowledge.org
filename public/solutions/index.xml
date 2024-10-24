@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Solutions on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/solutions/</link><description>Recent content in Solutions on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 22 Oct 2024 15:16:56 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/solutions/index.xml" rel="self" type="application/rss+xml"/><item><title>napari-CellCanvas</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-1/</link><pubDate>Tue, 22 Oct 2024 15:16:56 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-1/</guid><description>&lt;p>A solution that launches napari-cellcanvas with optional config fetching.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Solutions on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/solutions/</link><description>Recent content in Solutions on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 23 Oct 2024 09:48:27 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/solutions/index.xml" rel="self" type="application/rss+xml"/><item><title>Generate DINOv2 Features from a Copick Run</title><link>https://capture-knowledge.org/solutions/copick/copick/generate-dino-features/0-0-1/</link><pubDate>Wed, 23 Oct 2024 09:48:27 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/generate-dino-features/0-0-1/</guid><description>&lt;p>Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;/ul></description></item><item><title>Generate DINOv2 Features from a Copick Run</title><link>https://capture-knowledge.org/solutions/copick/copick/generate-dino-features/0-0-2/</link><pubDate>Wed, 23 Oct 2024 09:48:27 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/generate-dino-features/0-0-2/</guid><description>&lt;p>Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;/ul></description></item><item><title>Generate DINOv2 Features from a Copick Run</title><link>https://capture-knowledge.org/solutions/copick/copick/generate-dino-features/0-0-3/</link><pubDate>Wed, 23 Oct 2024 09:48:27 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/generate-dino-features/0-0-3/</guid><description>&lt;p>Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;/ul></description></item><item><title>Generate DINOv2 Features from a Copick Run</title><link>https://capture-knowledge.org/solutions/copick/copick/generate-dino-features/0-0-4/</link><pubDate>Wed, 23 Oct 2024 09:48:27 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/generate-dino-features/0-0-4/</guid><description>&lt;p>Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;/ul></description></item><item><title>Generate DINOv2 Features from a Copick Run</title><link>https://capture-knowledge.org/solutions/copick/copick/generate-dino-features/0-0-5/</link><pubDate>Wed, 23 Oct 2024 09:48:27 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/generate-dino-features/0-0-5/</guid><description>&lt;p>Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick&amp;rsquo;s API.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_name&lt;/strong> (string): Name of the Copick run to process.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing to be used.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram to process.&lt;/li>
+&lt;li>&lt;strong>feature_type&lt;/strong> (string): Name for the feature type to be saved.&lt;/li>
+&lt;/ul></description></item><item><title>napari-CellCanvas</title><link>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-1/</link><pubDate>Tue, 22 Oct 2024 15:16:56 +0000</pubDate><guid>https://capture-knowledge.org/solutions/cellcanvas/cellcanvas/napari-cellcanvas/0-0-1/</guid><description>&lt;p>A solution that launches napari-cellcanvas with optional config fetching.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration file.&lt;/li>

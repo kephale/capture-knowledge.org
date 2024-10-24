@@ -56954,6 +56954,281 @@
     ]
   },
   {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 100,
+    "group": "copick",
+    "name": "generate-dino-features",
+    "version": "0.0.1",
+    "title": "Generate DINOv2 Features from a Copick Run",
+    "description": "Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick's API.",
+    "date": "2024-10-23T09:48:27.386473",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing to be used.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram to process.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the feature type to be saved.",
+        "name": "feature_type",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "feature extraction",
+      "pretrained model",
+      "image processing",
+      "cryoet",
+      "tomogram"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 101,
+    "group": "copick",
+    "name": "generate-dino-features",
+    "version": "0.0.2",
+    "title": "Generate DINOv2 Features from a Copick Run",
+    "description": "Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick's API.",
+    "date": "2024-10-23T09:48:27.386473",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing to be used.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram to process.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the feature type to be saved.",
+        "name": "feature_type",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "feature extraction",
+      "pretrained model",
+      "image processing",
+      "cryoet",
+      "tomogram"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 102,
+    "group": "copick",
+    "name": "generate-dino-features",
+    "version": "0.0.3",
+    "title": "Generate DINOv2 Features from a Copick Run",
+    "description": "Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick's API.",
+    "date": "2024-10-23T09:48:27.386473",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing to be used.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram to process.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the feature type to be saved.",
+        "name": "feature_type",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "feature extraction",
+      "pretrained model",
+      "image processing",
+      "cryoet",
+      "tomogram"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 103,
+    "group": "copick",
+    "name": "generate-dino-features",
+    "version": "0.0.4",
+    "title": "Generate DINOv2 Features from a Copick Run",
+    "description": "Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick's API.",
+    "date": "2024-10-23T09:48:27.386473",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing to be used.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram to process.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the feature type to be saved.",
+        "name": "feature_type",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "feature extraction",
+      "pretrained model",
+      "image processing",
+      "cryoet",
+      "tomogram"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 104,
+    "group": "copick",
+    "name": "generate-dino-features",
+    "version": "0.0.5",
+    "title": "Generate DINOv2 Features from a Copick Run",
+    "description": "Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick's API.",
+    "date": "2024-10-23T09:48:27.386473",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing to be used.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram to process.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the feature type to be saved.",
+        "name": "feature_type",
+        "required": true,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "feature extraction",
+      "pretrained model",
+      "image processing",
+      "cryoet",
+      "tomogram"
+    ]
+  },
+  {
     "catalog_name": "solutions.computational.life",
     "catalog_url": "https://github.com/kephale/solutions.computational.life.git",
     "solution_id": 2,
