@@ -56962,7 +56962,7 @@
     "version": "0.0.1",
     "title": "Generate DINOv2 Features from a Copick Run",
     "description": "Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick's API.",
-    "date": "2024-10-23T09:48:27.386473",
+    "date": "2024-10-23T23:01:25.074598",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -56993,6 +56993,34 @@
         "name": "feature_type",
         "required": true,
         "type": "string"
+      },
+      {
+        "default": 1024,
+        "description": "Batch size for processing.",
+        "name": "batch_size",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the x-axis.",
+        "name": "stride_x",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the y-axis.",
+        "name": "stride_y",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the z-axis.",
+        "name": "stride_z",
+        "required": false,
+        "type": "integer"
       }
     ],
     "citation": [],
@@ -57017,7 +57045,7 @@
     "version": "0.0.2",
     "title": "Generate DINOv2 Features from a Copick Run",
     "description": "Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick's API.",
-    "date": "2024-10-23T09:48:27.386473",
+    "date": "2024-10-23T23:01:25.074598",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -57048,6 +57076,34 @@
         "name": "feature_type",
         "required": true,
         "type": "string"
+      },
+      {
+        "default": 1024,
+        "description": "Batch size for processing.",
+        "name": "batch_size",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the x-axis.",
+        "name": "stride_x",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the y-axis.",
+        "name": "stride_y",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the z-axis.",
+        "name": "stride_z",
+        "required": false,
+        "type": "integer"
       }
     ],
     "citation": [],
@@ -57072,7 +57128,7 @@
     "version": "0.0.3",
     "title": "Generate DINOv2 Features from a Copick Run",
     "description": "Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick's API.",
-    "date": "2024-10-23T09:48:27.386473",
+    "date": "2024-10-23T23:01:25.074598",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -57103,6 +57159,34 @@
         "name": "feature_type",
         "required": true,
         "type": "string"
+      },
+      {
+        "default": 1024,
+        "description": "Batch size for processing.",
+        "name": "batch_size",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the x-axis.",
+        "name": "stride_x",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the y-axis.",
+        "name": "stride_y",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the z-axis.",
+        "name": "stride_z",
+        "required": false,
+        "type": "integer"
       }
     ],
     "citation": [],
@@ -57127,7 +57211,7 @@
     "version": "0.0.4",
     "title": "Generate DINOv2 Features from a Copick Run",
     "description": "Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick's API.",
-    "date": "2024-10-23T09:48:27.386473",
+    "date": "2024-10-23T23:01:25.074598",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -57158,6 +57242,34 @@
         "name": "feature_type",
         "required": true,
         "type": "string"
+      },
+      {
+        "default": 1024,
+        "description": "Batch size for processing.",
+        "name": "batch_size",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the x-axis.",
+        "name": "stride_x",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the y-axis.",
+        "name": "stride_y",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the z-axis.",
+        "name": "stride_z",
+        "required": false,
+        "type": "integer"
       }
     ],
     "citation": [],
@@ -57182,7 +57294,7 @@
     "version": "0.0.5",
     "title": "Generate DINOv2 Features from a Copick Run",
     "description": "Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick's API.",
-    "date": "2024-10-23T09:48:27.386473",
+    "date": "2024-10-23T23:01:25.074598",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -57213,6 +57325,117 @@
         "name": "feature_type",
         "required": true,
         "type": "string"
+      },
+      {
+        "default": 1024,
+        "description": "Batch size for processing.",
+        "name": "batch_size",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the x-axis.",
+        "name": "stride_x",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the y-axis.",
+        "name": "stride_y",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the z-axis.",
+        "name": "stride_z",
+        "required": false,
+        "type": "integer"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "feature extraction",
+      "pretrained model",
+      "image processing",
+      "cryoet",
+      "tomogram"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 105,
+    "group": "copick",
+    "name": "generate-dino-features",
+    "version": "0.0.6",
+    "title": "Generate DINOv2 Features from a Copick Run",
+    "description": "Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick's API.",
+    "date": "2024-10-23T23:01:25.074598",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the Copick run to process.",
+        "name": "run_name",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing to be used.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram to process.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name for the feature type to be saved.",
+        "name": "feature_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 1024,
+        "description": "Batch size for processing.",
+        "name": "batch_size",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the x-axis.",
+        "name": "stride_x",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the y-axis.",
+        "name": "stride_y",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 1,
+        "description": "Stride along the z-axis.",
+        "name": "stride_z",
+        "required": false,
+        "type": "integer"
       }
     ],
     "citation": [],
