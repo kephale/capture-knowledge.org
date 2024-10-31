@@ -49555,7 +49555,7 @@
     "version": "0.2.0",
     "title": "Fit Sample Volume",
     "description": "fit a mesh describing the sample from two sets of points defining upper and lower boundary.",
-    "date": "2024-08-12T11:24:02.008689",
+    "date": "2024-10-30T15:58:21.885349",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -49666,7 +49666,7 @@
     "version": "0.3.0",
     "title": "Fit Sample Volume",
     "description": "fit a mesh describing the sample from two sets of points defining upper and lower boundary.",
-    "date": "2024-08-12T11:24:02.008689",
+    "date": "2024-10-30T15:58:21.885349",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -49777,7 +49777,7 @@
     "version": "0.3.0",
     "title": "Create Reconstruction Limits",
     "description": "Create a mesh defining the valid reconstructed area.",
-    "date": "2024-08-12T11:23:17.575692",
+    "date": "2024-10-30T15:58:01.537785",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -49957,7 +49957,7 @@
     "version": "0.4.0",
     "title": "Fit Sample Volume",
     "description": "fit a mesh describing the sample from two sets of points defining upper and lower boundary.",
-    "date": "2024-08-12T11:24:02.008689",
+    "date": "2024-10-30T15:58:21.885349",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -50068,7 +50068,7 @@
     "version": "0.3.0",
     "title": "Intersect two meshes",
     "description": "Compute the intersection of two meshes.",
-    "date": "2024-08-12T11:24:59.635344",
+    "date": "2024-10-30T15:58:58.212890",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -50163,7 +50163,7 @@
     "version": "0.5.0",
     "title": "Convert Mesh to Segmentation",
     "description": "Convert a watertight mesh to a dense voxel segmentation.",
-    "date": "2024-08-12T11:25:15.394330",
+    "date": "2024-10-30T15:59:20.633932",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -50252,7 +50252,7 @@
     "version": "0.3.0",
     "title": "Sample points in/on/outside a mesh.",
     "description": "Sample random points in/on/outside a mesh.",
-    "date": "2024-08-12T11:25:32.941931",
+    "date": "2024-10-30T15:59:41.576511",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -50383,7 +50383,7 @@
     "version": "0.4.0",
     "title": "Create Reconstruction Limits",
     "description": "Create a mesh defining the valid reconstructed area.",
-    "date": "2024-08-12T11:23:17.575692",
+    "date": "2024-10-30T15:58:01.537785",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -50563,7 +50563,7 @@
     "version": "0.6.0",
     "title": "Fit Sample Volume",
     "description": "fit a mesh describing the sample from two sets of points defining upper and lower boundary.",
-    "date": "2024-08-12T11:24:02.008689",
+    "date": "2024-10-30T15:58:21.885349",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -50674,7 +50674,7 @@
     "version": "0.4.0",
     "title": "Intersect two meshes",
     "description": "Compute the intersection of two meshes.",
-    "date": "2024-08-12T11:24:59.635344",
+    "date": "2024-10-30T15:58:58.212890",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -50769,7 +50769,7 @@
     "version": "0.6.0",
     "title": "Convert Mesh to Segmentation",
     "description": "Convert a watertight mesh to a dense voxel segmentation.",
-    "date": "2024-08-12T11:25:15.394330",
+    "date": "2024-10-30T15:59:20.633932",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -50858,7 +50858,7 @@
     "version": "0.4.0",
     "title": "Sample points in/on/outside a mesh.",
     "description": "Sample random points in/on/outside a mesh.",
-    "date": "2024-08-12T11:25:32.941931",
+    "date": "2024-10-30T15:59:41.576511",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -50989,7 +50989,7 @@
     "version": "0.3.0",
     "title": "Fit Sample Volume from segmentation",
     "description": "fit a mesh describing the sample from a binary segmentation.",
-    "date": "2024-08-12T11:24:22.949479",
+    "date": "2024-10-30T15:58:39.500053",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -51107,7 +51107,7 @@
     "version": "0.4.0",
     "title": "Fit Sample Volume from segmentation",
     "description": "fit a mesh describing the sample from a binary segmentation.",
-    "date": "2024-08-12T11:24:22.949479",
+    "date": "2024-10-30T15:58:39.500053",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -51225,7 +51225,7 @@
     "version": "0.5.0",
     "title": "Fit Sample Volume from segmentation",
     "description": "fit a mesh describing the sample from a binary segmentation.",
-    "date": "2024-08-12T11:24:22.949479",
+    "date": "2024-10-30T15:58:39.500053",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -51343,7 +51343,7 @@
     "version": "0.6.0",
     "title": "Fit Sample Volume from segmentation",
     "description": "fit a mesh describing the sample from a binary segmentation.",
-    "date": "2024-08-12T11:24:22.949479",
+    "date": "2024-10-30T15:58:39.500053",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -51461,7 +51461,7 @@
     "version": "0.7.0",
     "title": "Fit Sample Volume from segmentation",
     "description": "fit a mesh describing the sample from a binary segmentation.",
-    "date": "2024-08-12T11:24:22.949479",
+    "date": "2024-10-30T15:58:39.500053",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -52596,7 +52596,7 @@
     "version": "0.5.0",
     "title": "Create Reconstruction Limits",
     "description": "Create a mesh defining the valid reconstructed area.",
-    "date": "2024-08-12T11:23:17.575692",
+    "date": "2024-10-30T15:58:01.537785",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -52776,7 +52776,7 @@
     "version": "0.7.0",
     "title": "Fit Sample Volume",
     "description": "fit a mesh describing the sample from two sets of points defining upper and lower boundary.",
-    "date": "2024-08-12T11:24:02.008689",
+    "date": "2024-10-30T15:58:21.885349",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -52887,7 +52887,7 @@
     "version": "0.9.0",
     "title": "Fit Sample Volume from segmentation",
     "description": "fit a mesh describing the sample from a binary segmentation.",
-    "date": "2024-08-12T11:24:22.949479",
+    "date": "2024-10-30T15:58:39.500053",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -53081,7 +53081,7 @@
     "version": "0.5.0",
     "title": "Intersect two meshes",
     "description": "Compute the intersection of two meshes.",
-    "date": "2024-08-12T11:24:59.635344",
+    "date": "2024-10-30T15:58:58.212890",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -53176,7 +53176,7 @@
     "version": "0.7.0",
     "title": "Convert Mesh to Segmentation",
     "description": "Convert a watertight mesh to a dense voxel segmentation.",
-    "date": "2024-08-12T11:25:15.394330",
+    "date": "2024-10-30T15:59:20.633932",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -53265,7 +53265,7 @@
     "version": "0.5.0",
     "title": "Sample points in/on/outside a mesh.",
     "description": "Sample random points in/on/outside a mesh.",
-    "date": "2024-08-12T11:25:32.941931",
+    "date": "2024-10-30T15:59:41.576511",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -53445,7 +53445,7 @@
     "version": "0.1.0",
     "title": "Create empty picks.",
     "description": "Create empty picks inside a copick project.",
-    "date": "2024-08-12T11:20:16.223156",
+    "date": "2024-10-30T15:57:38.357039",
     "args": [
       {
         "description": "Path to the Copick project root. Write access is expected for both overlay and static root.",
@@ -53507,7 +53507,7 @@
     "version": "0.2.0",
     "title": "Create empty picks.",
     "description": "Create empty picks inside a copick project.",
-    "date": "2024-08-12T11:20:16.223156",
+    "date": "2024-10-30T15:57:38.357039",
     "args": [
       {
         "description": "Path to the Copick project root. Write access is expected for both overlay and static root.",
@@ -53569,7 +53569,7 @@
     "version": "0.3.0",
     "title": "Create empty picks.",
     "description": "Create empty picks inside a copick project.",
-    "date": "2024-08-12T11:20:16.223156",
+    "date": "2024-10-30T15:57:38.357039",
     "args": [
       {
         "description": "Path to the Copick project root. Write access is expected for both overlay and static root.",
@@ -53877,7 +53877,7 @@
     "version": "0.3.1",
     "title": "Create empty picks.",
     "description": "Create empty picks inside a copick project.",
-    "date": "2024-08-12T11:20:16.223156",
+    "date": "2024-10-30T15:57:38.357039",
     "args": [
       {
         "description": "Path to the Copick project root. Write access is expected for both overlay and static root.",
@@ -53939,7 +53939,7 @@
     "version": "0.5.1",
     "title": "Create Reconstruction Limits",
     "description": "Create a mesh defining the valid reconstructed area.",
-    "date": "2024-08-12T11:23:17.575692",
+    "date": "2024-10-30T15:58:01.537785",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -54119,7 +54119,7 @@
     "version": "0.7.1",
     "title": "Fit Sample Volume",
     "description": "fit a mesh describing the sample from two sets of points defining upper and lower boundary.",
-    "date": "2024-08-12T11:24:02.008689",
+    "date": "2024-10-30T15:58:21.885349",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -54230,7 +54230,7 @@
     "version": "0.9.1",
     "title": "Fit Sample Volume from segmentation",
     "description": "fit a mesh describing the sample from a binary segmentation.",
-    "date": "2024-08-12T11:24:22.949479",
+    "date": "2024-10-30T15:58:39.500053",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -54424,7 +54424,7 @@
     "version": "0.5.1",
     "title": "Intersect two meshes",
     "description": "Compute the intersection of two meshes.",
-    "date": "2024-08-12T11:24:59.635344",
+    "date": "2024-10-30T15:58:58.212890",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -54519,7 +54519,7 @@
     "version": "0.7.1",
     "title": "Convert Mesh to Segmentation",
     "description": "Convert a watertight mesh to a dense voxel segmentation.",
-    "date": "2024-08-12T11:25:15.394330",
+    "date": "2024-10-30T15:59:20.633932",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -54608,7 +54608,7 @@
     "version": "0.5.1",
     "title": "Sample points in/on/outside a mesh.",
     "description": "Sample random points in/on/outside a mesh.",
-    "date": "2024-08-12T11:25:32.941931",
+    "date": "2024-10-30T15:59:41.576511",
     "args": [
       {
         "description": "Path to the Copick configuration JSON file.",
@@ -57449,6 +57449,689 @@
       "image processing",
       "cryoet",
       "tomogram"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 106,
+    "group": "copick",
+    "name": "create_empty_picks",
+    "version": "0.4.0",
+    "title": "Create empty picks.",
+    "description": "Create empty picks inside a copick project.",
+    "date": "2024-10-30T15:57:38.357039",
+    "args": [
+      {
+        "description": "Path to the Copick project root. Write access is expected for both overlay and static root.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the output pickable object.",
+        "name": "out_object",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "User/Tool name for output points.",
+        "name": "out_user",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Output session, indicating this set was generated by a tool.",
+        "name": "out_session",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": false,
+        "description": "Whether to overwrite existing picks.",
+        "name": "overwrite",
+        "required": false,
+        "type": "boolean"
+      },
+      {
+        "default": "",
+        "description": "Comma-separated list of run names.",
+        "name": "run_names",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Utz H. Ermel"
+    ],
+    "license": "MIT",
+    "tags": [
+      "copick",
+      "setup",
+      "picks",
+      "creation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 107,
+    "group": "copick",
+    "name": "create_rec_limits",
+    "version": "0.6.0",
+    "title": "Create Reconstruction Limits",
+    "description": "Create a mesh defining the valid reconstructed area.",
+    "date": "2024-10-30T15:58:01.537785",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Comma-separated list of run names.",
+        "name": "run_names",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Angle of the plane.",
+        "name": "angle",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "default": "reconstruction",
+        "description": "Name of the output object.",
+        "name": "output_object",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "fit",
+        "description": "Name of the output user.",
+        "name": "output_user",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "0",
+        "description": "Name of the output session.",
+        "name": "output_session",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Utz H. Ermel"
+    ],
+    "license": "MIT",
+    "tags": [
+      "copick",
+      "plane",
+      "fitting",
+      "surface",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 108,
+    "group": "copick",
+    "name": "fit_sample",
+    "version": "0.8.0",
+    "title": "Fit Sample Volume",
+    "description": "fit a mesh describing the sample from two sets of points defining upper and lower boundary.",
+    "date": "2024-10-30T15:58:21.885349",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Comma-separated list of run names.",
+        "name": "run_names",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "top-layer",
+        "description": "Name of the object defining top layer.",
+        "name": "top_object",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "bottom-layer",
+        "description": "Name of the object defining bottom layer.",
+        "name": "bottom_object",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input user.",
+        "name": "input_user",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "ID of the input session.",
+        "name": "input_session",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": "5,5",
+        "description": "Resolution of the grid (2 comma-separated ints).",
+        "name": "grid_resolution",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "50,50",
+        "description": "Resolution of the fit (2 comma-separated ints).",
+        "name": "fit_resolution",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "sample",
+        "description": "Name of the output object.",
+        "name": "output_object",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "fit",
+        "description": "Name of the output user.",
+        "name": "output_user",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "0",
+        "description": "Name of the output session.",
+        "name": "output_session",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Utz H. Ermel"
+    ],
+    "license": "MIT",
+    "tags": [
+      "copick",
+      "plane",
+      "fitting",
+      "surface",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 109,
+    "group": "copick",
+    "name": "fit_sample_seg",
+    "version": "0.10.0",
+    "title": "Fit Sample Volume from segmentation",
+    "description": "fit a mesh describing the sample from a binary segmentation.",
+    "date": "2024-10-30T15:58:39.500053",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Comma-separated list of run names.",
+        "name": "run_names",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "top-layer",
+        "description": "Name of the object defining top layer.",
+        "name": "top_object",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "bottom-layer",
+        "description": "Name of the object defining bottom layer.",
+        "name": "bottom_object",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "segmentation",
+        "description": "Name of the object defining bottom layer.",
+        "name": "seg_name",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "valid-sample",
+        "description": "Name of the label defining the sample.",
+        "name": "seg_label_name",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input user.",
+        "name": "input_user",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "ID of the input session.",
+        "name": "input_session",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": "50,50",
+        "description": "Resolution of the fit (2 comma-separated ints).",
+        "name": "fit_resolution",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "sample",
+        "description": "Name of the output object.",
+        "name": "output_object",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "fit",
+        "description": "Name of the output user.",
+        "name": "output_user",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "0",
+        "description": "Name of the output session.",
+        "name": "output_session",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Utz H. Ermel"
+    ],
+    "license": "MIT",
+    "tags": [
+      "copick",
+      "plane",
+      "fitting",
+      "surface",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 110,
+    "group": "copick",
+    "name": "intersect_mesh",
+    "version": "0.6.0",
+    "title": "Intersect two meshes",
+    "description": "Compute the intersection of two meshes.",
+    "date": "2024-10-30T15:58:58.212890",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Comma-separated list of run names.",
+        "name": "run_names",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Name of the first object.",
+        "name": "object_a",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the first user.",
+        "name": "user_a",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "ID of the first session.",
+        "name": "session_a",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the second object.",
+        "name": "object_b",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the second user.",
+        "name": "user_b",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "ID of the second session.",
+        "name": "session_b",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": "reconstruction",
+        "description": "Name of the output object.",
+        "name": "output_object",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "fit",
+        "description": "Name of the output user.",
+        "name": "output_user",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "0",
+        "description": "Name of the output session.",
+        "name": "output_session",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Utz H. Ermel"
+    ],
+    "license": "MIT",
+    "tags": [
+      "copick",
+      "plane",
+      "fitting",
+      "surface",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 111,
+    "group": "copick",
+    "name": "mesh_to_seg",
+    "version": "0.8.0",
+    "title": "Convert Mesh to Segmentation",
+    "description": "Convert a watertight mesh to a dense voxel segmentation.",
+    "date": "2024-10-30T15:59:20.633932",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Comma-separated list of run names.",
+        "name": "run_names",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input object.",
+        "name": "input_object",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input user.",
+        "name": "input_user",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "ID of the input session.",
+        "name": "input_session",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Name of the output object.",
+        "name": "output_object",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "from-mesh",
+        "description": "Name of the output user.",
+        "name": "output_user",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "0",
+        "description": "Name of the output session.",
+        "name": "output_session",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Utz H. Ermel"
+    ],
+    "license": "MIT",
+    "tags": [
+      "copick",
+      "plane",
+      "fitting",
+      "surface",
+      "segmentation"
+    ]
+  },
+  {
+    "catalog_name": "copick",
+    "catalog_url": "https://github.com/copick/copick-catalog.git",
+    "solution_id": 112,
+    "group": "copick",
+    "name": "sample_mesh",
+    "version": "0.6.0",
+    "title": "Sample points in/on/outside a mesh.",
+    "description": "Sample random points in/on/outside a mesh.",
+    "date": "2024-10-30T15:59:41.576511",
+    "args": [
+      {
+        "description": "Path to the Copick configuration JSON file.",
+        "name": "copick_config_path",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": "",
+        "description": "Comma-separated list of run names.",
+        "name": "run_names",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "description": "Voxel spacing.",
+        "name": "voxel_spacing",
+        "required": true,
+        "type": "float"
+      },
+      {
+        "description": "Type of tomogram.",
+        "name": "tomo_type",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input object.",
+        "name": "input_object",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "Name of the input user.",
+        "name": "input_user",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "description": "ID of the input session.",
+        "name": "input_session",
+        "required": true,
+        "type": "string"
+      },
+      {
+        "default": 500,
+        "description": "Approx. number of points on the mesh surface.",
+        "name": "num_surf",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 500,
+        "description": "Approx. number of points inside the mesh.",
+        "name": "num_internal",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 100,
+        "description": "Approx. number of random points outside the mesh (negative examples).",
+        "name": "num_random",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": 500,
+        "description": "Minimum distance (in angstrom) between points.",
+        "name": "min_dist",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 32,
+        "description": "Minimum distance (in voxels) from the volume bounds.",
+        "name": "edge_dist",
+        "required": false,
+        "type": "float"
+      },
+      {
+        "default": 0,
+        "description": "Random seed.",
+        "name": "seed",
+        "required": false,
+        "type": "integer"
+      },
+      {
+        "default": "",
+        "description": "Name of the output object.",
+        "name": "output_object",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "sampled",
+        "description": "Name of the output user.",
+        "name": "output_user",
+        "required": false,
+        "type": "string"
+      },
+      {
+        "default": "0",
+        "description": "Name of the output session.",
+        "name": "output_session",
+        "required": false,
+        "type": "string"
+      }
+    ],
+    "citation": [],
+    "authors": [
+      "Utz H. Ermel"
+    ],
+    "license": "MIT",
+    "tags": [
+      "copick",
+      "plane",
+      "fitting",
+      "surface",
+      "segmentation"
     ]
   },
   {

@@ -1,4 +1,582 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Solutions on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/solutions/</link><description>Recent content in Solutions on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 23 Oct 2024 23:01:25 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/solutions/index.xml" rel="self" type="application/rss+xml"/><item><title>Generate DINOv2 Features from a Copick Run</title><link>https://capture-knowledge.org/solutions/copick/copick/generate-dino-features/0-0-1/</link><pubDate>Wed, 23 Oct 2024 23:01:25 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/generate-dino-features/0-0-1/</guid><description>&lt;p>Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick&amp;rsquo;s API.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Solutions on Capture knowledge meta catalog</title><link>https://capture-knowledge.org/solutions/</link><description>Recent content in Solutions on Capture knowledge meta catalog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Wed, 30 Oct 2024 15:59:41 +0000</lastBuildDate><atom:link href="https://capture-knowledge.org/solutions/index.xml" rel="self" type="application/rss+xml"/><item><title>Sample points in/on/outside a mesh.</title><link>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-3-0/</link><pubDate>Wed, 30 Oct 2024 15:59:41 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-3-0/</guid><description>&lt;p>Sample random points in/on/outside a mesh.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>num_surf&lt;/strong> (integer): Approx. number of points on the mesh surface.&lt;/li>
+&lt;li>&lt;strong>num_internal&lt;/strong> (integer): Approx. number of points inside the mesh.&lt;/li>
+&lt;li>&lt;strong>num_random&lt;/strong> (integer): Approx. number of random points outside the mesh (negative examples).&lt;/li>
+&lt;li>&lt;strong>min_dist&lt;/strong> (float): Minimum distance (in angstrom) between points.&lt;/li>
+&lt;li>&lt;strong>edge_dist&lt;/strong> (float): Minimum distance (in voxels) from the volume bounds.&lt;/li>
+&lt;li>&lt;strong>seed&lt;/strong> (integer): Random seed.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Sample points in/on/outside a mesh.</title><link>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-4-0/</link><pubDate>Wed, 30 Oct 2024 15:59:41 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-4-0/</guid><description>&lt;p>Sample random points in/on/outside a mesh.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>num_surf&lt;/strong> (integer): Approx. number of points on the mesh surface.&lt;/li>
+&lt;li>&lt;strong>num_internal&lt;/strong> (integer): Approx. number of points inside the mesh.&lt;/li>
+&lt;li>&lt;strong>num_random&lt;/strong> (integer): Approx. number of random points outside the mesh (negative examples).&lt;/li>
+&lt;li>&lt;strong>min_dist&lt;/strong> (float): Minimum distance (in angstrom) between points.&lt;/li>
+&lt;li>&lt;strong>edge_dist&lt;/strong> (float): Minimum distance (in voxels) from the volume bounds.&lt;/li>
+&lt;li>&lt;strong>seed&lt;/strong> (integer): Random seed.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Sample points in/on/outside a mesh.</title><link>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-5-0/</link><pubDate>Wed, 30 Oct 2024 15:59:41 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-5-0/</guid><description>&lt;p>Sample random points in/on/outside a mesh.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>num_surf&lt;/strong> (integer): Approx. number of points on the mesh surface.&lt;/li>
+&lt;li>&lt;strong>num_internal&lt;/strong> (integer): Approx. number of points inside the mesh.&lt;/li>
+&lt;li>&lt;strong>num_random&lt;/strong> (integer): Approx. number of random points outside the mesh (negative examples).&lt;/li>
+&lt;li>&lt;strong>min_dist&lt;/strong> (float): Minimum distance (in angstrom) between points.&lt;/li>
+&lt;li>&lt;strong>edge_dist&lt;/strong> (float): Minimum distance (in voxels) from the volume bounds.&lt;/li>
+&lt;li>&lt;strong>seed&lt;/strong> (integer): Random seed.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Sample points in/on/outside a mesh.</title><link>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-5-1/</link><pubDate>Wed, 30 Oct 2024 15:59:41 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-5-1/</guid><description>&lt;p>Sample random points in/on/outside a mesh.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>num_surf&lt;/strong> (integer): Approx. number of points on the mesh surface.&lt;/li>
+&lt;li>&lt;strong>num_internal&lt;/strong> (integer): Approx. number of points inside the mesh.&lt;/li>
+&lt;li>&lt;strong>num_random&lt;/strong> (integer): Approx. number of random points outside the mesh (negative examples).&lt;/li>
+&lt;li>&lt;strong>min_dist&lt;/strong> (float): Minimum distance (in angstrom) between points.&lt;/li>
+&lt;li>&lt;strong>edge_dist&lt;/strong> (float): Minimum distance (in voxels) from the volume bounds.&lt;/li>
+&lt;li>&lt;strong>seed&lt;/strong> (integer): Random seed.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Sample points in/on/outside a mesh.</title><link>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-6-0/</link><pubDate>Wed, 30 Oct 2024 15:59:41 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-6-0/</guid><description>&lt;p>Sample random points in/on/outside a mesh.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>num_surf&lt;/strong> (integer): Approx. number of points on the mesh surface.&lt;/li>
+&lt;li>&lt;strong>num_internal&lt;/strong> (integer): Approx. number of points inside the mesh.&lt;/li>
+&lt;li>&lt;strong>num_random&lt;/strong> (integer): Approx. number of random points outside the mesh (negative examples).&lt;/li>
+&lt;li>&lt;strong>min_dist&lt;/strong> (float): Minimum distance (in angstrom) between points.&lt;/li>
+&lt;li>&lt;strong>edge_dist&lt;/strong> (float): Minimum distance (in voxels) from the volume bounds.&lt;/li>
+&lt;li>&lt;strong>seed&lt;/strong> (integer): Random seed.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Convert Mesh to Segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-5-0/</link><pubDate>Wed, 30 Oct 2024 15:59:20 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-5-0/</guid><description>&lt;p>Convert a watertight mesh to a dense voxel segmentation.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Convert Mesh to Segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-6-0/</link><pubDate>Wed, 30 Oct 2024 15:59:20 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-6-0/</guid><description>&lt;p>Convert a watertight mesh to a dense voxel segmentation.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Convert Mesh to Segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-7-0/</link><pubDate>Wed, 30 Oct 2024 15:59:20 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-7-0/</guid><description>&lt;p>Convert a watertight mesh to a dense voxel segmentation.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Convert Mesh to Segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-7-1/</link><pubDate>Wed, 30 Oct 2024 15:59:20 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-7-1/</guid><description>&lt;p>Convert a watertight mesh to a dense voxel segmentation.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Convert Mesh to Segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-8-0/</link><pubDate>Wed, 30 Oct 2024 15:59:20 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-8-0/</guid><description>&lt;p>Convert a watertight mesh to a dense voxel segmentation.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Intersect two meshes</title><link>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-3-0/</link><pubDate>Wed, 30 Oct 2024 15:58:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-3-0/</guid><description>&lt;p>Compute the intersection of two meshes.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>object_a&lt;/strong> (string): Name of the first object.&lt;/li>
+&lt;li>&lt;strong>user_a&lt;/strong> (string): Name of the first user.&lt;/li>
+&lt;li>&lt;strong>session_a&lt;/strong> (string): ID of the first session.&lt;/li>
+&lt;li>&lt;strong>object_b&lt;/strong> (string): Name of the second object.&lt;/li>
+&lt;li>&lt;strong>user_b&lt;/strong> (string): Name of the second user.&lt;/li>
+&lt;li>&lt;strong>session_b&lt;/strong> (string): ID of the second session.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Intersect two meshes</title><link>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-4-0/</link><pubDate>Wed, 30 Oct 2024 15:58:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-4-0/</guid><description>&lt;p>Compute the intersection of two meshes.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>object_a&lt;/strong> (string): Name of the first object.&lt;/li>
+&lt;li>&lt;strong>user_a&lt;/strong> (string): Name of the first user.&lt;/li>
+&lt;li>&lt;strong>session_a&lt;/strong> (string): ID of the first session.&lt;/li>
+&lt;li>&lt;strong>object_b&lt;/strong> (string): Name of the second object.&lt;/li>
+&lt;li>&lt;strong>user_b&lt;/strong> (string): Name of the second user.&lt;/li>
+&lt;li>&lt;strong>session_b&lt;/strong> (string): ID of the second session.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Intersect two meshes</title><link>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-5-0/</link><pubDate>Wed, 30 Oct 2024 15:58:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-5-0/</guid><description>&lt;p>Compute the intersection of two meshes.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>object_a&lt;/strong> (string): Name of the first object.&lt;/li>
+&lt;li>&lt;strong>user_a&lt;/strong> (string): Name of the first user.&lt;/li>
+&lt;li>&lt;strong>session_a&lt;/strong> (string): ID of the first session.&lt;/li>
+&lt;li>&lt;strong>object_b&lt;/strong> (string): Name of the second object.&lt;/li>
+&lt;li>&lt;strong>user_b&lt;/strong> (string): Name of the second user.&lt;/li>
+&lt;li>&lt;strong>session_b&lt;/strong> (string): ID of the second session.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Intersect two meshes</title><link>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-5-1/</link><pubDate>Wed, 30 Oct 2024 15:58:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-5-1/</guid><description>&lt;p>Compute the intersection of two meshes.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>object_a&lt;/strong> (string): Name of the first object.&lt;/li>
+&lt;li>&lt;strong>user_a&lt;/strong> (string): Name of the first user.&lt;/li>
+&lt;li>&lt;strong>session_a&lt;/strong> (string): ID of the first session.&lt;/li>
+&lt;li>&lt;strong>object_b&lt;/strong> (string): Name of the second object.&lt;/li>
+&lt;li>&lt;strong>user_b&lt;/strong> (string): Name of the second user.&lt;/li>
+&lt;li>&lt;strong>session_b&lt;/strong> (string): ID of the second session.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Intersect two meshes</title><link>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-6-0/</link><pubDate>Wed, 30 Oct 2024 15:58:58 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-6-0/</guid><description>&lt;p>Compute the intersection of two meshes.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>object_a&lt;/strong> (string): Name of the first object.&lt;/li>
+&lt;li>&lt;strong>user_a&lt;/strong> (string): Name of the first user.&lt;/li>
+&lt;li>&lt;strong>session_a&lt;/strong> (string): ID of the first session.&lt;/li>
+&lt;li>&lt;strong>object_b&lt;/strong> (string): Name of the second object.&lt;/li>
+&lt;li>&lt;strong>user_b&lt;/strong> (string): Name of the second user.&lt;/li>
+&lt;li>&lt;strong>session_b&lt;/strong> (string): ID of the second session.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Fit Sample Volume from segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-10-0/</link><pubDate>Wed, 30 Oct 2024 15:58:39 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-10-0/</guid><description>&lt;p>fit a mesh describing the sample from a binary segmentation.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
+&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>seg_name&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>seg_label_name&lt;/strong> (string): Name of the label defining the sample.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Fit Sample Volume from segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-3-0/</link><pubDate>Wed, 30 Oct 2024 15:58:39 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-3-0/</guid><description>&lt;p>fit a mesh describing the sample from a binary segmentation.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
+&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>seg_name&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>seg_label_name&lt;/strong> (string): Name of the label defining the sample.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Fit Sample Volume from segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-4-0/</link><pubDate>Wed, 30 Oct 2024 15:58:39 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-4-0/</guid><description>&lt;p>fit a mesh describing the sample from a binary segmentation.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
+&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>seg_name&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>seg_label_name&lt;/strong> (string): Name of the label defining the sample.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Fit Sample Volume from segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-5-0/</link><pubDate>Wed, 30 Oct 2024 15:58:39 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-5-0/</guid><description>&lt;p>fit a mesh describing the sample from a binary segmentation.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
+&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>seg_name&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>seg_label_name&lt;/strong> (string): Name of the label defining the sample.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Fit Sample Volume from segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-6-0/</link><pubDate>Wed, 30 Oct 2024 15:58:39 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-6-0/</guid><description>&lt;p>fit a mesh describing the sample from a binary segmentation.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
+&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>seg_name&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>seg_label_name&lt;/strong> (string): Name of the label defining the sample.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Fit Sample Volume from segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-7-0/</link><pubDate>Wed, 30 Oct 2024 15:58:39 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-7-0/</guid><description>&lt;p>fit a mesh describing the sample from a binary segmentation.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
+&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>seg_name&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>seg_label_name&lt;/strong> (string): Name of the label defining the sample.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Fit Sample Volume from segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-9-0/</link><pubDate>Wed, 30 Oct 2024 15:58:39 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-9-0/</guid><description>&lt;p>fit a mesh describing the sample from a binary segmentation.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
+&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>seg_name&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>seg_label_name&lt;/strong> (string): Name of the label defining the sample.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Fit Sample Volume from segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-9-1/</link><pubDate>Wed, 30 Oct 2024 15:58:39 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-9-1/</guid><description>&lt;p>fit a mesh describing the sample from a binary segmentation.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
+&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>seg_name&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>seg_label_name&lt;/strong> (string): Name of the label defining the sample.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Fit Sample Volume</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-2-0/</link><pubDate>Wed, 30 Oct 2024 15:58:21 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-2-0/</guid><description>&lt;p>fit a mesh describing the sample from two sets of points defining upper and lower boundary.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
+&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>grid_resolution&lt;/strong> (string): Resolution of the grid (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Fit Sample Volume</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-3-0/</link><pubDate>Wed, 30 Oct 2024 15:58:21 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-3-0/</guid><description>&lt;p>fit a mesh describing the sample from two sets of points defining upper and lower boundary.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
+&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>grid_resolution&lt;/strong> (string): Resolution of the grid (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Fit Sample Volume</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-4-0/</link><pubDate>Wed, 30 Oct 2024 15:58:21 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-4-0/</guid><description>&lt;p>fit a mesh describing the sample from two sets of points defining upper and lower boundary.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
+&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>grid_resolution&lt;/strong> (string): Resolution of the grid (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Fit Sample Volume</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-6-0/</link><pubDate>Wed, 30 Oct 2024 15:58:21 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-6-0/</guid><description>&lt;p>fit a mesh describing the sample from two sets of points defining upper and lower boundary.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
+&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>grid_resolution&lt;/strong> (string): Resolution of the grid (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Fit Sample Volume</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-7-0/</link><pubDate>Wed, 30 Oct 2024 15:58:21 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-7-0/</guid><description>&lt;p>fit a mesh describing the sample from two sets of points defining upper and lower boundary.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
+&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>grid_resolution&lt;/strong> (string): Resolution of the grid (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Fit Sample Volume</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-7-1/</link><pubDate>Wed, 30 Oct 2024 15:58:21 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-7-1/</guid><description>&lt;p>fit a mesh describing the sample from two sets of points defining upper and lower boundary.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
+&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>grid_resolution&lt;/strong> (string): Resolution of the grid (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Fit Sample Volume</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-8-0/</link><pubDate>Wed, 30 Oct 2024 15:58:21 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-8-0/</guid><description>&lt;p>fit a mesh describing the sample from two sets of points defining upper and lower boundary.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
+&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
+&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
+&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>grid_resolution&lt;/strong> (string): Resolution of the grid (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Create Reconstruction Limits</title><link>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-3-0/</link><pubDate>Wed, 30 Oct 2024 15:58:01 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-3-0/</guid><description>&lt;p>Create a mesh defining the valid reconstructed area.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>angle&lt;/strong> (float): Angle of the plane.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Create Reconstruction Limits</title><link>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-4-0/</link><pubDate>Wed, 30 Oct 2024 15:58:01 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-4-0/</guid><description>&lt;p>Create a mesh defining the valid reconstructed area.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>angle&lt;/strong> (float): Angle of the plane.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Create Reconstruction Limits</title><link>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-5-0/</link><pubDate>Wed, 30 Oct 2024 15:58:01 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-5-0/</guid><description>&lt;p>Create a mesh defining the valid reconstructed area.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>angle&lt;/strong> (float): Angle of the plane.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Create Reconstruction Limits</title><link>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-5-1/</link><pubDate>Wed, 30 Oct 2024 15:58:01 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-5-1/</guid><description>&lt;p>Create a mesh defining the valid reconstructed area.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>angle&lt;/strong> (float): Angle of the plane.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Create Reconstruction Limits</title><link>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-6-0/</link><pubDate>Wed, 30 Oct 2024 15:58:01 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-6-0/</guid><description>&lt;p>Create a mesh defining the valid reconstructed area.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
+&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
+&lt;li>&lt;strong>angle&lt;/strong> (float): Angle of the plane.&lt;/li>
+&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
+&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
+&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
+&lt;/ul></description></item><item><title>Create empty picks.</title><link>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-1-0/</link><pubDate>Wed, 30 Oct 2024 15:57:38 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-1-0/</guid><description>&lt;p>Create empty picks inside a copick project.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick project root. Write access is expected for both overlay and static root.&lt;/li>
+&lt;li>&lt;strong>out_object&lt;/strong> (string): Name of the output pickable object.&lt;/li>
+&lt;li>&lt;strong>out_user&lt;/strong> (string): User/Tool name for output points.&lt;/li>
+&lt;li>&lt;strong>out_session&lt;/strong> (string): Output session, indicating this set was generated by a tool.&lt;/li>
+&lt;li>&lt;strong>overwrite&lt;/strong> (boolean): Whether to overwrite existing picks.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;/ul></description></item><item><title>Create empty picks.</title><link>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-2-0/</link><pubDate>Wed, 30 Oct 2024 15:57:38 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-2-0/</guid><description>&lt;p>Create empty picks inside a copick project.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick project root. Write access is expected for both overlay and static root.&lt;/li>
+&lt;li>&lt;strong>out_object&lt;/strong> (string): Name of the output pickable object.&lt;/li>
+&lt;li>&lt;strong>out_user&lt;/strong> (string): User/Tool name for output points.&lt;/li>
+&lt;li>&lt;strong>out_session&lt;/strong> (string): Output session, indicating this set was generated by a tool.&lt;/li>
+&lt;li>&lt;strong>overwrite&lt;/strong> (boolean): Whether to overwrite existing picks.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;/ul></description></item><item><title>Create empty picks.</title><link>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-3-0/</link><pubDate>Wed, 30 Oct 2024 15:57:38 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-3-0/</guid><description>&lt;p>Create empty picks inside a copick project.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick project root. Write access is expected for both overlay and static root.&lt;/li>
+&lt;li>&lt;strong>out_object&lt;/strong> (string): Name of the output pickable object.&lt;/li>
+&lt;li>&lt;strong>out_user&lt;/strong> (string): User/Tool name for output points.&lt;/li>
+&lt;li>&lt;strong>out_session&lt;/strong> (string): Output session, indicating this set was generated by a tool.&lt;/li>
+&lt;li>&lt;strong>overwrite&lt;/strong> (boolean): Whether to overwrite existing picks.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;/ul></description></item><item><title>Create empty picks.</title><link>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-3-1/</link><pubDate>Wed, 30 Oct 2024 15:57:38 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-3-1/</guid><description>&lt;p>Create empty picks inside a copick project.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick project root. Write access is expected for both overlay and static root.&lt;/li>
+&lt;li>&lt;strong>out_object&lt;/strong> (string): Name of the output pickable object.&lt;/li>
+&lt;li>&lt;strong>out_user&lt;/strong> (string): User/Tool name for output points.&lt;/li>
+&lt;li>&lt;strong>out_session&lt;/strong> (string): Output session, indicating this set was generated by a tool.&lt;/li>
+&lt;li>&lt;strong>overwrite&lt;/strong> (boolean): Whether to overwrite existing picks.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;/ul></description></item><item><title>Create empty picks.</title><link>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-4-0/</link><pubDate>Wed, 30 Oct 2024 15:57:38 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-4-0/</guid><description>&lt;p>Create empty picks inside a copick project.&lt;/p>
+&lt;h2 id="arguments">Arguments&lt;/h2>
+&lt;ul>
+&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick project root. Write access is expected for both overlay and static root.&lt;/li>
+&lt;li>&lt;strong>out_object&lt;/strong> (string): Name of the output pickable object.&lt;/li>
+&lt;li>&lt;strong>out_user&lt;/strong> (string): User/Tool name for output points.&lt;/li>
+&lt;li>&lt;strong>out_session&lt;/strong> (string): Output session, indicating this set was generated by a tool.&lt;/li>
+&lt;li>&lt;strong>overwrite&lt;/strong> (boolean): Whether to overwrite existing picks.&lt;/li>
+&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
+&lt;/ul></description></item><item><title>Generate DINOv2 Features from a Copick Run</title><link>https://capture-knowledge.org/solutions/copick/copick/generate-dino-features/0-0-1/</link><pubDate>Wed, 23 Oct 2024 23:01:25 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/generate-dino-features/0-0-1/</guid><description>&lt;p>Extract multiscale features from a tomogram using DINOv2 (ViT) and save them using Copick&amp;rsquo;s API.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
 &lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
@@ -2788,190 +3366,6 @@ URL: &lt;a href="https://kyleharrington.com">https://kyleharrington.com&lt;/a>&l
 &lt;li>&lt;strong>tomo_dir&lt;/strong> (string): Path to the directory containing the tomograms.&lt;/li>
 &lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
 &lt;li>&lt;strong>as_int8&lt;/strong> (boolean): Whether to write the segmentation as int8.&lt;/li>
-&lt;/ul></description></item><item><title>Sample points in/on/outside a mesh.</title><link>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-3-0/</link><pubDate>Mon, 12 Aug 2024 11:25:32 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-3-0/</guid><description>&lt;p>Sample random points in/on/outside a mesh.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>num_surf&lt;/strong> (integer): Approx. number of points on the mesh surface.&lt;/li>
-&lt;li>&lt;strong>num_internal&lt;/strong> (integer): Approx. number of points inside the mesh.&lt;/li>
-&lt;li>&lt;strong>num_random&lt;/strong> (integer): Approx. number of random points outside the mesh (negative examples).&lt;/li>
-&lt;li>&lt;strong>min_dist&lt;/strong> (float): Minimum distance (in angstrom) between points.&lt;/li>
-&lt;li>&lt;strong>edge_dist&lt;/strong> (float): Minimum distance (in voxels) from the volume bounds.&lt;/li>
-&lt;li>&lt;strong>seed&lt;/strong> (integer): Random seed.&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Sample points in/on/outside a mesh.</title><link>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-4-0/</link><pubDate>Mon, 12 Aug 2024 11:25:32 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-4-0/</guid><description>&lt;p>Sample random points in/on/outside a mesh.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>num_surf&lt;/strong> (integer): Approx. number of points on the mesh surface.&lt;/li>
-&lt;li>&lt;strong>num_internal&lt;/strong> (integer): Approx. number of points inside the mesh.&lt;/li>
-&lt;li>&lt;strong>num_random&lt;/strong> (integer): Approx. number of random points outside the mesh (negative examples).&lt;/li>
-&lt;li>&lt;strong>min_dist&lt;/strong> (float): Minimum distance (in angstrom) between points.&lt;/li>
-&lt;li>&lt;strong>edge_dist&lt;/strong> (float): Minimum distance (in voxels) from the volume bounds.&lt;/li>
-&lt;li>&lt;strong>seed&lt;/strong> (integer): Random seed.&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Sample points in/on/outside a mesh.</title><link>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-5-0/</link><pubDate>Mon, 12 Aug 2024 11:25:32 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-5-0/</guid><description>&lt;p>Sample random points in/on/outside a mesh.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>num_surf&lt;/strong> (integer): Approx. number of points on the mesh surface.&lt;/li>
-&lt;li>&lt;strong>num_internal&lt;/strong> (integer): Approx. number of points inside the mesh.&lt;/li>
-&lt;li>&lt;strong>num_random&lt;/strong> (integer): Approx. number of random points outside the mesh (negative examples).&lt;/li>
-&lt;li>&lt;strong>min_dist&lt;/strong> (float): Minimum distance (in angstrom) between points.&lt;/li>
-&lt;li>&lt;strong>edge_dist&lt;/strong> (float): Minimum distance (in voxels) from the volume bounds.&lt;/li>
-&lt;li>&lt;strong>seed&lt;/strong> (integer): Random seed.&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Sample points in/on/outside a mesh.</title><link>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-5-1/</link><pubDate>Mon, 12 Aug 2024 11:25:32 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/sample-mesh/0-5-1/</guid><description>&lt;p>Sample random points in/on/outside a mesh.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>num_surf&lt;/strong> (integer): Approx. number of points on the mesh surface.&lt;/li>
-&lt;li>&lt;strong>num_internal&lt;/strong> (integer): Approx. number of points inside the mesh.&lt;/li>
-&lt;li>&lt;strong>num_random&lt;/strong> (integer): Approx. number of random points outside the mesh (negative examples).&lt;/li>
-&lt;li>&lt;strong>min_dist&lt;/strong> (float): Minimum distance (in angstrom) between points.&lt;/li>
-&lt;li>&lt;strong>edge_dist&lt;/strong> (float): Minimum distance (in voxels) from the volume bounds.&lt;/li>
-&lt;li>&lt;strong>seed&lt;/strong> (integer): Random seed.&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Convert Mesh to Segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-5-0/</link><pubDate>Mon, 12 Aug 2024 11:25:15 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-5-0/</guid><description>&lt;p>Convert a watertight mesh to a dense voxel segmentation.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Convert Mesh to Segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-6-0/</link><pubDate>Mon, 12 Aug 2024 11:25:15 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-6-0/</guid><description>&lt;p>Convert a watertight mesh to a dense voxel segmentation.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Convert Mesh to Segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-7-0/</link><pubDate>Mon, 12 Aug 2024 11:25:15 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-7-0/</guid><description>&lt;p>Convert a watertight mesh to a dense voxel segmentation.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Convert Mesh to Segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-7-1/</link><pubDate>Mon, 12 Aug 2024 11:25:15 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/mesh-to-seg/0-7-1/</guid><description>&lt;p>Convert a watertight mesh to a dense voxel segmentation.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>input_object&lt;/strong> (string): Name of the input object.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Intersect two meshes</title><link>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-3-0/</link><pubDate>Mon, 12 Aug 2024 11:24:59 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-3-0/</guid><description>&lt;p>Compute the intersection of two meshes.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>object_a&lt;/strong> (string): Name of the first object.&lt;/li>
-&lt;li>&lt;strong>user_a&lt;/strong> (string): Name of the first user.&lt;/li>
-&lt;li>&lt;strong>session_a&lt;/strong> (string): ID of the first session.&lt;/li>
-&lt;li>&lt;strong>object_b&lt;/strong> (string): Name of the second object.&lt;/li>
-&lt;li>&lt;strong>user_b&lt;/strong> (string): Name of the second user.&lt;/li>
-&lt;li>&lt;strong>session_b&lt;/strong> (string): ID of the second session.&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Intersect two meshes</title><link>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-4-0/</link><pubDate>Mon, 12 Aug 2024 11:24:59 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-4-0/</guid><description>&lt;p>Compute the intersection of two meshes.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>object_a&lt;/strong> (string): Name of the first object.&lt;/li>
-&lt;li>&lt;strong>user_a&lt;/strong> (string): Name of the first user.&lt;/li>
-&lt;li>&lt;strong>session_a&lt;/strong> (string): ID of the first session.&lt;/li>
-&lt;li>&lt;strong>object_b&lt;/strong> (string): Name of the second object.&lt;/li>
-&lt;li>&lt;strong>user_b&lt;/strong> (string): Name of the second user.&lt;/li>
-&lt;li>&lt;strong>session_b&lt;/strong> (string): ID of the second session.&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Intersect two meshes</title><link>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-5-0/</link><pubDate>Mon, 12 Aug 2024 11:24:59 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-5-0/</guid><description>&lt;p>Compute the intersection of two meshes.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>object_a&lt;/strong> (string): Name of the first object.&lt;/li>
-&lt;li>&lt;strong>user_a&lt;/strong> (string): Name of the first user.&lt;/li>
-&lt;li>&lt;strong>session_a&lt;/strong> (string): ID of the first session.&lt;/li>
-&lt;li>&lt;strong>object_b&lt;/strong> (string): Name of the second object.&lt;/li>
-&lt;li>&lt;strong>user_b&lt;/strong> (string): Name of the second user.&lt;/li>
-&lt;li>&lt;strong>session_b&lt;/strong> (string): ID of the second session.&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Intersect two meshes</title><link>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-5-1/</link><pubDate>Mon, 12 Aug 2024 11:24:59 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/intersect-mesh/0-5-1/</guid><description>&lt;p>Compute the intersection of two meshes.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>object_a&lt;/strong> (string): Name of the first object.&lt;/li>
-&lt;li>&lt;strong>user_a&lt;/strong> (string): Name of the first user.&lt;/li>
-&lt;li>&lt;strong>session_a&lt;/strong> (string): ID of the first session.&lt;/li>
-&lt;li>&lt;strong>object_b&lt;/strong> (string): Name of the second object.&lt;/li>
-&lt;li>&lt;strong>user_b&lt;/strong> (string): Name of the second user.&lt;/li>
-&lt;li>&lt;strong>session_b&lt;/strong> (string): ID of the second session.&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
 &lt;/ul></description></item><item><title>Import segmentations.</title><link>https://capture-knowledge.org/solutions/copick/copick/import-segmentations/0-1-0/</link><pubDate>Mon, 12 Aug 2024 11:24:41 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/import-segmentations/0-1-0/</guid><description>&lt;p>Import segmentations into a copick project.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
@@ -3060,221 +3454,6 @@ URL: &lt;a href="https://kyleharrington.com">https://kyleharrington.com&lt;/a>&l
 &lt;li>&lt;strong>out_object&lt;/strong> (string): Name of the output pickable object.&lt;/li>
 &lt;li>&lt;strong>out_user&lt;/strong> (string): User/Tool name for output points.&lt;/li>
 &lt;li>&lt;strong>out_session&lt;/strong> (string): Output session, indicating this set was generated by a tool.&lt;/li>
-&lt;/ul></description></item><item><title>Fit Sample Volume from segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-3-0/</link><pubDate>Mon, 12 Aug 2024 11:24:22 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-3-0/</guid><description>&lt;p>fit a mesh describing the sample from a binary segmentation.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
-&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>seg_name&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>seg_label_name&lt;/strong> (string): Name of the label defining the sample.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Fit Sample Volume from segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-4-0/</link><pubDate>Mon, 12 Aug 2024 11:24:22 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-4-0/</guid><description>&lt;p>fit a mesh describing the sample from a binary segmentation.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
-&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>seg_name&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>seg_label_name&lt;/strong> (string): Name of the label defining the sample.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Fit Sample Volume from segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-5-0/</link><pubDate>Mon, 12 Aug 2024 11:24:22 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-5-0/</guid><description>&lt;p>fit a mesh describing the sample from a binary segmentation.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
-&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>seg_name&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>seg_label_name&lt;/strong> (string): Name of the label defining the sample.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Fit Sample Volume from segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-6-0/</link><pubDate>Mon, 12 Aug 2024 11:24:22 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-6-0/</guid><description>&lt;p>fit a mesh describing the sample from a binary segmentation.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
-&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>seg_name&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>seg_label_name&lt;/strong> (string): Name of the label defining the sample.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Fit Sample Volume from segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-7-0/</link><pubDate>Mon, 12 Aug 2024 11:24:22 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-7-0/</guid><description>&lt;p>fit a mesh describing the sample from a binary segmentation.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
-&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>seg_name&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>seg_label_name&lt;/strong> (string): Name of the label defining the sample.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Fit Sample Volume from segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-9-0/</link><pubDate>Mon, 12 Aug 2024 11:24:22 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-9-0/</guid><description>&lt;p>fit a mesh describing the sample from a binary segmentation.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
-&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>seg_name&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>seg_label_name&lt;/strong> (string): Name of the label defining the sample.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Fit Sample Volume from segmentation</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-9-1/</link><pubDate>Mon, 12 Aug 2024 11:24:22 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample-seg/0-9-1/</guid><description>&lt;p>fit a mesh describing the sample from a binary segmentation.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
-&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>seg_name&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>seg_label_name&lt;/strong> (string): Name of the label defining the sample.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Fit Sample Volume</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-2-0/</link><pubDate>Mon, 12 Aug 2024 11:24:02 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-2-0/</guid><description>&lt;p>fit a mesh describing the sample from two sets of points defining upper and lower boundary.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
-&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>grid_resolution&lt;/strong> (string): Resolution of the grid (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Fit Sample Volume</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-3-0/</link><pubDate>Mon, 12 Aug 2024 11:24:02 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-3-0/</guid><description>&lt;p>fit a mesh describing the sample from two sets of points defining upper and lower boundary.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
-&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>grid_resolution&lt;/strong> (string): Resolution of the grid (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Fit Sample Volume</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-4-0/</link><pubDate>Mon, 12 Aug 2024 11:24:02 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-4-0/</guid><description>&lt;p>fit a mesh describing the sample from two sets of points defining upper and lower boundary.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
-&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>grid_resolution&lt;/strong> (string): Resolution of the grid (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Fit Sample Volume</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-6-0/</link><pubDate>Mon, 12 Aug 2024 11:24:02 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-6-0/</guid><description>&lt;p>fit a mesh describing the sample from two sets of points defining upper and lower boundary.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
-&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>grid_resolution&lt;/strong> (string): Resolution of the grid (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Fit Sample Volume</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-7-0/</link><pubDate>Mon, 12 Aug 2024 11:24:02 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-7-0/</guid><description>&lt;p>fit a mesh describing the sample from two sets of points defining upper and lower boundary.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
-&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>grid_resolution&lt;/strong> (string): Resolution of the grid (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Fit Sample Volume</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-7-1/</link><pubDate>Mon, 12 Aug 2024 11:24:02 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-sample/0-7-1/</guid><description>&lt;p>fit a mesh describing the sample from two sets of points defining upper and lower boundary.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>top_object&lt;/strong> (string): Name of the object defining top layer.&lt;/li>
-&lt;li>&lt;strong>bottom_object&lt;/strong> (string): Name of the object defining bottom layer.&lt;/li>
-&lt;li>&lt;strong>input_user&lt;/strong> (string): Name of the input user.&lt;/li>
-&lt;li>&lt;strong>input_session&lt;/strong> (string): ID of the input session.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>grid_resolution&lt;/strong> (string): Resolution of the grid (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>fit_resolution&lt;/strong> (string): Resolution of the fit (2 comma-separated ints).&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
 &lt;/ul></description></item><item><title>Fit Plane</title><link>https://capture-knowledge.org/solutions/copick/copick/fit-plane/0-1-0/</link><pubDate>Mon, 12 Aug 2024 11:23:42 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/fit-plane/0-1-0/</guid><description>&lt;p>fit a plane to a set of copick points.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
@@ -3365,86 +3544,6 @@ URL: &lt;a href="https://kyleharrington.com">https://kyleharrington.com&lt;/a>&l
 &lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
 &lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
 &lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Create Reconstruction Limits</title><link>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-3-0/</link><pubDate>Mon, 12 Aug 2024 11:23:17 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-3-0/</guid><description>&lt;p>Create a mesh defining the valid reconstructed area.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>angle&lt;/strong> (float): Angle of the plane.&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Create Reconstruction Limits</title><link>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-4-0/</link><pubDate>Mon, 12 Aug 2024 11:23:17 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-4-0/</guid><description>&lt;p>Create a mesh defining the valid reconstructed area.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>angle&lt;/strong> (float): Angle of the plane.&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Create Reconstruction Limits</title><link>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-5-0/</link><pubDate>Mon, 12 Aug 2024 11:23:17 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-5-0/</guid><description>&lt;p>Create a mesh defining the valid reconstructed area.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>angle&lt;/strong> (float): Angle of the plane.&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Create Reconstruction Limits</title><link>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-5-1/</link><pubDate>Mon, 12 Aug 2024 11:23:17 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-rec-limits/0-5-1/</guid><description>&lt;p>Create a mesh defining the valid reconstructed area.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick configuration JSON file.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;li>&lt;strong>voxel_spacing&lt;/strong> (float): Voxel spacing.&lt;/li>
-&lt;li>&lt;strong>tomo_type&lt;/strong> (string): Type of tomogram.&lt;/li>
-&lt;li>&lt;strong>angle&lt;/strong> (float): Angle of the plane.&lt;/li>
-&lt;li>&lt;strong>output_object&lt;/strong> (string): Name of the output object.&lt;/li>
-&lt;li>&lt;strong>output_user&lt;/strong> (string): Name of the output user.&lt;/li>
-&lt;li>&lt;strong>output_session&lt;/strong> (string): Name of the output session.&lt;/li>
-&lt;/ul></description></item><item><title>Create empty picks.</title><link>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-1-0/</link><pubDate>Mon, 12 Aug 2024 11:20:16 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-1-0/</guid><description>&lt;p>Create empty picks inside a copick project.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick project root. Write access is expected for both overlay and static root.&lt;/li>
-&lt;li>&lt;strong>out_object&lt;/strong> (string): Name of the output pickable object.&lt;/li>
-&lt;li>&lt;strong>out_user&lt;/strong> (string): User/Tool name for output points.&lt;/li>
-&lt;li>&lt;strong>out_session&lt;/strong> (string): Output session, indicating this set was generated by a tool.&lt;/li>
-&lt;li>&lt;strong>overwrite&lt;/strong> (boolean): Whether to overwrite existing picks.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;/ul></description></item><item><title>Create empty picks.</title><link>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-2-0/</link><pubDate>Mon, 12 Aug 2024 11:20:16 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-2-0/</guid><description>&lt;p>Create empty picks inside a copick project.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick project root. Write access is expected for both overlay and static root.&lt;/li>
-&lt;li>&lt;strong>out_object&lt;/strong> (string): Name of the output pickable object.&lt;/li>
-&lt;li>&lt;strong>out_user&lt;/strong> (string): User/Tool name for output points.&lt;/li>
-&lt;li>&lt;strong>out_session&lt;/strong> (string): Output session, indicating this set was generated by a tool.&lt;/li>
-&lt;li>&lt;strong>overwrite&lt;/strong> (boolean): Whether to overwrite existing picks.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;/ul></description></item><item><title>Create empty picks.</title><link>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-3-0/</link><pubDate>Mon, 12 Aug 2024 11:20:16 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-3-0/</guid><description>&lt;p>Create empty picks inside a copick project.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick project root. Write access is expected for both overlay and static root.&lt;/li>
-&lt;li>&lt;strong>out_object&lt;/strong> (string): Name of the output pickable object.&lt;/li>
-&lt;li>&lt;strong>out_user&lt;/strong> (string): User/Tool name for output points.&lt;/li>
-&lt;li>&lt;strong>out_session&lt;/strong> (string): Output session, indicating this set was generated by a tool.&lt;/li>
-&lt;li>&lt;strong>overwrite&lt;/strong> (boolean): Whether to overwrite existing picks.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
-&lt;/ul></description></item><item><title>Create empty picks.</title><link>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-3-1/</link><pubDate>Mon, 12 Aug 2024 11:20:16 +0000</pubDate><guid>https://capture-knowledge.org/solutions/copick/copick/create-empty-picks/0-3-1/</guid><description>&lt;p>Create empty picks inside a copick project.&lt;/p>
-&lt;h2 id="arguments">Arguments&lt;/h2>
-&lt;ul>
-&lt;li>&lt;strong>copick_config_path&lt;/strong> (string): Path to the Copick project root. Write access is expected for both overlay and static root.&lt;/li>
-&lt;li>&lt;strong>out_object&lt;/strong> (string): Name of the output pickable object.&lt;/li>
-&lt;li>&lt;strong>out_user&lt;/strong> (string): User/Tool name for output points.&lt;/li>
-&lt;li>&lt;strong>out_session&lt;/strong> (string): Output session, indicating this set was generated by a tool.&lt;/li>
-&lt;li>&lt;strong>overwrite&lt;/strong> (boolean): Whether to overwrite existing picks.&lt;/li>
-&lt;li>&lt;strong>run_names&lt;/strong> (string): Comma-separated list of run names.&lt;/li>
 &lt;/ul></description></item><item><title>Penrose Tiling</title><link>https://capture-knowledge.org/solutions/solutions-computational-life/tiling/penrose-tiling/0-0-1/</link><pubDate>Sun, 11 Aug 2024 21:21:05 +0000</pubDate><guid>https://capture-knowledge.org/solutions/solutions-computational-life/tiling/penrose-tiling/0-0-1/</guid><description>&lt;p>An Album solution that generates and displays Penrose tiling patterns using napari.&lt;/p>
 &lt;h2 id="arguments">Arguments&lt;/h2>
 &lt;ul>
