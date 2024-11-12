@@ -59594,7 +59594,7 @@
     "version": "0.0.1",
     "title": "An environment to support multiple physical visualized artificial life simulations",
     "description": "An album solution that contains a generalized environment for alife simulations.",
-    "date": "2024-09-07T09:45:52.320386",
+    "date": "2024-11-11T13:16:42.887298",
     "args": [],
     "citation": [
       {
@@ -59768,7 +59768,7 @@
     "version": "0.0.2",
     "title": "An environment to support multiple physical visualized artificial life simulations",
     "description": "An album solution that contains a generalized environment for alife simulations.",
-    "date": "2024-09-07T09:45:52.320386",
+    "date": "2024-11-11T13:16:42.887298",
     "args": [],
     "citation": [
       {
@@ -60617,7 +60617,7 @@
     "version": "0.0.3",
     "title": "An environment to support multiple physical visualized artificial life simulations",
     "description": "An album solution that contains a generalized environment for alife simulations.",
-    "date": "2024-09-07T09:45:52.320386",
+    "date": "2024-11-11T13:16:42.887298",
     "args": [],
     "citation": [
       {
@@ -61065,7 +61065,7 @@
     "version": "0.0.4",
     "title": "An environment to support multiple physical visualized artificial life simulations",
     "description": "An album solution that contains a generalized environment for alife simulations.",
-    "date": "2024-09-07T09:45:52.320386",
+    "date": "2024-11-11T13:16:42.887298",
     "args": [],
     "citation": [
       {
@@ -61196,6 +61196,85 @@
       "automata",
       "napari",
       "simulation"
+    ]
+  },
+  {
+    "catalog_name": "solutions.computational.life",
+    "catalog_url": "https://github.com/kephale/solutions.computational.life.git",
+    "solution_id": 98,
+    "group": "environments",
+    "name": "physical-simulation",
+    "version": "0.0.9",
+    "title": "An environment to support multiple physical visualized artificial life simulations",
+    "description": "An album solution that contains a generalized environment for alife simulations.",
+    "date": "2024-11-11T13:16:42.887298",
+    "args": [],
+    "citation": [
+      {
+        "text": "Kyle Harrington",
+        "url": "https://kyleharrington.com"
+      }
+    ],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "simulation",
+      "visualization",
+      "Python",
+      "environment"
+    ]
+  },
+  {
+    "catalog_name": "solutions.computational.life",
+    "catalog_url": "https://github.com/kephale/solutions.computational.life.git",
+    "solution_id": 99,
+    "group": "environments",
+    "name": "physical-simulation",
+    "version": "0.0.10",
+    "title": "An environment to support multiple physical visualized artificial life simulations",
+    "description": "An album solution that contains a generalized environment for alife simulations.",
+    "date": "2024-11-11T13:16:42.887298",
+    "args": [],
+    "citation": [
+      {
+        "text": "Kyle Harrington",
+        "url": "https://kyleharrington.com"
+      }
+    ],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "simulation",
+      "visualization",
+      "Python",
+      "environment"
+    ]
+  },
+  {
+    "catalog_name": "solutions.computational.life",
+    "catalog_url": "https://github.com/kephale/solutions.computational.life.git",
+    "solution_id": 100,
+    "group": "reaction-diffusion",
+    "name": "boids-bz",
+    "version": "0.0.2",
+    "title": "Boids with BZ Reaction Trail",
+    "description": "Simulates a boids swarm painting trails in a Belousov-Zhabotinsky reaction field.",
+    "date": "2024-11-11T13:50:17.942049",
+    "args": [],
+    "citation": [],
+    "authors": [
+      "Kyle Harrington"
+    ],
+    "license": "MIT",
+    "tags": [
+      "reaction-diffusion",
+      "BZ reaction",
+      "boids",
+      "napari"
     ]
   }
 ]
